@@ -8,6 +8,8 @@ async function run(data,fail=false){
 (async()=>{
  const broken=JSON.parse(JSON.stringify(base));delete broken.items.find(x=>x.id==='pesca-municipal-santarem').quality.columns;
  const r=await run(broken);assert.notEqual(r.el('catalog-count').textContent,'Catálogo indisponível');assert.equal(r.el('catalog-results').children.length,12);
+ r.el('catalog-search').value='';for(const id of ['catalog-topic','catalog-subtopic','catalog-access','catalog-scale'])r.el(id).value='all';
+ for(const [status,count] of [['integrated',7],['prepared',9],['reference',282]]){r.el('catalog-availability').value=status;await r.ctx.atlasCatalog();assert.match(r.el('catalog-count').textContent,new RegExp('^'+count+' de '));}
  for(const item of base.items){const c=await run({...base,items:[item]});assert.notEqual(c.el('catalog-count').textContent,'Catálogo indisponível',item.id);assert.equal(c.el('catalog-results').children.length,1,item.id)}
  const failure=await run(base,true);assert.equal(failure.el('catalog-count').textContent,'Catálogo indisponível');
  console.log('PASS all 298 catalogue cards, missing optional quality.columns, first page and fetch error state');

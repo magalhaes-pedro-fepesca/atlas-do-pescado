@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "id": "quality-1.0-526bdc11a4d1",
+      "date": "2026-10-04",
+      "title": "Etapa 5 · qualidade e rastreabilidade",
+      "description": "Verificação dos CSVs locais, fichas de validação, distinção entre referência, arquivo preparado e dado integrado. Uma versão CC BY reconfirmada e duas pendentes sinalizadas. Sem alteração das observações.",
+      "source_baseline": "a51301eb7b29a98fa3cb4d1b742f4d6686c4adaa",
+      "report": "quality-audit.json"
+    }
+  ]
+}
