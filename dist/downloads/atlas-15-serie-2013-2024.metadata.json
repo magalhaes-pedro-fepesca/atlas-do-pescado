@@ -1,0 +1,38 @@
+{
+  "id": "curated-15-serie-2013-2024",
+  "title": "Pará · Aquicultura por produto e ano",
+  "source": "https://sidra.ibge.gov.br/tabela/3940",
+  "license": "Livre utilização · Decreto 8.777/2016, art. 4º",
+  "license_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "coverage": "2013–2024",
+  "notes": "Filtragem da cópia preparada existente; valores e colunas preservados. Nenhuma atualização remota da série ou imputação. Ausência não é zero. Não constitui nova fonte independente. PPM/SIDRA 3940; produção em toneladas. Valores monetários, quando presentes, são nominais. Produtos juvenis e unidades incompatíveis já excluídos na cópia de origem.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "604d018efea6b0e25051521a380f06ffc13bed0662f0fee6572c47d9817102d1",
+    "duplicate_rows": 0,
+    "columns": [
+      "ano",
+      "codigo_uf",
+      "uf",
+      "codigo_produto",
+      "produto",
+      "producao_t",
+      "valor_milhoes_reais_nominais"
+    ],
+    "dictionary": {
+      "ano": "Ano de referência da observação.",
+      "codigo_uf": "Código IBGE da unidade da federação, tratado como texto.",
+      "uf": "Nome da unidade da federação.",
+      "codigo_produto": "Código do produto no SIDRA, tratado como texto.",
+      "produto": "Nome do produto na fonte.",
+      "producao_t": "Produção em toneladas; ausência/sigilo não equivale a zero.",
+      "valor_milhoes_reais_nominais": "Valor em milhões de reais correntes, sem deflação."
+    }
+  },
+  "parent_dataset_id": "ibge-uf",
+  "prepared_at": "2026-10-04",
+  "input_file": "downloads/ibge-aquicultura-uf-2013-2024.csv",
+  "reproduction": "scripts/prepare-foundation.py"
+}

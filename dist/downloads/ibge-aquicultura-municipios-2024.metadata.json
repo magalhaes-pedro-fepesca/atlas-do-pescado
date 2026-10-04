@@ -1,0 +1,38 @@
+{
+  "id": "ibge-municipio",
+  "title": "Aquicultura brasileira por município",
+  "source": "https://sidra.ibge.gov.br/tabela/3940",
+  "license": "Livre utilização · Decreto 8.777/2016, art. 4º",
+  "license_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "coverage": "2024",
+  "notes": "Recorte processado pelo Atlas em 27/09/2026. Não representa uma nova fonte independente. Preserve a atribuição à fonte original e identifique conversões, filtros e agregações.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "178dff4226f9efdd87b81744ce78d69edde4b7bf78c769387f82e1503639d13c",
+    "duplicate_rows": 0,
+    "columns": [
+      "ano",
+      "codigo_municipio",
+      "municipio",
+      "uf",
+      "codigo_produto",
+      "produto",
+      "producao_t"
+    ],
+    "dictionary": {
+      "ano": "Ano de referência da observação.",
+      "codigo_municipio": "Código IBGE de sete dígitos, tratado como texto.",
+      "municipio": "Nome do município na cópia preparada.",
+      "uf": "Nome da unidade da federação.",
+      "codigo_produto": "Código do produto no SIDRA, tratado como texto.",
+      "produto": "Nome do produto na fonte.",
+      "producao_t": "Produção em toneladas; ausência/sigilo não equivale a zero."
+    }
+  },
+  "parent_dataset_id": null,
+  "prepared_at": "2026-09-27",
+  "input_file": null,
+  "reproduction": "Consultar os scripts originais build-*.py; arquivos brutos não estão neste checkout."
+}

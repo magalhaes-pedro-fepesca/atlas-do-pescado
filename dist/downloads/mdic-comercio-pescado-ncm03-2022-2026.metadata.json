@@ -1,0 +1,40 @@
+{
+  "id": "mdic-ncm03",
+  "title": "Comércio do pescado: recorte NCM 03",
+  "source": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta",
+  "license": "Livre utilização · Decreto 8.777/2016, art. 4º",
+  "license_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "coverage": "2022–ago. 2026",
+  "notes": "Recorte processado pelo Atlas em 27/09/2026. Não representa uma nova fonte independente. Preserve a atribuição à fonte original e identifique conversões, filtros e agregações.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "3e2b69d7ec0679dc7826571f703673e1f7387f02a21ac14f26de3a5ba22c36c4",
+    "duplicate_rows": 0,
+    "columns": [
+      "fluxo",
+      "ano",
+      "pais_parceiro",
+      "uf_produto",
+      "ncm",
+      "produto",
+      "peso_liquido_kg",
+      "valor_fob_usd"
+    ],
+    "dictionary": {
+      "fluxo": "Exportação ou importação, mantidas separadas.",
+      "ano": "Ano de referência da observação.",
+      "pais_parceiro": "País parceiro comercial.",
+      "uf_produto": "UF do produto; não identifica município ou endereço da empresa.",
+      "ncm": "Código NCM de oito dígitos, tratado como texto; capítulo 03 apenas.",
+      "produto": "Nome do produto na fonte.",
+      "peso_liquido_kg": "Peso líquido em quilogramas; não é peso vivo.",
+      "valor_fob_usd": "Valor FOB em dólares correntes."
+    }
+  },
+  "parent_dataset_id": null,
+  "prepared_at": "2026-09-27",
+  "input_file": null,
+  "reproduction": "Consultar os scripts originais build-*.py; arquivos brutos não estão neste checkout."
+}

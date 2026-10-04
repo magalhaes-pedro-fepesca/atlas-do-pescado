@@ -1,0 +1,137 @@
+﻿fluxo,ano,pais_parceiro,uf_produto,ncm,produto,peso_liquido_kg,valor_fob_usd
+Exportação,2022,Antígua e Barbuda,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",16.0,117.0
+Exportação,2022,Antígua e Barbuda,Amapá,03048990,"Outros filés congelados, de peixes",5.0,43.0
+Exportação,2022,Antígua e Barbuda,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",10.0,61.0
+Exportação,2022,Antígua e Barbuda,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",10.0,114.0
+Exportação,2022,Antígua e Barbuda,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",5.0,38.0
+Exportação,2022,Bahamas,Amapá,03031300,"Salmão-do-atlântico e salmão-do-danúbio, congelados",11.0,170.0
+Exportação,2022,Bahamas,Amapá,03048990,"Outros filés congelados, de peixes",25.0,147.0
+Exportação,2022,Bahamas,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",115.0,529.0
+Exportação,2022,Bahamas,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",10.0,216.0
+Exportação,2022,Libéria,Amapá,03031300,"Salmão-do-atlântico e salmão-do-danúbio, congelados",29.0,689.0
+Exportação,2022,Libéria,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",90.0,1429.0
+Exportação,2022,Libéria,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",40.0,931.0
+Exportação,2022,"Marshall, Ilhas",Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",50.0,639.0
+Exportação,2022,"Marshall, Ilhas",Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",71.0,279.0
+Exportação,2022,"Marshall, Ilhas",Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",150.0,1001.0
+Exportação,2022,"Marshall, Ilhas",Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",20.0,496.0
+Exportação,2022,"Marshall, Ilhas",Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",10.0,77.0
+Exportação,2022,Panamá,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",34.0,268.0
+Exportação,2022,Panamá,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",80.0,322.0
+Exportação,2022,Panamá,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",50.0,299.0
+Exportação,2022,Portugal,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",30.0,232.0
+Exportação,2022,Portugal,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",15.0,419.0
+Exportação,2022,Portugal,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",10.0,178.0
+Exportação,2023,Bahamas,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",100.0,774.0
+Exportação,2023,Bangladesh,Amapá,03043900,"Files/outras carnes de outros peixes, frescos, refrigerados ou congelados",60.0,336.0
+Exportação,2023,Bangladesh,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",52.0,292.0
+Exportação,2023,"Cayman, Ilhas",Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",15.0,109.0
+Exportação,2023,Chipre,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",20.0,130.0
+Exportação,2023,Chipre,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",100.0,460.0
+Exportação,2023,Hong Kong,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",30.0,172.0
+Exportação,2023,Libéria,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",10.0,90.0
+Exportação,2023,Libéria,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",71.0,500.0
+Exportação,2023,Libéria,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",71.0,835.0
+Exportação,2023,Libéria,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",5.0,130.0
+Exportação,2023,Libéria,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",10.0,82.0
+Exportação,2023,Libéria,Amapá,03074310,"Lulas, congeladas",3.0,79.0
+Exportação,2023,Libéria,Amapá,03075100,"Polvos (Octopus spp) vivos, frescos ou refrigerados",32.0,774.0
+Exportação,2023,Malta,Amapá,03048990,"Outros filés congelados, de peixes",20.0,175.0
+Exportação,2023,Malta,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",20.0,190.0
+Exportação,2023,"Marshall, Ilhas",Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",32.0,369.0
+Exportação,2023,"Marshall, Ilhas",Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",197.0,1804.0
+Exportação,2023,"Marshall, Ilhas",Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",5.0,157.0
+Exportação,2023,"Marshall, Ilhas",Amapá,03074310,"Lulas, congeladas",8.0,182.0
+Exportação,2023,Noruega,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",25.0,236.0
+Exportação,2023,Noruega,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",12.0,112.0
+Exportação,2023,Noruega,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",58.0,391.0
+Exportação,2023,Panamá,Amapá,03031300,"Salmão-do-atlântico e salmão-do-danúbio, congelados",17.0,405.0
+Exportação,2023,Panamá,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",15.0,132.0
+Exportação,2023,Panamá,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",32.0,255.0
+Exportação,2023,Panamá,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",21.0,149.0
+Exportação,2023,Panamá,Amapá,03048990,"Outros filés congelados, de peixes",15.0,307.0
+Exportação,2023,Panamá,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",146.0,1147.0
+Exportação,2023,Panamá,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",19.0,572.0
+Exportação,2023,Panamá,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",4.0,85.0
+Exportação,2023,Países Baixos (Holanda),Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",10.0,76.0
+Exportação,2023,Países Baixos (Holanda),Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",12.0,71.0
+Exportação,2023,Singapura,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",10.0,93.0
+Exportação,2023,Singapura,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",10.0,100.0
+Exportação,2023,Singapura,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",15.0,305.0
+Exportação,2023,São Cristóvão e Névis,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",52.0,642.0
+Exportação,2023,Turquia,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",38.0,220.0
+Exportação,2024,Alemanha,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",11.0,72.0
+Exportação,2024,Chipre,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",41.0,211.0
+Exportação,2024,Chipre,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",59.0,352.0
+Exportação,2024,Chipre,Amapá,03074310,"Lulas, congeladas",17.0,463.0
+Exportação,2024,Chipre,Amapá,03075100,"Polvos (Octopus spp) vivos, frescos ou refrigerados",15.0,569.0
+Exportação,2024,Libéria,Amapá,03028990,Outros peixes frescos ou refrigerados,16.0,173.0
+Exportação,2024,Libéria,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",115.0,856.0
+Exportação,2024,Libéria,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",16.0,125.0
+Exportação,2024,Libéria,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",65.0,430.0
+Exportação,2024,Libéria,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",460.0,3742.0
+Exportação,2024,Libéria,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",50.0,1428.0
+Exportação,2024,Libéria,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",8.0,135.0
+Exportação,2024,Libéria,Amapá,03074310,"Lulas, congeladas",23.0,643.0
+Exportação,2024,Malta,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",31.0,281.0
+Exportação,2024,Malta,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",80.0,523.0
+Exportação,2024,"Marshall, Ilhas",Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",11.0,85.0
+Exportação,2024,"Marshall, Ilhas",Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",29.0,197.0
+Exportação,2024,"Marshall, Ilhas",Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",109.0,595.0
+Exportação,2024,"Marshall, Ilhas",Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",30.0,195.0
+Exportação,2024,"Marshall, Ilhas",Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",5.0,85.0
+Exportação,2024,Panamá,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",25.0,170.0
+Exportação,2024,Panamá,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",55.0,335.0
+Exportação,2024,Panamá,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",36.0,241.0
+Exportação,2024,Singapura,Amapá,03028990,Outros peixes frescos ou refrigerados,30.0,27.0
+Exportação,2024,Singapura,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",16.0,113.0
+Exportação,2024,Singapura,Amapá,03038910,"Corvina (Micropogonias furnieri), congelada",11.0,83.0
+Exportação,2024,Singapura,Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",113.0,964.0
+Exportação,2024,Singapura,Amapá,03048990,"Outros filés congelados, de peixes",60.0,262.0
+Exportação,2024,Singapura,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",108.0,552.0
+Exportação,2024,Singapura,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",30.0,336.0
+Exportação,2024,Singapura,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",4.0,67.0
+Exportação,2024,Singapura,Amapá,03074310,"Lulas, congeladas",20.0,171.0
+Exportação,2024,Turquia,Amapá,03023300,"Bonitos-listrados, etc, frescos, refrigerados, exceto filés, etc.",10.0,32.0
+Exportação,2024,Turquia,Amapá,03027100,"Tilápias (oreochromis spp.), frescas ou refrigeradas",10.0,43.0
+Exportação,2024,Turquia,Amapá,03035400,"Cavalinhas (Scomber scombrus, Scomber australasicus, Scomber japonicus), congeladas",10.0,48.0
+Exportação,2024,Turquia,Amapá,03038990,"Outros peixes congelados, exceto filés, outras carnes,etc.",15.0,78.0
+Exportação,2024,Turquia,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",40.0,191.0
+Exportação,2024,Turquia,Amapá,03061790,"Outros camarões, que não inteiros, congelados",5.0,43.0
+Exportação,2024,Vanuatu,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",21.0,202.0
+Exportação,2025,Bahamas,Amapá,03027100,"Tilápias (oreochromis spp.), frescas ou refrigeradas",40.0,161.0
+Exportação,2025,Bahamas,Amapá,03038990,"Outros peixes congelados, exceto filés, outras carnes,etc.",34.0,167.0
+Exportação,2025,Bahamas,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",120.0,954.0
+Exportação,2025,Bahamas,Amapá,03061790,"Outros camarões, que não inteiros, congelados",5.0,33.0
+Exportação,2025,Bahamas,Amapá,03073100,"Mexilhões (Mytilus spp., Perna spp.), vivos, frescos, refrigerados",5.0,31.0
+Exportação,2025,Chipre,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",30.0,208.0
+Exportação,2025,Grécia,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",53.0,248.0
+Exportação,2025,Grécia,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",50.0,1004.0
+Exportação,2025,Hong Kong,Amapá,03033900,"Outros peixes chatos, congelados, exceto filés, outras carnes, etc",16.0,13.0
+Exportação,2025,Libéria,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",56.0,388.0
+Exportação,2025,Libéria,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",80.0,475.0
+Exportação,2025,Libéria,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",2.0,44.0
+Exportação,2025,Libéria,Amapá,03073900,"Mexilhões (Mytilus spp., Perna spp.), congelados, secos, salgados, etc",8.0,156.0
+Exportação,2025,Libéria,Amapá,03074310,"Lulas, congeladas",30.0,971.0
+Exportação,2025,Malta,Amapá,03024990,"Outros peixes frescos ou refrigerados, exceto os filés de peixes e outra carne de peixes da posição 03.04",41.0,246.0
+Exportação,2025,Malta,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",12.0,59.0
+Exportação,2025,Malta,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",20.0,176.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03024990,"Outros peixes frescos ou refrigerados, exceto os filés de peixes e outra carne de peixes da posição 03.04",10.0,56.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",142.0,865.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03045100,"Filés de tilápia, bagre, carpa, enguias, fresco ou refrigerado",21.0,121.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03046100,"Filés de tilápias (Oreochromis spp.), congelados",20.0,399.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",671.0,3640.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",11.0,229.0
+Exportação,2025,"Marshall, Ilhas",Amapá,03074310,"Lulas, congeladas",16.0,355.0
+Exportação,2025,Panamá,Amapá,03022900,"Outros peixes chatos, frescos, refrigerados, exceto filés, etc.",20.0,172.0
+Exportação,2025,Panamá,Amapá,03031300,"Salmão-do-atlântico e salmão-do-danúbio, congelados",13.0,219.0
+Exportação,2025,Panamá,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",25.0,162.0
+Exportação,2025,Panamá,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",20.0,76.0
+Exportação,2025,Panamá,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",10.0,183.0
+Exportação,2025,Panamá,Amapá,03069500,Camarões,5.0,120.0
+Exportação,2025,Reino Unido,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",42.0,210.0
+Exportação,2025,Singapura,Amapá,03035300,"Sardinhas (Sardina pilchardus, Sardinops spp., Sardinella spp.), anchoveta (Sprattus sprattus), congeladas",10.0,64.0
+Exportação,2025,Singapura,Amapá,03049900,"Outras carnes de peixes, frescos, refrigerados ou congelados",215.0,1139.0
+Exportação,2025,Singapura,Amapá,03061400,Caranguejos congelados,8.0,219.0
+Exportação,2025,Singapura,Amapá,03063910,"Lagosta de água doce (Cherax quadricarinatus), vivo, fresco ou refrigerado",20.0,389.0
+Exportação,2025,Singapura,Amapá,03069500,Camarões,5.0,114.0

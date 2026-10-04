@@ -1,0 +1,394 @@
+﻿ano,codigo_municipio,municipio,uf,codigo_produto,produto,producao_t
+2024,1500107,Abaetetuba - PA,Pará,32876,Tambaqui,23.0
+2024,1500107,Abaetetuba - PA,Pará,32877,Tilápia,16.0
+2024,1500131,Abel Figueiredo - PA,Pará,32876,Tambaqui,4.85
+2024,1500206,Acará - PA,Pará,32876,Tambaqui,50.0
+2024,1500206,Acará - PA,Pará,32877,Tilápia,4.5
+2024,1500347,Água Azul do Norte - PA,Pará,32871,"Piau, piapara, piauçu, piava",12.0
+2024,1500347,Água Azul do Norte - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",16.0
+2024,1500347,Água Azul do Norte - PA,Pará,32873,Pirapitinga,8.5
+2024,1500347,Água Azul do Norte - PA,Pará,32874,Pirarucu,3.1
+2024,1500347,Água Azul do Norte - PA,Pará,32875,"Tambacu, tambatinga",50.0
+2024,1500347,Água Azul do Norte - PA,Pará,32876,Tambaqui,30.0
+2024,1500347,Água Azul do Norte - PA,Pará,32877,Tilápia,24.0
+2024,1500404,Alenquer - PA,Pará,32875,"Tambacu, tambatinga",11.0
+2024,1500404,Alenquer - PA,Pará,32876,Tambaqui,20.0
+2024,1500602,Altamira - PA,Pará,32869,Matrinxã,120.0
+2024,1500602,Altamira - PA,Pará,32871,"Piau, piapara, piauçu, piava",27.0
+2024,1500602,Altamira - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",10.0
+2024,1500602,Altamira - PA,Pará,32873,Pirapitinga,19.97
+2024,1500602,Altamira - PA,Pará,32874,Pirarucu,5.5
+2024,1500602,Altamira - PA,Pará,32875,"Tambacu, tambatinga",497.8
+2024,1500602,Altamira - PA,Pará,32876,Tambaqui,442.6
+2024,1500701,Anajás - PA,Pará,32873,Pirapitinga,25.0
+2024,1500701,Anajás - PA,Pará,32874,Pirarucu,10.0
+2024,1500701,Anajás - PA,Pará,32875,"Tambacu, tambatinga",50.0
+2024,1500701,Anajás - PA,Pará,32877,Tilápia,30.0
+2024,1500859,Anapu - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",8.0
+2024,1500859,Anapu - PA,Pará,32875,"Tambacu, tambatinga",60.5
+2024,1500859,Anapu - PA,Pará,32876,Tambaqui,39.0
+2024,1500859,Anapu - PA,Pará,32877,Tilápia,15.5
+2024,1500909,Augusto Corrêa - PA,Pará,32889,"Ostras, vieiras e mexilhões",36.019
+2024,1501006,Aveiro - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.5
+2024,1501006,Aveiro - PA,Pará,32873,Pirapitinga,0.3
+2024,1501006,Aveiro - PA,Pará,32875,"Tambacu, tambatinga",0.15
+2024,1501006,Aveiro - PA,Pará,32876,Tambaqui,1.8
+2024,1501006,Aveiro - PA,Pará,32877,Tilápia,0.2
+2024,1501105,Bagre - PA,Pará,32876,Tambaqui,4.0
+2024,1501105,Bagre - PA,Pará,32877,Tilápia,2.2
+2024,1501204,Baião - PA,Pará,32870,Pacu e patinga,11.0
+2024,1501204,Baião - PA,Pará,32871,"Piau, piapara, piauçu, piava",31.5
+2024,1501204,Baião - PA,Pará,32873,Pirapitinga,10.2
+2024,1501204,Baião - PA,Pará,32875,"Tambacu, tambatinga",10.3
+2024,1501204,Baião - PA,Pará,32876,Tambaqui,62.0
+2024,1501204,Baião - PA,Pará,32877,Tilápia,12.0
+2024,1501253,Bannach - PA,Pará,32861,Carpa,2.0
+2024,1501253,Bannach - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",41.0
+2024,1501253,Bannach - PA,Pará,32876,Tambaqui,25.0
+2024,1501253,Bannach - PA,Pará,32877,Tilápia,10.0
+2024,1501303,Barcarena - PA,Pará,32875,"Tambacu, tambatinga",11.3
+2024,1501303,Barcarena - PA,Pará,32876,Tambaqui,13.0
+2024,1501303,Barcarena - PA,Pará,32877,Tilápia,2.5
+2024,1501501,Benevides - PA,Pará,32876,Tambaqui,7.5
+2024,1501501,Benevides - PA,Pará,32877,Tilápia,3.0
+2024,1501576,Bom Jesus do Tocantins - PA,Pará,32874,Pirarucu,4.4
+2024,1501576,Bom Jesus do Tocantins - PA,Pará,32876,Tambaqui,52.0
+2024,1501600,Bonito - PA,Pará,32875,"Tambacu, tambatinga",7.92
+2024,1501600,Bonito - PA,Pará,32876,Tambaqui,3.517
+2024,1501600,Bonito - PA,Pará,32877,Tilápia,4.05
+2024,1501600,Bonito - PA,Pará,32881,Outros peixes,4.75
+2024,1501709,Bragança - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.9
+2024,1501709,Bragança - PA,Pará,32874,Pirarucu,60.0
+2024,1501709,Bragança - PA,Pará,32875,"Tambacu, tambatinga",44.6
+2024,1501709,Bragança - PA,Pará,32876,Tambaqui,1.4
+2024,1501709,Bragança - PA,Pará,32877,Tilápia,3.8
+2024,1501725,Brasil Novo - PA,Pará,32865,"Curimatã, curimbatá",0.2
+2024,1501725,Brasil Novo - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.8
+2024,1501725,Brasil Novo - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",0.58
+2024,1501725,Brasil Novo - PA,Pará,32874,Pirarucu,1.95
+2024,1501725,Brasil Novo - PA,Pará,32875,"Tambacu, tambatinga",55.5
+2024,1501725,Brasil Novo - PA,Pará,32876,Tambaqui,128.5
+2024,1501725,Brasil Novo - PA,Pará,32877,Tilápia,5.5
+2024,1501725,Brasil Novo - PA,Pará,32880,Tucunaré,0.68
+2024,1501758,Brejo Grande do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",2.3
+2024,1501758,Brejo Grande do Araguaia - PA,Pará,32876,Tambaqui,3.65
+2024,1501782,Breu Branco - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",19.2
+2024,1501782,Breu Branco - PA,Pará,32869,Matrinxã,1.0
+2024,1501782,Breu Branco - PA,Pará,32871,"Piau, piapara, piauçu, piava",5.0
+2024,1501782,Breu Branco - PA,Pará,32875,"Tambacu, tambatinga",46.8
+2024,1501782,Breu Branco - PA,Pará,32876,Tambaqui,70.6
+2024,1501782,Breu Branco - PA,Pará,32877,Tilápia,6.2
+2024,1501782,Breu Branco - PA,Pará,32881,Outros peixes,7.0
+2024,1501808,Breves - PA,Pará,32865,"Curimatã, curimbatá",2.9
+2024,1501808,Breves - PA,Pará,32873,Pirapitinga,1.4
+2024,1501808,Breves - PA,Pará,32875,"Tambacu, tambatinga",35.0
+2024,1501808,Breves - PA,Pará,32876,Tambaqui,2.8
+2024,1501808,Breves - PA,Pará,32881,Outros peixes,2.2
+2024,1501956,Cachoeira do Piriá - PA,Pará,32869,Matrinxã,3.5
+2024,1501956,Cachoeira do Piriá - PA,Pará,32871,"Piau, piapara, piauçu, piava",4.0
+2024,1501956,Cachoeira do Piriá - PA,Pará,32875,"Tambacu, tambatinga",2.0
+2024,1501956,Cachoeira do Piriá - PA,Pará,32877,Tilápia,0.5
+2024,1501956,Cachoeira do Piriá - PA,Pará,32881,Outros peixes,0.5
+2024,1502004,Cachoeira do Arari - PA,Pará,32876,Tambaqui,7.8
+2024,1502103,Cametá - PA,Pará,32865,"Curimatã, curimbatá",0.85
+2024,1502103,Cametá - PA,Pará,32871,"Piau, piapara, piauçu, piava",2.9
+2024,1502103,Cametá - PA,Pará,32875,"Tambacu, tambatinga",2.12
+2024,1502103,Cametá - PA,Pará,32876,Tambaqui,37.0
+2024,1502103,Cametá - PA,Pará,32881,Outros peixes,11.0
+2024,1502152,Canaã dos Carajás - PA,Pará,32871,"Piau, piapara, piauçu, piava",1.42
+2024,1502152,Canaã dos Carajás - PA,Pará,32875,"Tambacu, tambatinga",1.55
+2024,1502152,Canaã dos Carajás - PA,Pará,32876,Tambaqui,27.6
+2024,1502202,Capanema - PA,Pará,32871,"Piau, piapara, piauçu, piava",2.3
+2024,1502202,Capanema - PA,Pará,32875,"Tambacu, tambatinga",20.0
+2024,1502202,Capanema - PA,Pará,32876,Tambaqui,2.0
+2024,1502202,Capanema - PA,Pará,32877,Tilápia,3.55
+2024,1502301,Capitão Poço - PA,Pará,32874,Pirarucu,1.6
+2024,1502301,Capitão Poço - PA,Pará,32875,"Tambacu, tambatinga",120.75
+2024,1502301,Capitão Poço - PA,Pará,32876,Tambaqui,8.1
+2024,1502301,Capitão Poço - PA,Pará,32877,Tilápia,81.0
+2024,1502301,Capitão Poço - PA,Pará,32881,Outros peixes,4.0
+2024,1502400,Castanhal - PA,Pará,32873,Pirapitinga,12.5
+2024,1502400,Castanhal - PA,Pará,32876,Tambaqui,80.0
+2024,1502400,Castanhal - PA,Pará,32877,Tilápia,43.0
+2024,1502400,Castanhal - PA,Pará,32881,Outros peixes,7.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32869,Matrinxã,15.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32871,"Piau, piapara, piauçu, piava",10.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",95.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32873,Pirapitinga,80.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32874,Pirarucu,55.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",100.0
+2024,1502707,Conceição do Araguaia - PA,Pará,32876,Tambaqui,50.0
+2024,1502756,Concórdia do Pará - PA,Pará,32876,Tambaqui,6.0
+2024,1502764,Cumaru do Norte - PA,Pará,32876,Tambaqui,250.0
+2024,1502772,Curionópolis - PA,Pará,32875,"Tambacu, tambatinga",2.28
+2024,1502772,Curionópolis - PA,Pará,32876,Tambaqui,33.8
+2024,1502806,Curralinho - PA,Pará,32874,Pirarucu,3.5
+2024,1502806,Curralinho - PA,Pará,32876,Tambaqui,60.0
+2024,1502855,Curuá - PA,Pará,32875,"Tambacu, tambatinga",0.42
+2024,1502855,Curuá - PA,Pará,32876,Tambaqui,1.74
+2024,1502905,Curuçá - PA,Pará,32875,"Tambacu, tambatinga",10.0
+2024,1502905,Curuçá - PA,Pará,32887,Camarão,40.0
+2024,1502905,Curuçá - PA,Pará,32889,"Ostras, vieiras e mexilhões",3.954
+2024,1502939,Dom Eliseu - PA,Pará,32876,Tambaqui,320.0
+2024,1502954,Eldorado do Carajás - PA,Pará,32875,"Tambacu, tambatinga",10.5
+2024,1502954,Eldorado do Carajás - PA,Pará,32876,Tambaqui,47.0
+2024,1503044,Floresta do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",39.0
+2024,1503044,Floresta do Araguaia - PA,Pará,32876,Tambaqui,25.0
+2024,1503077,Garrafão do Norte - PA,Pará,32873,Pirapitinga,5.0
+2024,1503077,Garrafão do Norte - PA,Pará,32875,"Tambacu, tambatinga",80.0
+2024,1503077,Garrafão do Norte - PA,Pará,32876,Tambaqui,1.0
+2024,1503077,Garrafão do Norte - PA,Pará,32877,Tilápia,10.0
+2024,1503077,Garrafão do Norte - PA,Pará,32881,Outros peixes,4.0
+2024,1503093,Goianésia do Pará - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",1.0
+2024,1503093,Goianésia do Pará - PA,Pará,32875,"Tambacu, tambatinga",25.3
+2024,1503093,Goianésia do Pará - PA,Pará,32876,Tambaqui,21.46
+2024,1503093,Goianésia do Pará - PA,Pará,32881,Outros peixes,8.3
+2024,1503200,Igarapé-Açu - PA,Pará,32876,Tambaqui,18.5
+2024,1503200,Igarapé-Açu - PA,Pará,32877,Tilápia,5.2
+2024,1503408,Inhangapi - PA,Pará,32875,"Tambacu, tambatinga",1.5
+2024,1503408,Inhangapi - PA,Pará,32876,Tambaqui,4.56
+2024,1503457,Ipixuna do Pará - PA,Pará,32874,Pirarucu,3.1
+2024,1503457,Ipixuna do Pará - PA,Pará,32876,Tambaqui,850.0
+2024,1503457,Ipixuna do Pará - PA,Pará,32877,Tilápia,120.0
+2024,1503507,Irituia - PA,Pará,32876,Tambaqui,50.4
+2024,1503606,Itaituba - PA,Pará,32869,Matrinxã,15.0
+2024,1503606,Itaituba - PA,Pará,32871,"Piau, piapara, piauçu, piava",25.0
+2024,1503606,Itaituba - PA,Pará,32875,"Tambacu, tambatinga",75.0
+2024,1503606,Itaituba - PA,Pará,32876,Tambaqui,75.0
+2024,1503705,Itupiranga - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",1.0
+2024,1503705,Itupiranga - PA,Pará,32871,"Piau, piapara, piauçu, piava",7.8
+2024,1503705,Itupiranga - PA,Pará,32875,"Tambacu, tambatinga",56.0
+2024,1503705,Itupiranga - PA,Pará,32876,Tambaqui,145.0
+2024,1503754,Jacareacanga - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.8
+2024,1503754,Jacareacanga - PA,Pará,32876,Tambaqui,6.2
+2024,1503804,Jacundá - PA,Pará,32876,Tambaqui,29.0
+2024,1503903,Juruti - PA,Pará,32869,Matrinxã,0.8
+2024,1503903,Juruti - PA,Pará,32875,"Tambacu, tambatinga",0.7
+2024,1503903,Juruti - PA,Pará,32876,Tambaqui,1.4
+2024,1504000,Limoeiro do Ajuru - PA,Pará,32876,Tambaqui,32.0
+2024,1504059,Mãe do Rio - PA,Pará,32876,Tambaqui,50.0
+2024,1504109,Magalhães Barata - PA,Pará,32876,Tambaqui,14.2
+2024,1504208,Marabá - PA,Pará,32865,"Curimatã, curimbatá",5.7
+2024,1504208,Marabá - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",70.0
+2024,1504208,Marabá - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",58.0
+2024,1504208,Marabá - PA,Pará,32874,Pirarucu,7.1
+2024,1504208,Marabá - PA,Pará,32875,"Tambacu, tambatinga",415.0
+2024,1504208,Marabá - PA,Pará,32876,Tambaqui,520.0
+2024,1504208,Marabá - PA,Pará,32877,Tilápia,12.1
+2024,1504307,Maracanã - PA,Pará,32874,Pirarucu,0.098
+2024,1504307,Maracanã - PA,Pará,32876,Tambaqui,4.76
+2024,1504307,Maracanã - PA,Pará,32889,"Ostras, vieiras e mexilhões",9.6
+2024,1504406,Marapanim - PA,Pará,32887,Camarão,72.0
+2024,1504422,Marituba - PA,Pará,32876,Tambaqui,25.0
+2024,1504455,Medicilândia - PA,Pará,32869,Matrinxã,7.2
+2024,1504455,Medicilândia - PA,Pará,32871,"Piau, piapara, piauçu, piava",4.375
+2024,1504455,Medicilândia - PA,Pará,32873,Pirapitinga,23.2
+2024,1504455,Medicilândia - PA,Pará,32875,"Tambacu, tambatinga",75.0
+2024,1504455,Medicilândia - PA,Pará,32876,Tambaqui,37.3
+2024,1504455,Medicilândia - PA,Pará,32877,Tilápia,4.32
+2024,1504505,Melgaço - PA,Pará,32876,Tambaqui,1.2
+2024,1504604,Mocajuba - PA,Pará,32876,Tambaqui,26.0
+2024,1504703,Moju - PA,Pará,32875,"Tambacu, tambatinga",12.3
+2024,1504703,Moju - PA,Pará,32876,Tambaqui,12.4
+2024,1504703,Moju - PA,Pará,32877,Tilápia,0.7
+2024,1504752,Mojuí dos Campos - PA,Pará,32871,"Piau, piapara, piauçu, piava",1.2
+2024,1504752,Mojuí dos Campos - PA,Pará,32876,Tambaqui,9.34
+2024,1504802,Monte Alegre - PA,Pará,32874,Pirarucu,2.2
+2024,1504802,Monte Alegre - PA,Pará,32875,"Tambacu, tambatinga",20.0
+2024,1504802,Monte Alegre - PA,Pará,32876,Tambaqui,19.0
+2024,1504950,Nova Esperança do Piriá - PA,Pará,32874,Pirarucu,0.085
+2024,1504950,Nova Esperança do Piriá - PA,Pará,32875,"Tambacu, tambatinga",1.89
+2024,1504950,Nova Esperança do Piriá - PA,Pará,32876,Tambaqui,1.95
+2024,1504950,Nova Esperança do Piriá - PA,Pará,32877,Tilápia,4.275
+2024,1504950,Nova Esperança do Piriá - PA,Pará,32881,Outros peixes,0.4
+2024,1504976,Nova Ipixuna - PA,Pará,32875,"Tambacu, tambatinga",2.6
+2024,1504976,Nova Ipixuna - PA,Pará,32876,Tambaqui,15.0
+2024,1505007,Nova Timboteua - PA,Pará,32875,"Tambacu, tambatinga",2.25
+2024,1505007,Nova Timboteua - PA,Pará,32876,Tambaqui,0.98
+2024,1505007,Nova Timboteua - PA,Pará,32877,Tilápia,1.11
+2024,1505007,Nova Timboteua - PA,Pará,32881,Outros peixes,1.8
+2024,1505031,Novo Progresso - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",2.6
+2024,1505031,Novo Progresso - PA,Pará,32873,Pirapitinga,29.5
+2024,1505031,Novo Progresso - PA,Pará,32875,"Tambacu, tambatinga",44.95
+2024,1505031,Novo Progresso - PA,Pará,32876,Tambaqui,41.0
+2024,1505064,Novo Repartimento - PA,Pará,32861,Carpa,0.3
+2024,1505064,Novo Repartimento - PA,Pará,32865,"Curimatã, curimbatá",0.5
+2024,1505064,Novo Repartimento - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",7.0
+2024,1505064,Novo Repartimento - PA,Pará,32868,Lambari,2.0
+2024,1505064,Novo Repartimento - PA,Pará,32869,Matrinxã,10.0
+2024,1505064,Novo Repartimento - PA,Pará,32870,Pacu e patinga,2.0
+2024,1505064,Novo Repartimento - PA,Pará,32871,"Piau, piapara, piauçu, piava",3.0
+2024,1505064,Novo Repartimento - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",4.0
+2024,1505064,Novo Repartimento - PA,Pará,32873,Pirapitinga,10.0
+2024,1505064,Novo Repartimento - PA,Pará,32874,Pirarucu,1.0
+2024,1505064,Novo Repartimento - PA,Pará,32875,"Tambacu, tambatinga",270.0
+2024,1505064,Novo Repartimento - PA,Pará,32876,Tambaqui,220.0
+2024,1505064,Novo Repartimento - PA,Pará,32877,Tilápia,5.0
+2024,1505064,Novo Repartimento - PA,Pará,32878,Traíra e trairão,3.0
+2024,1505064,Novo Repartimento - PA,Pará,32880,Tucunaré,3.0
+2024,1505064,Novo Repartimento - PA,Pará,32881,Outros peixes,4.0
+2024,1505064,Novo Repartimento - PA,Pará,32887,Camarão,0.5
+2024,1505106,Óbidos - PA,Pará,32865,"Curimatã, curimbatá",0.05
+2024,1505106,Óbidos - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",0.02
+2024,1505106,Óbidos - PA,Pará,32869,Matrinxã,0.45
+2024,1505106,Óbidos - PA,Pará,32874,Pirarucu,1.8
+2024,1505106,Óbidos - PA,Pará,32875,"Tambacu, tambatinga",0.38
+2024,1505106,Óbidos - PA,Pará,32876,Tambaqui,2.8
+2024,1505106,Óbidos - PA,Pará,32880,Tucunaré,0.05
+2024,1505205,Oeiras do Pará - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.66
+2024,1505205,Oeiras do Pará - PA,Pará,32875,"Tambacu, tambatinga",2.3
+2024,1505205,Oeiras do Pará - PA,Pará,32876,Tambaqui,32.0
+2024,1505304,Oriximiná - PA,Pará,32869,Matrinxã,5.0
+2024,1505304,Oriximiná - PA,Pará,32875,"Tambacu, tambatinga",10.0
+2024,1505304,Oriximiná - PA,Pará,32876,Tambaqui,25.0
+2024,1505403,Ourém - PA,Pará,32869,Matrinxã,6.5
+2024,1505403,Ourém - PA,Pará,32871,"Piau, piapara, piauçu, piava",5.0
+2024,1505403,Ourém - PA,Pará,32875,"Tambacu, tambatinga",35.0
+2024,1505403,Ourém - PA,Pará,32876,Tambaqui,3.0
+2024,1505403,Ourém - PA,Pará,32877,Tilápia,8.0
+2024,1505403,Ourém - PA,Pará,32881,Outros peixes,6.0
+2024,1505437,Ourilândia do Norte - PA,Pará,32875,"Tambacu, tambatinga",58.0
+2024,1505437,Ourilândia do Norte - PA,Pará,32876,Tambaqui,20.0
+2024,1505486,Pacajá - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",2.5
+2024,1505486,Pacajá - PA,Pará,32871,"Piau, piapara, piauçu, piava",1.8
+2024,1505486,Pacajá - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",5.0
+2024,1505486,Pacajá - PA,Pará,32874,Pirarucu,2.0
+2024,1505486,Pacajá - PA,Pará,32875,"Tambacu, tambatinga",35.0
+2024,1505486,Pacajá - PA,Pará,32876,Tambaqui,43.0
+2024,1505486,Pacajá - PA,Pará,32880,Tucunaré,1.2
+2024,1505494,Palestina do Pará - PA,Pará,32875,"Tambacu, tambatinga",7.8
+2024,1505494,Palestina do Pará - PA,Pará,32876,Tambaqui,14.8
+2024,1505502,Paragominas - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",3.2
+2024,1505502,Paragominas - PA,Pará,32874,Pirarucu,16.8
+2024,1505502,Paragominas - PA,Pará,32875,"Tambacu, tambatinga",8.0
+2024,1505502,Paragominas - PA,Pará,32876,Tambaqui,3200.0
+2024,1505502,Paragominas - PA,Pará,32877,Tilápia,450.0
+2024,1505536,Parauapebas - PA,Pará,32875,"Tambacu, tambatinga",82.0
+2024,1505536,Parauapebas - PA,Pará,32876,Tambaqui,190.0
+2024,1505551,Pau D'Arco - PA,Pará,32876,Tambaqui,123.0
+2024,1505601,Peixe-Boi - PA,Pará,32875,"Tambacu, tambatinga",9.5
+2024,1505601,Peixe-Boi - PA,Pará,32876,Tambaqui,1.0
+2024,1505601,Peixe-Boi - PA,Pará,32877,Tilápia,5.0
+2024,1505601,Peixe-Boi - PA,Pará,32881,Outros peixes,1.5
+2024,1505635,Piçarra - PA,Pará,32873,Pirapitinga,3.0
+2024,1505635,Piçarra - PA,Pará,32875,"Tambacu, tambatinga",48.0
+2024,1505635,Piçarra - PA,Pará,32876,Tambaqui,60.0
+2024,1505635,Piçarra - PA,Pará,32877,Tilápia,2.0
+2024,1505650,Placas - PA,Pará,32876,Tambaqui,30.2
+2024,1505809,Portel - PA,Pará,32869,Matrinxã,2.5
+2024,1505809,Portel - PA,Pará,32874,Pirarucu,2.6
+2024,1505809,Portel - PA,Pará,32876,Tambaqui,6.5
+2024,1505809,Portel - PA,Pará,32877,Tilápia,3.5
+2024,1505809,Portel - PA,Pará,32881,Outros peixes,2.0
+2024,1506104,Primavera - PA,Pará,32875,"Tambacu, tambatinga",1.35
+2024,1506104,Primavera - PA,Pará,32876,Tambaqui,0.34
+2024,1506104,Primavera - PA,Pará,32877,Tilápia,1.075
+2024,1506104,Primavera - PA,Pará,32881,Outros peixes,0.76
+2024,1506112,Quatipuru - PA,Pará,32874,Pirarucu,0.51
+2024,1506112,Quatipuru - PA,Pará,32875,"Tambacu, tambatinga",6.325
+2024,1506112,Quatipuru - PA,Pará,32876,Tambaqui,1.7
+2024,1506112,Quatipuru - PA,Pará,32877,Tilápia,1.08
+2024,1506112,Quatipuru - PA,Pará,32881,Outros peixes,0.45
+2024,1506138,Redenção - PA,Pará,32875,"Tambacu, tambatinga",6.56
+2024,1506138,Redenção - PA,Pará,32876,Tambaqui,35.0
+2024,1506138,Redenção - PA,Pará,32877,Tilápia,0.85
+2024,1506161,Rio Maria - PA,Pará,32875,"Tambacu, tambatinga",28.0
+2024,1506161,Rio Maria - PA,Pará,32876,Tambaqui,28.0
+2024,1506187,Rondon do Pará - PA,Pará,32875,"Tambacu, tambatinga",4.9
+2024,1506195,Rurópolis - PA,Pará,32875,"Tambacu, tambatinga",36.36
+2024,1506195,Rurópolis - PA,Pará,32876,Tambaqui,51.4
+2024,1506203,Salinópolis - PA,Pará,32889,"Ostras, vieiras e mexilhões",82.057
+2024,1506351,Santa Bárbara do Pará - PA,Pará,32876,Tambaqui,5.0
+2024,1506559,Santa Luzia do Pará - PA,Pará,32875,"Tambacu, tambatinga",12.5
+2024,1506559,Santa Luzia do Pará - PA,Pará,32876,Tambaqui,2.36
+2024,1506559,Santa Luzia do Pará - PA,Pará,32877,Tilápia,2.0
+2024,1506559,Santa Luzia do Pará - PA,Pará,32881,Outros peixes,0.22
+2024,1506583,Santa Maria das Barreiras - PA,Pará,32876,Tambaqui,55.0
+2024,1506807,Santarém - PA,Pará,32865,"Curimatã, curimbatá",1.83
+2024,1506807,Santarém - PA,Pará,32869,Matrinxã,7.76
+2024,1506807,Santarém - PA,Pará,32874,Pirarucu,7.6
+2024,1506807,Santarém - PA,Pará,32875,"Tambacu, tambatinga",19.75
+2024,1506807,Santarém - PA,Pará,32876,Tambaqui,30.5
+2024,1506807,Santarém - PA,Pará,32877,Tilápia,3.5
+2024,1506807,Santarém - PA,Pará,32881,Outros peixes,0.9
+2024,1507102,São Caetano de Odivelas - PA,Pará,32889,"Ostras, vieiras e mexilhões",7.0
+2024,1507151,São Domingos do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",8.7
+2024,1507151,São Domingos do Araguaia - PA,Pará,32876,Tambaqui,23.0
+2024,1507201,São Domingos do Capim - PA,Pará,32876,Tambaqui,5.2
+2024,1507300,São Félix do Xingu - PA,Pará,32869,Matrinxã,1.25
+2024,1507300,São Félix do Xingu - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.8
+2024,1507300,São Félix do Xingu - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",4.6
+2024,1507300,São Félix do Xingu - PA,Pará,32875,"Tambacu, tambatinga",60.0
+2024,1507300,São Félix do Xingu - PA,Pará,32876,Tambaqui,70.0
+2024,1507409,São Francisco do Pará - PA,Pará,32873,Pirapitinga,7.2
+2024,1507409,São Francisco do Pará - PA,Pará,32876,Tambaqui,46.15
+2024,1507409,São Francisco do Pará - PA,Pará,32877,Tilápia,3.55
+2024,1507458,São Geraldo do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",25.5
+2024,1507458,São Geraldo do Araguaia - PA,Pará,32876,Tambaqui,50.0
+2024,1507474,São João de Pirabas - PA,Pará,32875,"Tambacu, tambatinga",5.2
+2024,1507474,São João de Pirabas - PA,Pará,32876,Tambaqui,1.3
+2024,1507508,São João do Araguaia - PA,Pará,32875,"Tambacu, tambatinga",135.0
+2024,1507508,São João do Araguaia - PA,Pará,32876,Tambaqui,270.0
+2024,1507607,São Miguel do Guamá - PA,Pará,32876,Tambaqui,90.18
+2024,1507755,Sapucaia - PA,Pará,32875,"Tambacu, tambatinga",3.5
+2024,1507755,Sapucaia - PA,Pará,32876,Tambaqui,5.2
+2024,1507805,Senador José Porfírio - PA,Pará,32873,Pirapitinga,3.0
+2024,1507805,Senador José Porfírio - PA,Pará,32875,"Tambacu, tambatinga",14.0
+2024,1507805,Senador José Porfírio - PA,Pará,32876,Tambaqui,25.0
+2024,1507805,Senador José Porfírio - PA,Pará,32877,Tilápia,5.6
+2024,1507953,Tailândia - PA,Pará,32875,"Tambacu, tambatinga",13.5
+2024,1507953,Tailândia - PA,Pará,32876,Tambaqui,120.0
+2024,1507961,Terra Alta - PA,Pará,32876,Tambaqui,5.2
+2024,1507979,Terra Santa - PA,Pará,32875,"Tambacu, tambatinga",0.35
+2024,1507979,Terra Santa - PA,Pará,32876,Tambaqui,0.5
+2024,1508001,Tomé-Açu - PA,Pará,32876,Tambaqui,45.0
+2024,1508001,Tomé-Açu - PA,Pará,32877,Tilápia,2.5
+2024,1508035,Tracuateua - PA,Pará,32869,Matrinxã,0.5
+2024,1508035,Tracuateua - PA,Pará,32875,"Tambacu, tambatinga",1.75
+2024,1508035,Tracuateua - PA,Pará,32876,Tambaqui,2.0
+2024,1508035,Tracuateua - PA,Pará,32881,Outros peixes,1.0
+2024,1508050,Trairão - PA,Pará,32871,"Piau, piapara, piauçu, piava",4.2
+2024,1508050,Trairão - PA,Pará,32873,Pirapitinga,0.73
+2024,1508050,Trairão - PA,Pará,32875,"Tambacu, tambatinga",6.0
+2024,1508050,Trairão - PA,Pará,32876,Tambaqui,9.65
+2024,1508084,Tucumã - PA,Pará,32865,"Curimatã, curimbatá",10.0
+2024,1508084,Tucumã - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",6.0
+2024,1508084,Tucumã - PA,Pará,32869,Matrinxã,7.5
+2024,1508084,Tucumã - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",30.0
+2024,1508084,Tucumã - PA,Pará,32874,Pirarucu,5.0
+2024,1508084,Tucumã - PA,Pará,32875,"Tambacu, tambatinga",86.0
+2024,1508084,Tucumã - PA,Pará,32876,Tambaqui,13.0
+2024,1508084,Tucumã - PA,Pará,32877,Tilápia,30.0
+2024,1508100,Tucuruí - PA,Pará,32867,"Jatuarana, piabanha e piracanjuba",1.0
+2024,1508100,Tucuruí - PA,Pará,32869,Matrinxã,180.0
+2024,1508100,Tucuruí - PA,Pará,32871,"Piau, piapara, piauçu, piava",7.0
+2024,1508100,Tucuruí - PA,Pará,32875,"Tambacu, tambatinga",40.0
+2024,1508100,Tucuruí - PA,Pará,32876,Tambaqui,2.0
+2024,1508126,Ulianópolis - PA,Pará,32876,Tambaqui,530.0
+2024,1508159,Uruará - PA,Pará,32869,Matrinxã,27.35
+2024,1508159,Uruará - PA,Pará,32871,"Piau, piapara, piauçu, piava",19.7
+2024,1508159,Uruará - PA,Pará,32874,Pirarucu,9.5
+2024,1508159,Uruará - PA,Pará,32875,"Tambacu, tambatinga",592.0
+2024,1508159,Uruará - PA,Pará,32876,Tambaqui,210.0
+2024,1508209,Vigia - PA,Pará,32876,Tambaqui,6.5
+2024,1508308,Viseu - PA,Pará,32865,"Curimatã, curimbatá",1.2
+2024,1508308,Viseu - PA,Pará,32871,"Piau, piapara, piauçu, piava",0.6
+2024,1508308,Viseu - PA,Pará,32875,"Tambacu, tambatinga",8.6
+2024,1508308,Viseu - PA,Pará,32876,Tambaqui,1.75
+2024,1508308,Viseu - PA,Pará,32877,Tilápia,0.8
+2024,1508357,Vitória do Xingu - PA,Pará,32869,Matrinxã,3.7
+2024,1508357,Vitória do Xingu - PA,Pará,32873,Pirapitinga,2.5
+2024,1508357,Vitória do Xingu - PA,Pará,32874,Pirarucu,3.0
+2024,1508357,Vitória do Xingu - PA,Pará,32875,"Tambacu, tambatinga",99.17
+2024,1508357,Vitória do Xingu - PA,Pará,32876,Tambaqui,79.1
+2024,1508357,Vitória do Xingu - PA,Pará,32877,Tilápia,4.5
+2024,1508407,Xinguara - PA,Pará,32869,Matrinxã,3.6
+2024,1508407,Xinguara - PA,Pará,32870,Pacu e patinga,25.0
+2024,1508407,Xinguara - PA,Pará,32871,"Piau, piapara, piauçu, piava",8.0
+2024,1508407,Xinguara - PA,Pará,32872,"Pintado, cachara, cachapira e pintachara, surubim",10.0
+2024,1508407,Xinguara - PA,Pará,32874,Pirarucu,8.0
+2024,1508407,Xinguara - PA,Pará,32875,"Tambacu, tambatinga",130.0
+2024,1508407,Xinguara - PA,Pará,32876,Tambaqui,160.0
+2024,1508407,Xinguara - PA,Pará,32877,Tilápia,40.0
+2024,1508407,Xinguara - PA,Pará,32880,Tucunaré,4.0
+2024,1508407,Xinguara - PA,Pará,32881,Outros peixes,5.1

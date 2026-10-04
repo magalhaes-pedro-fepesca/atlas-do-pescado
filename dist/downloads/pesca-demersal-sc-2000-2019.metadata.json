@@ -1,0 +1,57 @@
+{
+  "id": "pangaea-demersal-sc",
+  "title": "Pesca demersal · desembarques em Santa Catarina",
+  "topic": "Captura e desembarque",
+  "observation_type": "Desembarques monitorados",
+  "publisher": "Perez e Sant’Ana · UNIVALI / PANGAEA",
+  "creators": [
+    "José Angel Alvarez Perez",
+    "Rodrigo Sant’Ana"
+  ],
+  "year": 2019,
+  "coverage": "2000–2019",
+  "description": "Captura anual de 78 espécies desembarcadas por frotas industriais de arrasto e emalhe em portos de Santa Catarina.",
+  "notes": "Recorte de monitoramento portuário. Não representa a pesca total de Santa Catarina ou do Brasil. Categorias sem identificação por espécie foram excluídas pelos autores. CSV do Atlas renomeia colunas, preserva quilogramas e zeros explícitos. Não preenche ausências nem soma com MPA ou FAO.",
+  "citation": "Perez, J. A. A.; Sant’Ana, R. (2022). Catch composition time series (2000–2019) for demersal species in the Brazilian Meridional Margin. PANGAEA. DOI: 10.1594/PANGAEA.946292.",
+  "source": "https://doi.pangaea.de/10.1594/PANGAEA.946292",
+  "license_evidence": "https://doi.pangaea.de/10.1594/PANGAEA.946292",
+  "doi": "10.1594/PANGAEA.946292",
+  "file": "downloads/pesca-demersal-sc-2000-2019.csv",
+  "access": "prepared",
+  "area": "Pesca",
+  "scale": "Brasil",
+  "layer": "treated",
+  "managed_by": "prepare-fisheries.py",
+  "prepared_at": "2026-10-04",
+  "metadata_reviewed_at": "2026-10-04",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "formats": [
+    "CSV"
+  ],
+  "rows": 1560,
+  "bytes": 52583,
+  "featured": 125,
+  "metadata_file": "downloads/pesca-demersal-sc-2000-2019.metadata.json",
+  "raw_file": "downloads/sources/pangaea-946292-original.tsv",
+  "source_file_url": "https://doi.pangaea.de/10.1594/PANGAEA.946292?format=textfile",
+  "source_sha256": "96a6450dbc3aa5fdc762df3d377e07fb46350ddf1285f82eeb67fbfe095c40cf",
+  "reuse_status": "approved",
+  "reuse_conditions": "Atribuir autoria, citar DOI e identificar a transformação feita pelo Atlas.",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Arquivo obtido da fonte e transformação local conferidos. Não certifica a coleta original.",
+    "sha256": "33fa736ab8c085cca46ca6ec9553ddd8e61e0e53cb9db8a0b7c748a54bfbbe0f",
+    "columns": [
+      "ano",
+      "especie_cientifica",
+      "captura_kg"
+    ],
+    "dictionary": {
+      "ano": "Ano de desembarque, 2000–2019.",
+      "especie_cientifica": "Nome científico identificado na fonte.",
+      "captura_kg": "Captura desembarcada em quilogramas, peso úmido. Zeros da fonte preservados."
+    },
+    "duplicate_rows": 0
+  }
+}

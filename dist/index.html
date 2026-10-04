@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#092a3d">
+  <meta name="description" content="Explore pesca, aquicultura e comércio exterior no Brasil e no mundo com dados abertos do IBGE, MPA, FAO e MDIC; baixe recortes em CSV.">
+  <title>Atlas do Pescado · dados, tecnologia e notícias</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23092a3d'/%3E%3Cpath d='M9 37q10-11 20 0t20 0q4-4 6-4M9 48q10-11 20 0t20 0q4-4 6-4' fill='none' stroke='%236bd6cc' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="extensions.css">
+  <link rel="stylesheet" href="improvements.css">
+  <link rel="stylesheet" href="atlas.css">
+  <link rel="stylesheet" href="assistant.css">
+  <link rel="stylesheet" href="navigation.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="technical.css">
+  <link rel="stylesheet" href="regions.css">
+<link rel="stylesheet" href="municipal-fishing.css">
+</head>
+<body class="home-active">
+  <header class="topbar">
+    <div class="brand"><img class="brand-logo" src="assets/atlas-do-pescado.png" alt="Atlas do Pescado" width="256" height="74"></div>
+    <div class="top-meta">Pesca · Aquicultura · Comércio · Tecnologia <span class="top-divider"></span> Catálogo ampliado em 28 set 2026</div>
+  </header>
+
+  <div class="shell">
+    <div class="intro">
+      <div><p class="eyebrow">EXPLORAÇÃO DE DADOS</p><h1>Atlas do Pescado</h1></div>
+      <p>Explore a cadeia do pescado: produção, pesquisa, mercados e tecnologia.</p>
+    </div>
+
+    <button type="button" id="navigation-toggle" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+    <nav id="site-navigation" class="scope-tabs" aria-label="Áreas do explorador">
+      <span class="navigation-label">Navegação</span>
+      <button type="button" class="active" data-scope="home" aria-current="page">Início</button>
+      <button type="button" data-scope="national">Brasil</button>
+      <button type="button" data-scope="international">Internacional</button>
+      <button type="button" data-scope="trade">Comércio exterior</button>
+      <button type="button" data-scope="municipal">Municípios</button>
+      <button type="button" data-scope="catalog">Buscar bases abertas</button>
+      <button type="button" data-scope="technology">Tecnologia do pescado</button>
+      <button type="button" data-scope="news">Notícias</button>
+      <button type="button" data-scope="method">Metodologia</button>
+      <button type="button" data-scope="policy">Políticas de Dados</button>
+      <button type="button" data-scope="technical">Desenho técnico</button>
+    </nav>
+
+    <section id="technical-view" class="scope-view" hidden>
+      <header class="cad-heading"><div><p class="eyebrow">AQUICULTURA · EDITOR 2D</p><h2>Desenho técnico computacional</h2></div><span>Planta conceitual · unidades em metros</span></header>
+      <p class="cad-note">Áreas e volumes consideram formas geométricas simples, paredes verticais e fundo plano. Não incluem taludes, folga ou dimensionamento hidráulico. Projetos executivos exigem validação técnica.</p>
+      <div class="cad-project"><label>Nome do projeto<input id="cad-name" maxlength="100" value="Meu projeto de aquicultura"></label><button id="cad-save" type="button">Salvar no dispositivo</button><label>Projetos salvos<select id="cad-projects"><option value="">Selecione um projeto</option></select></label><button id="cad-open" type="button">Abrir</button><button id="cad-new" type="button">Novo projeto</button></div>
+      <div class="cad-toolbar" role="toolbar" aria-label="Ferramentas de desenho"><button type="button" id="cad-pond">+ Viveiro</button><button type="button" id="cad-tank">+ Tanque circular</button><button type="button" id="cad-undo" aria-label="Desfazer" title="Desfazer">↶</button><button type="button" id="cad-redo" aria-label="Refazer" title="Refazer">↷</button><button type="button" id="cad-duplicate">Duplicar</button><button type="button" id="cad-delete">Excluir elemento</button><label><input id="cad-grid" type="checkbox" checked> Grade de 1 m</label><label><input id="cad-dimensions" type="checkbox" checked> Cotas</label><button id="cad-svg" type="button">Exportar SVG</button><button id="cad-png" type="button">Exportar PNG</button><button id="cad-json" type="button">Baixar projeto</button><label class="cad-import">Importar projeto<input id="cad-file" type="file" accept=".json,application/json"></label></div>
+      <div class="cad-layout"><div class="cad-board"><svg id="cad-canvas" viewBox="0 0 1000 700" role="img" aria-label="Planta de viveiros e tanques" tabindex="0"></svg></div><aside class="cad-properties"><h3>Elemento selecionado</h3><p id="cad-empty">Adicione ou selecione um elemento.</p><form id="cad-form" hidden><label>Nome<input id="cad-label" maxlength="80" required></label><div class="cad-fields"><label>X (m)<input id="cad-x" type="number" min="0" step="0.1" required></label><label>Y (m)<input id="cad-y" type="number" min="0" step="0.1" required></label><label id="cad-width-label">Largura (m)<input id="cad-width" type="number" min="0.1" step="0.1" required></label><label id="cad-height-wrap">Comprimento (m)<input id="cad-height" type="number" min="0.1" step="0.1" required></label><label>Profundidade (m)<input id="cad-depth" type="number" min="0.1" step="0.1" required></label></div><button type="submit">Aplicar dimensões</button><p id="cad-measures"></p></form><h3>Prancha</h3><form id="cad-sheet-form" class="cad-fields"><label>Largura (m)<input id="cad-sheet-width" type="number" min="10" max="1000" value="100" required></label><label>Altura (m)<input id="cad-sheet-height" type="number" min="10" max="1000" value="70" required></label><button type="submit">Ajustar prancha</button></form><p id="cad-total"></p><label>Anotações<textarea id="cad-notes" rows="4" maxlength="4000" placeholder="Observações sobre o projeto"></textarea></label></aside></div>
+      <p id="cad-status" role="status" aria-live="polite">Projetos são salvos apenas neste navegador. Baixe uma cópia para conservar o trabalho.</p>
+    </section>
+    <main id="home-view" class="scope-view">
+      <section class="home-hero" aria-label="Pesca e aquicultura" aria-roledescription="carrossel">
+        <img class="home-slide current" src="assets/home-fishing.png" alt="Cena ilustrativa de uma embarcação de pesca junto à costa" width="1536" height="1024" fetchpriority="high">
+        <img class="home-slide" src="assets/home-aquaculture.png" alt="Cena ilustrativa de viveiros de aquicultura vistos do alto" width="1536" height="1024" aria-hidden="true">
+        <div class="home-hero-copy">
+          <p class="eyebrow">CONHECIMENTO QUE CONECTA ÁGUAS E DADOS</p>
+          <h1>Atlas do Pescado</h1>
+          <h2>Esta é uma evolução para a Engenharia de Pesca.</h2>
+          <p>Vários dados da Engenharia de Pesca de bases abertas em um só lugar.</p>
+          <div class="home-actions"><button type="button" data-scope="catalog">Explorar dados</button><a href="#home-purpose">Conheça o projeto</a></div>
+        </div>
+        <div class="home-carousel-controls"><button id="home-prev" type="button" aria-label="Imagem anterior">‹</button><span id="home-slide-label">Pesca · 1 de 2</span><button id="home-next" type="button" aria-label="Próxima imagem">›</button><button id="home-pause" type="button">Pausar</button></div>
+        <small class="home-image-credit">Imagens ilustrativas geradas por IA</small>
+      </section>
+      <section id="home-purpose" class="home-section">
+        <p class="eyebrow">POR QUE O ATLAS EXISTE</p><h2>Menos tempo procurando.<br>Mais tempo entendendo.</h2>
+        <p class="home-section-lead">O Atlas do Pescado foi criado para aproximar estudantes, pesquisadores e profissionais das informações sobre pesca, aquicultura e a cadeia do pescado. Reúne fontes, recortes e ferramentas de exploração em um único site.</p>
+        <div class="home-columns"><article><h3>Reunir conhecimento</h3><p>Facilitar a descoberta de bases sobre produção, comércio exterior, municípios e tecnologia do pescado.</p></article><article><h3>Tornar os dados compreensíveis</h3><p>Explorar séries, gráficos e mapas com unidades, períodos e limites metodológicos identificados.</p></article><article><h3>Apoiar trabalhos reproduzíveis</h3><p>Preservar as fontes e os recortes para apoiar estudos, relatórios e análises que possam ser conferidos.</p></article></div>
+      </section>
+      <section class="home-section home-how"><p class="eyebrow">COMO FUNCIONA</p><h2>Da pergunta ao recorte que você precisa.</h2><ol class="home-columns"><li><h3>Escolha uma área</h3><p>Acesse Brasil, Internacional, Comércio exterior ou Municípios pelo menu. No catálogo, encontre outras fontes de dados.</p></li><li><h3>Explore e compare</h3><p>Aplique os filtros disponíveis e acompanhe os resultados nos gráficos, mapas e tabelas. Confira os avisos de cobertura.</p></li><li><h3>Leve para sua análise</h3><p>Baixe os recortes disponíveis em CSV e use as opções de código R. Consulte a fonte original e cite as transformações realizadas.</p></li></ol></section>
+      <section class="home-section"><p class="eyebrow">NA ROTINA DA ENGENHARIA DE PESCA</p><h2>Informação para estudar, pesquisar e planejar.</h2><div class="home-columns"><article><h3>Estudos e pesquisa</h3><p>Encontre séries e referências para atividades acadêmicas, projetos e trabalhos de conclusão de curso.</p></article><article><h3>Produção e território</h3><p>Observe a evolução da aquicultura e os recortes geográficos disponíveis para apoiar diagnósticos e levantar novas perguntas.</p></article><article><h3>Mercados e oportunidades</h3><p>Acompanhe recortes de exportação e importação de pescado como apoio à análise do setor, respeitando a cobertura de cada base.</p></article></div></section>
+      <section class="home-section home-atlantic"><div><p class="eyebrow">EM DESENVOLVIMENTO</p><h2>Atlantic AI <span>Em breve...</span></h2><p>Uma futura assistente para ajudar a compreender os dados e navegar pelo conhecimento do Atlas. Ainda não está disponível.</p></div></section>
+      <footer class="home-section home-footer"><h2>Dados com origem. Análises com contexto.</h2><p>O Atlas prioriza dados públicos e conjuntos com reutilização autorizada ou licença verificável. Cada fonte mantém suas condições de uso. Gráficos e recortes devem ser interpretados com suas limitações.</p><button type="button" data-scope="policy">Políticas de Dados</button><button type="button" data-scope="method">Metodologia</button></footer>
+    </main>
+
+    <div id="policy-view" class="scope-view" hidden>
+      <article class="policy-document">
+        <p class="eyebrow">TRANSPARÊNCIA · VERSÃO 1.0 · 30/09/2026</p>
+        <h2>Políticas de Dados</h2>
+        <p class="policy-lead">O Atlas do Pescado prioriza dados públicos e conjuntos com reutilização autorizada ou licença verificável, mantendo a identificação das fontes, licenças e condições de uso de cada conjunto.</p>
+        <a class="action-button" href="assets/politica-de-dados-v1.pdf" target="_blank" rel="noopener">Ler política completa (PDF)</a>
+        <a class="action-button" href="assets/politica-de-dados-v1.pdf" download>Baixar PDF</a>
+        <h3>Dados e licenças</h3>
+        <p>A disponibilidade pública de uma informação não equivale a autorização irrestrita de reutilização. Antes de incorporar uma base, a política exige verificar sua origem, licença ou autorização, condições de uso, restrições e atribuição.</p>
+        <p>As condições da fonte original permanecem aplicáveis. A disponibilização pelo Atlas não implica endosso da instituição de origem. Materiais de terceiros devem respeitar suas próprias licenças.</p>
+        <h3>Fontes aceitas e usos proibidos</h3>
+        <p>Podem ser avaliados dados oficiais abertos, bases científicas com licença verificável, bases internacionais com condições próprias e produtos derivados com referência à fonte original.</p>
+        <p>Dados restritos, sigilosos, privados sem autorização, vazados, sob embargo ou sem autorização verificável de reutilização não devem ser incorporados. Baixar uma base ou acessar um artigo não autoriza redistribuir seus dados experimentais.</p>
+        <h3>Proveniência e transformações</h3>
+        <p>Cada conjunto deve registrar instituição, URL original, tipo de acesso, licença, data de acesso, período, cobertura geográfica, versão, atribuição, restrições e condições de redistribuição. Recortes, agregações e conversões devem identificar o processamento realizado pelo Atlas e preservar a autoria original.</p>
+        <h3>Integridade dos resultados</h3>
+        <ul><li>Não transformar ausência de dados em zero.</li><li>Não misturar conceitos incompatíveis ou apresentar estimativas como observações.</li><li>Registrar alterações e conversões, preservar advertências e indicar períodos parciais.</li><li>Não apresentar um recorte como a totalidade da base.</li></ul>
+        <h3>Condições por fonte</h3>
+        <ul><li><strong>MDIC:</strong> utilizar os dados públicos publicados, sem tentar reconstruir informações empresariais protegidas.</li><li><strong>FAO:</strong> preservar atribuição, versão e data de acesso; observar CC BY 4.0, termos adicionais e eventuais restrições de terceiros, conforme a política.</li><li><strong>IBGE:</strong> identificar tabela, código, período, consulta e transformação; verificar restrições específicas de cada conjunto.</li><li><strong>Pesquisas:</strong> distinguir referências bibliográficas dos dados experimentais, cuja incorporação requer licença ou autorização verificável.</li></ul>
+        <h3>Situações previstas na política</h3>
+        <dl><dt>Aprovado</dt><dd>Fonte e condições de reutilização verificadas.</dd><dt>Condicionado</dt><dd>Uso sujeito a condições específicas.</dd><dt>Referência</dt><dd>Pode ser citado ou consultado, sem incorporação dos dados.</dd><dt>Não utilizar</dt><dd>Licença inexistente, restrição incompatível, origem não verificável ou uso não autorizado.</dd></dl>
+        <p>Esta página resume a política do site. A publicação do documento não equivale à certificação de todos os conjuntos do catálogo. Consulte o PDF completo para os critérios, registros previstos e referências oficiais.</p>
+      </article>
+    </div>
+
+    <div id="national-view" class="scope-view" hidden>
+    <div class="workspace">
+      <aside class="filters" aria-label="Filtros de dados">
+        <div class="filter-heading"><h2>Recortes</h2><button id="reset" class="text-button" type="button">Limpar filtros</button></div>
+        <fieldset class="mode-control"><legend>Base de dados</legend><div class="segmented">
+          <button type="button" class="active" data-mode="aq" aria-pressed="true">Aquicultura</button>
+          <button type="button" data-mode="cap" aria-pressed="false">Captura</button>
+        </div></fieldset>
+        <div class="field-grid">
+          <label class="field"><span>Região</span><select id="region"></select></label>
+          <label class="field"><span>Estado</span><select id="uf"></select></label>
+        </div>
+        <div class="field-grid">
+          <label class="field"><span>De</span><select id="from"></select></label>
+          <label class="field"><span>Até</span><select id="to"></select></label>
+        </div>
+        <label class="field"><span>Indicador</span><select id="indicator"></select></label>
+        <div class="species-title"><label for="species-search">Produtos ou espécies</label><span id="selection-count">0/4</span></div>
+        <input id="species-search" type="search" placeholder="Buscar pelo nome" autocomplete="off">
+        <div id="species-list" class="species-list" role="group" aria-label="Selecionar até quatro produtos ou espécies"></div>
+        <p id="selection-help" class="filter-help">Selecione até 4 para comparar séries.</p>
+      </aside>
+
+      <main class="results" id="results">
+        <div class="results-head"><div><p class="eyebrow" id="context-label">IBGE · PPM / SIDRA 3940</p><h2 id="results-title">Produção da aquicultura</h2></div><div class="head-actions"><span id="period-tag" class="period-tag">2018–2024</span><button type="button" id="export-national" class="action-button">Baixar recorte CSV ↓</button></div></div>
+        <div id="coverage-note" class="coverage-note"></div>
+        <div class="metrics" aria-live="polite">
+          <div class="metric"><span>Total no último ano</span><strong id="metric-total">—</strong><small id="metric-unit">toneladas</small></div>
+          <div class="metric"><span>Variação sobre o ano anterior</span><strong id="metric-change">—</strong><small id="metric-change-detail">—</small></div>
+          <div class="metric"><span>Maior série no último ano</span><strong id="metric-leader">—</strong><small id="metric-leader-value">—</small></div>
+        </div>
+
+        <section class="panel chart-panel" aria-labelledby="series-title">
+          <div class="panel-head"><div><p class="eyebrow">EVOLUÇÃO ANUAL</p><h3 id="series-title">Séries comparadas</h3></div><div class="panel-actions"><span id="chart-unit">toneladas</span><button type="button" data-chart-png="chart" class="text-button">Salvar PNG ↓</button></div></div>
+          <div id="legend" class="legend"></div>
+          <div class="chart-wrap"><svg id="chart" viewBox="0 0 820 340" role="img" aria-label="Gráfico de séries temporais"></svg></div>
+          <div id="chart-detail" class="chart-detail" aria-live="polite">Passe o cursor ou use Tab nos pontos para ver os valores.</div>
+        </section>
+
+        <section class="panel analysis-panel" aria-labelledby="national-analysis-title"><div class="panel-head"><div><p class="eyebrow">ANÁLISE DO PERÍODO</p><h3 id="national-analysis-title">Distribuição anual e participação</h3></div><button type="button" data-chart-png="national-boxplot" class="text-button">Salvar PNG ↓</button></div><div class="chart-wrap"><svg id="national-boxplot" viewBox="0 0 820 280" role="img" aria-label="Boxplots das séries selecionadas"></svg></div><p id="national-box-note" class="chart-detail">Resumo dos valores anuais de cada série.</p><div id="national-composition" class="composition"></div></section>
+
+        <section id="state-compare-panel" class="panel analysis-panel"><div class="panel-head"><div><p class="eyebrow">COMPARAÇÃO REGIONAL</p><h3>Compare a evolução entre estados</h3></div><button type="button" data-chart-png="state-compare-chart" class="text-button">Salvar PNG ↓</button></div><p class="panel-subtitle">Soma dos produtos selecionados na aquicultura. A escolha abaixo é independente do filtro de região e UF acima.</p><div class="compare-layout"><div><div class="species-title"><span>Estados</span><span id="compare-count">4/4</span></div><div id="compare-state-list" class="species-list" role="group" aria-label="Selecionar até quatro estados para comparar"></div></div><div><div id="compare-legend" class="legend"></div><div class="chart-wrap"><svg id="state-compare-chart" viewBox="0 0 820 340" role="img" aria-label="Evolução comparada entre estados"></svg></div><p id="compare-detail" class="chart-detail">Passe o cursor ou use Tab nos pontos para ver os valores.</p></div></div></section>
+
+        <section class="panel map-panel" aria-labelledby="map-title">
+          <div class="panel-head"><div><p class="eyebrow">DISTRIBUIÇÃO ESPACIAL</p><h3 id="map-title">Produção por UF</h3></div><label id="map-year-wrap" class="map-year">Ano <select id="map-year"></select></label></div>
+          <p id="map-subtitle" class="panel-subtitle">Soma dos produtos selecionados.</p>
+          <div id="map-content"><svg id="map" viewBox="0 0 560 540" role="img" aria-label="Mapa do Brasil por unidade da federação"></svg><div class="map-scale"><span>Menor valor</span><span class="gradient"></span><span>Maior valor</span></div><p id="map-detail" class="map-detail">Selecione um estado no mapa para filtrar a série.</p></div>
+          <div id="map-unavailable" class="map-unavailable" hidden><span class="no-map-icon">◎</span><strong>Sem localização estadual nesta base</strong><p>Os arquivos de captura usados aqui não trazem uma UF para cada registro. O mapa está disponível na aba Aquicultura.</p></div>
+        </section>
+
+        <section class="panel rank-panel" aria-labelledby="rank-title"><div class="panel-head"><div><p class="eyebrow">DETALHE DO RECORTE</p><h3 id="rank-title">Estados com maior produção</h3></div><span id="rank-year">2024</span></div><div id="ranking" class="ranking"></div></section>
+
+        <section class="sources" aria-labelledby="sources-title"><div class="sources-head"><div><p class="eyebrow">PROVENIÊNCIA E COBERTURA</p><h2 id="sources-title">Fontes dos dados</h2></div><span>Cópias processadas em 27/09/2026</span></div>
+          <div class="source-grid">
+            <article><span class="source-label">AQUICULTURA · 2013–2024</span><h3>IBGE · PPM, tabela SIDRA 3940</h3><p>Produção em kg convertida para toneladas e valor em mil reais convertido para R$ milhões. Recorte por UF e produto. Último ano disponível na cópia: 2024.</p><a href="https://sidra.ibge.gov.br/tabela/3940" target="_blank" rel="noopener noreferrer">Abrir tabela oficial ↗</a></article>
+            <article><span class="source-label">CAPTURA · 2021–2024</span><h3>MPA · Mapas de bordo do pargo</h3><p>Produção (t) por espécie presente nos registros do arquivo. A base inclui captura acessória; seu nome não limita as linhas à espécie pargo. Cópia recebida em 24/09/2026.</p><a href="https://dados.gov.br/dados/conjuntos-dados/base-de-dados-de-captura-da-espcie-pargo" target="_blank" rel="noopener noreferrer">Abrir conjunto oficial ↗</a></article>
+            <article><span class="source-label">CAPTURA · 2022–2025</span><h3>MPA · Sardinha-verdadeira</h3><p>Captura informada em kg, convertida para toneladas. 2025 é parcial nesta cópia. Cópia recebida em 24/09/2026.</p><a href="https://www.gov.br/mpa/pt-br/acesso-a-informacao/dados-abertos-2" target="_blank" rel="noopener noreferrer">Abrir portal oficial ↗</a></article>
+          </div>
+          <p class="method-note">As séries de captura representam apenas os registros presentes nesses dois arquivos, não a produção pesqueira total do Brasil. A base não contém UF. Ausências e dados suprimidos não foram tratados como zero. Valores monetários são nominais. A data de revisão dos arquivos de captura não está identificada nas cópias recebidas. Malha cartográfica: <a href="https://servicodados.ibge.gov.br/api/v4/malhas/paises/BR?formato=application/vnd.geo%2Bjson&qualidade=minima&intrarregiao=UF" target="_blank" rel="noopener noreferrer">IBGE, API de Malhas ↗</a>.</p>
+        </section>
+      </main>
+    </div>
+    </div>
+
+    <div id="trade-view" class="scope-view" hidden>
+      <div class="workspace">
+        <aside class="filters" aria-label="Filtros de comércio exterior">
+          <div class="filter-heading"><h2>Comércio exterior</h2><button id="trade-reset" class="text-button" type="button">Limpar filtros</button></div>
+          <label class="field"><span>Fluxo</span><select id="trade-flow"><option value="both">Exportação e importação</option><option value="exp">Exportação</option><option value="imp">Importação</option></select></label>
+          <div class="field-grid"><label class="field"><span>De</span><select id="trade-from"></select></label><label class="field"><span>Até</span><select id="trade-to"></select></label></div>
+          <label class="field"><span>Indicador</span><select id="trade-metric"><option value="fob">Valor FOB (US$)</option><option value="tonnes">Peso líquido (t)</option></select></label>
+          <label class="field"><span>País parceiro</span><select id="trade-country"></select></label>
+          <label class="field"><span>UF do produto</span><select id="trade-uf"></select></label>
+          <div class="species-title"><label for="trade-product-search">Produto NCM</label><span id="trade-product-badge">Todos</span></div>
+          <input id="trade-product-search" type="search" placeholder="Buscar código ou descrição" autocomplete="off">
+          <div id="trade-product-list" class="intl-species-list" aria-label="Produtos da NCM 03"></div>
+          <p class="filter-help">Escopo: capítulo 03 da NCM (peixes, crustáceos e moluscos).</p>
+        </aside>
+        <main class="results">
+          <div class="results-head"><div><p class="eyebrow">MDIC · COMEX STAT</p><h2>Comércio exterior de pescado</h2></div><div class="head-actions"><span id="trade-period" class="period-tag">2022–2026</span><button id="export-trade" type="button" class="action-button">Baixar recorte CSV ↓</button></div></div>
+          <div id="trade-coverage" class="coverage-note">Carregando dados de comércio exterior…</div>
+          <div class="metrics"><div class="metric"><span>Total no último ano</span><strong id="trade-total">—</strong><small id="trade-total-detail">—</small></div><div class="metric"><span>Variação comparável</span><strong id="trade-change">—</strong><small id="trade-change-detail">—</small></div><div class="metric"><span>Maior país parceiro</span><strong id="trade-leader">—</strong><small id="trade-leader-detail">—</small></div></div>
+          <section class="panel chart-panel"><div class="panel-head"><div><p class="eyebrow">EVOLUÇÃO ANUAL</p><h3>Exportações e importações</h3></div><button type="button" data-chart-png="trade-chart" class="text-button">Salvar PNG ↓</button></div><div id="trade-legend" class="legend"></div><div class="chart-wrap"><svg id="trade-chart" viewBox="0 0 820 340" role="img" aria-label="Séries de comércio exterior"></svg></div><p id="trade-chart-detail" class="chart-detail">Passe o cursor ou use Tab nos pontos.</p></section>
+          <section class="panel map-panel"><div class="panel-head"><div><p class="eyebrow">UF DO PRODUTO</p><h3>Distribuição por estado</h3></div><label class="map-year">Ano <select id="trade-map-year"></select></label></div><p id="trade-map-subtitle" class="panel-subtitle">—</p><svg id="trade-map" viewBox="0 0 560 540" role="img" aria-label="Mapa do comércio por UF do produto"></svg><div class="map-scale"><span>Menor valor</span><span class="gradient"></span><span>Maior valor</span></div><p id="trade-map-detail" class="map-detail">Passe o cursor por um estado.</p></section>
+          <section class="panel rank-panel"><div class="panel-head"><div><p class="eyebrow">PARCEIROS E PRODUTOS</p><h3>Maiores participações</h3></div><span id="trade-rank-year">2026</span></div><div class="trade-rank-grid"><div><h4>Países parceiros</h4><div id="trade-ranking" class="ranking single"></div></div><div><h4>Produtos NCM</h4><div id="trade-products" class="ranking single"></div></div></div></section>
+          <section class="trade-expansion panel">
+            <div class="panel-head"><div><p class="eyebrow">ALÉM DO PAINEL ATUAL</p><h3>Comércio da cadeia completa do pescado</h3></div><button type="button" class="action-button" data-open-area="Comércio exterior">Explorar arquivos oficiais →</button></div>
+            <p>O painel acima contém o capítulo 03. Para estudar conservas, preparações, óleos e farinhas, acesse os arquivos brutos do catálogo. São 70 arquivos anuais de uma mesma base oficial, além do recorte pronto e da referência global da FAO.</p>
+            <div class="trade-guide-grid"><div><h4>Dimensões disponíveis nos arquivos</h4><p>Ano e mês, NCM, país parceiro, UF do produto, transporte, unidade aduaneira, quantidade estatística, peso líquido e valor FOB. Os arquivos municipais usam SH4 e o domicílio fiscal do exportador ou importador.</p><p><strong>Atenção ao escopo:</strong> os arquivos brutos incluem todos os produtos da economia. É necessário filtrar o pescado antes de calcular totais.</p></div>
+            <div class="table-scroll"><table><thead><tr><th>Produto</th><th>Prefixos NCM</th></tr></thead><tbody><tr><td>Peixes, crustáceos e outros animais aquáticos</td><td>03*</td></tr><tr><td>Preparações e conservas de peixe</td><td>1604</td></tr><tr><td>Preparações de crustáceos e moluscos</td><td>1605*</td></tr><tr><td>Óleos de peixe e de fígado de peixe</td><td>150410 / 150420</td></tr><tr><td>Farinhas e pós não destinados à alimentação humana</td><td>230120</td></tr></tbody></table></div></div>
+            <p class="method-note">*O roteiro exclui caracóis não marinhos (03076000 e 16055800). É um recorte operacional, não uma classificação exaustiva de todos os derivados; revise códigos, usos e correspondências históricas. Os dados de 2026 terminam em agosto. Valores unitários FOB/kg não são preços de varejo.</p>
+            <div class="catalog-actions"><a class="download" href="downloads/filtrar-comex-pescado.R" download>Baixar roteiro para RStudio ↓</a><a href="downloads/ncm-pescado-2026.csv" download>Baixar seleção NCM CSV ↓</a><a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/download-ncm-nomenclatura-comum-do-mercosul" target="_blank" rel="noopener noreferrer">Consultar NCM oficial ↗</a></div>
+          </section>
+          <section class="sources"><div class="sources-head"><div><p class="eyebrow">FONTE E LIMITE</p><h2>MDIC · Comex Stat</h2></div><span>Fonte atualizada em 04/09/2026</span></div><p class="method-note">Consulta à API de Dados Gerais do Comex Stat, de 2022 a agosto de 2026. Valores FOB em dólares e peso líquido em toneladas. O ano 2026 é parcial; compare anos completos separadamente. O recorte inclui apenas NCM capítulo 03, sem preparados de outros capítulos. UF significa UF do produto na base geral e país é destino/origem. <a href="https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta" target="_blank" rel="noopener noreferrer">Dados oficiais ↗</a>. Cópia processada em 27/09/2026.</p></section>
+        </main>
+      </div>
+    </div>
+
+    <div id="municipal-view" class="scope-view" hidden>
+      <div class="regional-tabs" role="group" aria-label="Áreas municipais"><button type="button" data-municipal-area="explore" class="active" aria-pressed="true">Explorar municípios</button><button type="button" data-municipal-area="fishing" aria-pressed="false">Pesca e desembarques</button><button type="button" data-municipal-area="regions" aria-pressed="false">Dados abertos por região</button></div>
+      <section id="municipal-fishing-area" class="method-card" hidden aria-labelledby="fishing-title"><h2 id="fishing-title">Pesca e desembarques municipais</h2><p>Registros de pescado por município de desembarque. Consulte a origem e a cobertura de cada fonte.</p><div id="fishing-content" aria-live="polite"></div></section>
+      <section id="regional-area" hidden aria-label="Dados abertos por região">
+        <div class="regional-heading"><div><p class="eyebrow">BRASIL · DADOS TERRITORIAIS</p><h2>Dados abertos por região</h2><p>Escolha um estado, sua região e um município para consultar os dados e suas fontes.</p></div><span class="period-tag">PA · AP · MA · SE · AM · RO</span></div>
+        <p id="regional-status" role="status">Carregando territórios…</p><button id="regional-retry" type="button" hidden>Tentar novamente</button>
+        <div id="regional-content" hidden>
+          <nav id="regional-breadcrumb" aria-label="Caminho territorial"></nav>
+          <div class="regional-layout">
+            <aside class="regional-filters" aria-label="Filtros territoriais">
+              <label>Estado<select id="regional-state"></select></label><label>Região geográfica imediata<select id="regional-region"></select></label><label>Município<select id="regional-municipality"></select></label>
+              <label>Categoria<select id="regional-category"></select></label><label>Indicador<select id="regional-indicator"></select></label><label>Produto ou espécie<select id="regional-product"></select></label><label>Ano / período<select id="regional-year"></select></label><label>Fonte<select id="regional-source"></select></label>
+              <button type="button" id="regional-reset">Voltar ao Brasil</button>
+              <p>Regiões Geográficas Imediatas do IBGE (2017). A região agrupa municípios e não constitui uma fonte independente.</p>
+              <a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/15778-divisoes-regionais-do-brasil.html" target="_blank" rel="noopener noreferrer">Classificação oficial</a>
+            </aside>
+            <div class="regional-results">
+              <section class="panel"><div class="panel-head"><div><p class="eyebrow">RECORTE TERRITORIAL</p><h3 id="regional-title">Brasil</h3></div><span id="regional-updated"></span></div><p id="regional-summary"></p><div id="regional-categories" class="regional-chips"></div><p id="regional-classification"></p>
+                <svg id="regional-map" viewBox="0 0 600 480" role="group" aria-label="Navegação territorial"></svg><p id="regional-map-help"></p>
+              </section>
+              <section class="panel"><h3 id="regional-list-title">Estados disponíveis</h3><label class="regional-search">Buscar território<input type="search" id="regional-search" placeholder="Nome da região ou município"></label><div id="regional-list" class="regional-territories"></div></section>
+              <section class="panel"><div class="panel-head"><h3>Dados abertos disponíveis</h3><div class="regional-downloads"><button type="button" id="regional-csv">Baixar CSV</button><button type="button" id="regional-metadata">Baixar metadados</button><button type="button" id="regional-geodata">Baixar GeoJSON</button></div></div><p id="regional-coverage"></p><div id="regional-data"></div></section>
+              <section class="panel"><h3>Fontes e proveniência</h3><div id="regional-provenance"></div></section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="workspace">
+        <aside class="filters" aria-label="Filtros municipais"><div class="filter-heading"><h2>Aquicultura municipal</h2><button id="municipal-reset" class="text-button" type="button">Limpar filtros</button></div>
+          <label class="field"><span>Estado</span><select id="municipal-uf"></select></label>
+          <label class="field"><span>Produto ou espécie</span><select id="municipal-product"></select></label>
+          <label class="field"><span>Buscar município</span><input id="municipal-search" type="search" placeholder="Ex.: Bragança" autocomplete="off"></label>
+          <p class="filter-help">Mapa de 2024. Clique em um município para isolá-lo no ranking e no download.</p>
+        </aside>
+        <main class="results"><div class="results-head"><div><p class="eyebrow">IBGE · PPM / SIDRA 3940</p><h2 id="municipal-title">Aquicultura nos municípios</h2></div><div class="head-actions"><span class="period-tag">2024</span><button id="export-municipal" type="button" class="action-button">Baixar recorte CSV ↓</button></div></div>
+          <div id="municipal-coverage" class="coverage-note">Carregando dados e malha municipal…</div>
+          <div class="metrics"><div class="metric"><span>Produção no recorte</span><strong id="municipal-total">—</strong><small>toneladas em 2024</small></div><div class="metric"><span>Municípios com dados</span><strong id="municipal-count">—</strong><small>Registros numéricos</small></div><div class="metric"><span>Maior produção</span><strong id="municipal-leader">—</strong><small id="municipal-leader-detail">—</small></div></div>
+          <section class="panel municipal-map-panel"><div class="panel-head"><div><p class="eyebrow">DISTRIBUIÇÃO MUNICIPAL</p><h3 id="municipal-map-title">Pará</h3></div><button data-chart-png="municipal-map" class="text-button" type="button">Salvar PNG ↓</button></div><svg id="municipal-map" viewBox="0 0 600 540" role="img" aria-label="Mapa municipal da aquicultura"></svg><div class="map-scale"><span>Menor valor</span><span class="gradient"></span><span>Maior valor</span></div><p id="municipal-map-detail" class="map-detail">Passe o cursor por um município.</p></section>
+          <section class="panel municipal-rank-panel"><div class="panel-head"><div><p class="eyebrow">DETALHE</p><h3>Municípios em destaque</h3></div><button id="municipal-clear" class="text-button" type="button" hidden>Ver todos</button></div><div id="municipal-ranking" class="ranking single"></div></section>
+          <section class="sources"><div class="sources-head"><div><p class="eyebrow">FONTE E COBERTURA</p><h2>IBGE · aquicultura por município</h2></div><span>Cópia processada em 27/09/2026</span></div><p class="method-note">Tabela 3940 da Pesquisa da Pecuária Municipal, ano 2024. Somamos apenas produtos com unidade quilograma, convertidos para toneladas, sem duplicar o agregado “Peixes”. Dados ausentes ou protegidos não são zero. Geometrias simplificadas da API de Malhas do IBGE. <a href="https://sidra.ibge.gov.br/tabela/3940" target="_blank" rel="noopener noreferrer">Tabela oficial ↗</a>.</p></section>
+        </main>
+      </div>
+    </div>
+
+    <div id="international-view" class="scope-view" hidden>
+      <div class="workspace">
+        <aside class="filters" aria-label="Filtros internacionais">
+          <div class="filter-heading"><h2>Recortes globais</h2><button id="intl-reset" class="text-button" type="button">Limpar filtros</button></div>
+          <fieldset class="mode-control"><legend>Modalidade</legend><div class="segmented">
+            <button type="button" class="active" data-intl-mode="aq" aria-pressed="true">Aquicultura</button>
+            <button type="button" data-intl-mode="cap" aria-pressed="false">Captura</button>
+          </div></fieldset>
+          <label class="field"><span>Continente</span><select id="intl-continent"></select></label>
+          <div class="field-grid"><label class="field"><span>De</span><select id="intl-from"></select></label><label class="field"><span>Até</span><select id="intl-to"></select></label></div>
+          <div class="species-title"><label for="intl-country-search">Países para comparar</label><span id="intl-count">0/4</span></div>
+          <input id="intl-country-search" type="search" placeholder="Buscar país" autocomplete="off">
+          <div id="intl-country-list" class="species-list" role="group" aria-label="Selecionar até quatro países"></div>
+          <p id="intl-country-help" class="filter-help">Selecione até 4 países para as séries.</p>
+          <div class="species-title intl-species-title"><label for="intl-species-search">Espécie ou grupo da FAO</label><span id="intl-species-badge">Todas</span></div>
+          <input id="intl-species-search" type="search" placeholder="Buscar nome em inglês ou código" autocomplete="off">
+          <div id="intl-species-list" class="intl-species-list" role="listbox" aria-label="Resultados de espécies"></div>
+          <p class="filter-help">Nomes das espécies conforme a base original da FAO.</p>
+        </aside>
+
+        <main class="results">
+          <div class="results-head"><div><p class="eyebrow">FAO · FISHSTAT 2026.1.0</p><h2 id="intl-title">Aquicultura mundial</h2></div><div class="head-actions"><span id="intl-period" class="period-tag">2015–2024</span><button id="export-international" type="button" class="action-button">Baixar recorte CSV ↓</button></div></div>
+          <div class="coverage-note" id="intl-coverage">Produção por país e espécie, em toneladas de peso vivo.</div>
+          <div class="metrics" aria-live="polite">
+            <div class="metric"><span>Países selecionados no último ano</span><strong id="intl-total">—</strong><small id="intl-total-detail">toneladas</small></div>
+            <div class="metric"><span>Variação comparável</span><strong id="intl-change">—</strong><small id="intl-change-detail">—</small></div>
+            <div class="metric"><span>Maior país selecionado</span><strong id="intl-leader">—</strong><small id="intl-leader-detail">—</small></div>
+          </div>
+          <section class="panel chart-panel" aria-labelledby="intl-series-title"><div class="panel-head"><div><p class="eyebrow">COMPARAÇÃO INTERNACIONAL</p><h3 id="intl-series-title">Séries por país</h3></div><div class="panel-actions"><span>toneladas</span><button type="button" data-chart-png="intl-chart" class="text-button">Salvar PNG ↓</button></div></div><div id="intl-legend" class="legend"></div><div class="chart-wrap"><svg id="intl-chart" viewBox="0 0 820 340" role="img" aria-label="Gráfico da produção por país"></svg></div><div id="intl-chart-detail" class="chart-detail" aria-live="polite">Passe o cursor ou use Tab nos pontos para ver os valores.</div></section>
+          <section class="panel analysis-panel"><div class="panel-head"><div><p class="eyebrow">ANÁLISE DO PERÍODO</p><h3>Distribuição anual dos países</h3></div><button type="button" data-chart-png="intl-boxplot" class="text-button">Salvar PNG ↓</button></div><div class="chart-wrap"><svg id="intl-boxplot" viewBox="0 0 820 280" role="img" aria-label="Boxplots das séries internacionais"></svg></div><p id="intl-box-note" class="chart-detail">Resumo dos valores anuais de cada país selecionado.</p></section>
+          <section class="panel map-panel" aria-labelledby="world-title"><div class="panel-head"><div><p class="eyebrow">DISTRIBUIÇÃO MUNDIAL</p><h3 id="world-title">Produção por país</h3></div><label class="map-year">Ano <select id="intl-map-year"></select></label></div><p id="world-subtitle" class="panel-subtitle">Todas as espécies.</p><svg id="world-map" viewBox="0 0 840 420" role="img" aria-label="Mapa mundial da produção pesqueira e aquícola"></svg><div class="map-scale"><span>Menor valor</span><span class="gradient"></span><span>Maior valor</span></div><p id="world-detail" class="map-detail">Selecione um país no mapa para comparar sua série.</p></section>
+          <section class="panel rank-panel"><div class="panel-head"><div><p class="eyebrow">DETALHE DO RECORTE</p><h3>Países com maior produção</h3></div><span id="intl-rank-year">2024</span></div><div id="intl-ranking" class="ranking"></div></section>
+          <section class="sources"><div class="sources-head"><div><p class="eyebrow">FONTE E COBERTURA</p><h2>FAO FishStat · produção global</h2></div><span>Atualização da fonte: março de 2026</span></div><p class="method-note">Séries de aquicultura e captura de 2015 a 2024, por país e item de espécie, na medida Q_tlw (toneladas de peso vivo). Entram valores numéricos reportados e estimados pela FAO; registros ausentes não viram zero. O mapa exibe os países presentes na malha Natural Earth 1:110m; pequenas ilhas podem constar nas séries sem polígono visível. <a href="https://www.fao.org/statistics/events/events-detail/global-production.-march-2026-update/en" target="_blank" rel="noopener noreferrer">Publicação da FAO ↗</a> · <a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/" target="_blank" rel="noopener noreferrer">Malha Natural Earth ↗</a>. Cópia processada em 27/09/2026.</p></section>
+        </main>
+      </div>
+    </div>
+
+    <div id="catalog-view" class="scope-view" hidden>
+      <section class="catalog-header"><div><p class="eyebrow">BIBLIOTECA DE DADOS</p><h2>Encontre seu próximo conjunto de dados</h2><p>Dados estatísticos, recortes para análise e pesquisas com licença aberta.</p></div><button id="catalog-export" class="action-button" type="button">Exportar catálogo CSV ↓</button></section>
+      <div id="area-overview" class="area-overview" aria-label="Áreas do catálogo"></div>
+      <div class="catalog-controls expanded-controls">
+        <label class="field"><span>Pesquisar</span><input id="catalog-search" type="search" placeholder="Espécie, tema, instituição ou DOI" autocomplete="off"></label>
+        <label class="field"><span>Área</span><select id="catalog-topic"><option value="all">Todas as áreas</option></select></label>
+        <label class="field"><span>Subtema</span><select id="catalog-subtopic"><option value="all">Todos os subtemas</option></select></label>
+        <label class="field"><span>Acesso</span><select id="catalog-access"><option value="all">Todos</option><option value="prepared">CSV pronto no Atlas</option><option value="research">Dados de pesquisa na fonte</option><option value="portal">Portal / consulta oficial</option></select></label>
+        <label class="field"><span>Abrangência</span><select id="catalog-scale"><option value="all">Todas</option><option value="Brasil">Brasil</option><option value="Mundo">Mundo / estudos locais</option></select></label>
+        <label class="field"><span>Ordenar</span><select id="catalog-sort"><option value="featured">Destaques e dados prontos</option><option value="title">Título A–Z</option><option value="year">Publicação mais recente</option></select></label>
+      </div>
+      <p id="catalog-foundation" class="coverage-note">Arquivos preparados com origem, cobertura e condições de uso identificadas.</p>
+      <section class="coverage-note" aria-label="Dados abertos de pesca">
+        <h3>Explore os dados de pesca</h3>
+        <p>Capturas monitoradas e estimativas de frota e esforço têm coberturas diferentes. Consulte as unidades, a licença e o método antes de combinar as bases.</p>
+        <div class="catalog-actions">
+          <button type="button" class="text-button" data-fishing-topic="Captura e desembarque">Capturas e desembarques</button>
+          <button type="button" class="text-button" data-fishing-topic="Esforço, frota e monitoramento">Frota e esforço</button>
+          <button type="button" class="text-button" data-fishing-topic="Pesca artesanal e comunidades">Pesca artesanal e continental</button>
+          <button type="button" class="text-button" data-fishing-topic="Pesca amadora e esportiva">Pesca amadora e esportiva</button>
+        </div>
+      </section>
+      <div class="catalog-status"><p id="catalog-count" role="status">Carregando catálogo…</p><button id="catalog-reset" class="text-button" type="button">Limpar filtros</button></div>
+      <div id="catalog-results" class="catalog-results" aria-live="polite"></div>
+      <nav id="catalog-pagination" class="catalog-pagination" aria-label="Páginas do catálogo"></nav>
+      <p class="method-note catalog-note">Um item pode ser uma base original ou um recorte identificado de uma mesma base. Pesquisas mantêm seus arquivos no repositório de origem; formatos, cobertura e tamanho variam. Exportar o catálogo baixa os metadados e os links, não os dados experimentais. A licença de cada conjunto é informada pela fonte.</p>
+    </div>
+
+    <div id="technology-view" class="scope-view" hidden>
+      <section class="catalog-header"><div><p class="eyebrow">DO DESEMBARQUE AO PRODUTO</p><h2>Tecnologia do pescado</h2><p>Conservação, processamento, qualidade, segurança e aproveitamento de resíduos.</p></div><button class="action-button" data-open-area="Tecnologia do pescado" type="button">Explorar dados de pesquisa →</button></section>
+      <div id="technology-topics" class="technology-grid"></div>
+      <section class="tech-references"><div class="section-heading"><p class="eyebrow">REFERÊNCIAS PARA COMEÇAR</p><h3>Manuais e portais técnicos</h3></div><div id="technology-references" class="catalog-results"></div></section>
+    </div>
+
+    <div id="news-view" class="scope-view" hidden>
+      <section class="catalog-header"><div><p class="eyebrow">ACOMPANHE O SETOR</p><h2>Notícias e publicações</h2><p>Seleção de fontes institucionais sobre pesca, aquicultura, comércio e inovação.</p></div><span>Seleção consultada em 28/09/2026</span></section>
+      <div class="news-toolbar"><label class="field"><span>Filtrar assunto</span><select id="news-topic"><option value="all">Todos os assuntos</option><option>Pesca</option><option>Aquicultura</option><option>Comércio exterior</option><option>Tecnologia do pescado</option></select></label><p>Esta seleção é editorial, sem atualização automática. Consulte os canais oficiais para novas notícias.</p></div>
+      <div id="news-results" class="news-grid" aria-live="polite"></div>
+      <section class="news-channels"><h3>Continue acompanhando nas fontes</h3><div id="news-channels"></div></section>
+    </div>
+
+    <div id="method-view" class="scope-view" hidden>
+      <section class="catalog-header"><div><p class="eyebrow">TRANSPARÊNCIA DOS DADOS</p><h2>Metodologia e referências</h2><p>Como interpretar, reproduzir e citar as séries do Atlas.</p></div><span>Cópias preparadas em 27/09/2026</span></section>
+      <section class="license-policy"><h3>Dados abertos com permissão de reutilização</h3><p>O catálogo aceita conjuntos com licença aberta explícita ou autorização pública verificável. Os dados de pesquisa informam a licença declarada pelo repositório; itens marcados como restritos, em embargo ou sem licença aberta ficam fora da seleção. Cada ficha contém a evidência de permissão, fonte e autoria. CC BY exige atribuição; CC BY-SA também exige compartilhamento de adaptações sob a mesma licença. Preserve a versão e indique as transformações feitas.</p><p>Dados estatísticos da FAO seguem <a href="https://www.fao.org/contact-us/terms/db-terms-of-use/" target="_blank" rel="noopener noreferrer">CC BY 4.0 e os termos das bases FAO</a>, salvo indicação específica. As bases oficiais federais aqui usadas têm autorização de livre utilização no <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm" target="_blank" rel="noopener noreferrer">art. 4º do Decreto 8.777/2016</a>. A fonte original permanece responsável pelos dados; o Atlas identifica seus recortes e não sugere endosso institucional.</p><p>O catálogo lista bases, estudos e arquivos anuais: várias entradas podem pertencer à mesma fonte. Para pesquisas, o ano mostrado é o da publicação, não necessariamente o da coleta. Notícias e manuais são referências externas com resumos próprios; não compõem a contagem de dados nem recebem automaticamente a licença dos conjuntos.</p></section>
+      <div class="method-grid">
+        <article class="method-card"><h3>O que significam os indicadores?</h3><table><thead><tr><th>Indicador</th><th>Unidade e cálculo</th></tr></thead><tbody><tr><td>Aquicultura IBGE</td><td>kg ÷ 1.000 = toneladas; valor em mil R$ ÷ 1.000 = R$ milhões nominais.</td></tr><tr><td>Captura MPA</td><td>Soma dos registros de pargo e sardinha disponíveis, em toneladas. Não representa a captura total do Brasil.</td></tr><tr><td>Produção FAO</td><td>Q_tlw: toneladas de peso vivo por país, ano e espécie ou grupo.</td></tr><tr><td>Comércio MDIC</td><td>Peso líquido em kg ÷ 1.000 = toneladas; valor em dólares FOB. Apenas NCM capítulo 03.</td></tr></tbody></table></article>
+        <article class="method-card"><h3>Como os dados foram tratados?</h3><p>Um traço (—) indica ausência de observação comparável. Dados ausentes, suprimidos ou não aplicáveis não são convertidos em zero. Os percentuais de variação usam somente séries com valores nos dois anos. Na aquicultura municipal somamos produtos em kg sem incluir agregados que duplicariam seus componentes.</p><p>As bases têm conceitos e coberturas distintos. A produção de captura presente nos arquivos do MPA não equivale ao total da FAO; séries do IBGE e da FAO não devem ser somadas como se fossem a mesma medida. 2025 na captura da sardinha e 2026 no comércio são parciais.</p></article>
+        <article class="method-card"><h3>Referências para citar</h3><p><strong>IBGE.</strong> Produção da aquicultura, por tipo de produto: tabela 3940. SIDRA. Disponível em: <a href="https://sidra.ibge.gov.br/tabela/3940" target="_blank" rel="noopener noreferrer">sidra.ibge.gov.br/tabela/3940</a>. Acesso em: 27 set. 2026.</p><p><strong>FAO.</strong> Global production: March 2026 update. FishStat 2026.1.0. Disponível em: <a href="https://www.fao.org/statistics/events/events-detail/global-production.-march-2026-update/en" target="_blank" rel="noopener noreferrer">fao.org/statistics/events</a>. Acesso em: 27 set. 2026.</p><p><strong>MDIC.</strong> Estatísticas de Comércio Exterior em Dados Abertos. Comex Stat. Disponível em: <a href="https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta" target="_blank" rel="noopener noreferrer">gov.br/mdic · base de dados bruta</a>. Acesso em: 27 set. 2026.</p><p><strong>MPA.</strong> Dados abertos da pesca e aquicultura: registros de captura do pargo e da sardinha-verdadeira. Disponível em: <a href="https://www.gov.br/mpa/pt-br/acesso-a-informacao/dados-abertos-2" target="_blank" rel="noopener noreferrer">gov.br/mpa · dados abertos</a>. Acesso em: 27 set. 2026.</p></article>
+        <article class="method-card"><h3>Dicionário e reprodução</h3><p>Os CSVs preservam ano, localização, item e medida em colunas separadas. No comércio, <code>valor_fob_usd</code> é o valor em dólar, <code>peso_liquido_kg</code> é o peso em kg e <code>ncm</code> é a classificação do produto. Na FAO, <code>codigo_fao_especie</code> identifica o item original. O catálogo contém os recortes preparados e links das fontes para consulta completa.</p><p>Para citar uma visualização, informe a fonte indicada no painel, o recorte aplicado e a data de acesso ao Atlas. As cópias aqui apresentadas foram processadas em 27/09/2026.</p></article>
+      </div>
+    </div>
+  </div>
+  <script src="data-query.js" defer></script>
+  <script src="query-artifacts.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="extensions.js" defer></script>
+  <script src="improvements.js" defer></script>
+  <script src="atlas.js" defer></script>
+  <script src="assistant.js" defer></script>
+  <script src="navigation.js" defer></script>
+  <script src="home.js" defer></script>
+  <script src="technical.js" defer></script>
+  <script src="regions-core.js" defer></script>
+  <script src="regions.js" defer></script>
+  <script src="fishing-analysis-core.js" defer></script>
+  <script src="fishing-analysis.js" defer></script>
+  <script src="municipal-fishing.js" defer></script>
+</body>
+</html>

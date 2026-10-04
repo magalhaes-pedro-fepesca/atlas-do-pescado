@@ -1,0 +1,40 @@
+{
+  "id": "fao-aquicultura",
+  "title": "Aquicultura mundial por país e espécie",
+  "source": "https://www.fao.org/statistics/events/events-detail/global-production.-march-2026-update/en",
+  "license": "CC BY 4.0 + termos FAO",
+  "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/",
+  "coverage": "2015–2024",
+  "notes": "Recorte processado pelo Atlas em 27/09/2026. Não representa uma nova fonte independente. Preserve a atribuição à fonte original e identifique conversões, filtros e agregações.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "cdaa6f0b9b3cdc6facf7d0437b851ff66a8a2ab230bcf436c2c59f5328c42abd",
+    "duplicate_rows": 0,
+    "columns": [
+      "modalidade",
+      "ano",
+      "pais_iso3",
+      "pais",
+      "continente",
+      "codigo_fao_especie",
+      "especie_ou_grupo",
+      "toneladas_peso_vivo"
+    ],
+    "dictionary": {
+      "modalidade": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "ano": "Ano de referência da observação.",
+      "pais_iso3": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "pais": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "continente": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "codigo_fao_especie": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "especie_ou_grupo": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "toneladas_peso_vivo": "Campo preservado da cópia preparada; consultar a metodologia da fonte."
+    }
+  },
+  "parent_dataset_id": null,
+  "prepared_at": "2026-09-27",
+  "input_file": null,
+  "reproduction": "Consultar os scripts originais build-*.py; arquivos brutos não estão neste checkout."
+}

@@ -1,0 +1,1898 @@
+{
+  "retrieved": "2026-09-28",
+  "government_authorization": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "fao_terms": "https://www.fao.org/contact-us/terms/db-terms-of-use/",
+  "datacite_metadata_terms": "https://datacite.org/terms.html",
+  "research": [
+    {
+      "doi": "10.6084/m9.figshare.33940618.v1",
+      "title": "An Integrated Data-Poor Assessment Framework to Improve Confidence in Fish Stock Assessment: Evidence from Kaptai Lake, Bangladesh",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.33940618.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.33940618.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22stock+assessment%22+OR+%22fish+stocks%22+OR+%22fish+stock%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.4226/77/57df1a92a070a",
+      "title": "Global Fisheries Landings",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.4226/77/57df1a92a070a",
+      "source": "https://doi.org/10.4226/77/57df1a92a070a",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.25959/mngy-0q43",
+      "title": "Global Fishing Effort",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.25959/mngy-0q43",
+      "source": "https://doi.org/10.25959/mngy-0q43",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.11193155",
+      "title": "IHH - Contributions of Small-scale Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.11193155",
+      "source": "https://doi.org/10.5281/zenodo.11193155",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.11583/dtu.30244585.v1",
+      "title": "Trawl selectivity dataset - LowFlow codend",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.11583/dtu.30244585.v1",
+      "source": "https://doi.org/10.11583/dtu.30244585.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.33190599",
+      "title": "Africa Inland Fisheries Data",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.33190599",
+      "source": "https://doi.org/10.6084/m9.figshare.33190599",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.10694781",
+      "title": "Dataset for  detecting fishing vessels and fishs",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.10694781",
+      "source": "https://doi.org/10.5281/zenodo.10694781",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/jnxhwjzywp",
+      "title": "Tanzanian Small-Scale Fisheries Survey Data",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/jnxhwjzywp",
+      "source": "https://doi.org/10.17632/jnxhwjzywp",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.914393",
+      "title": "Sea trials datasets for the evaluation of trawl selectivity in the multispecific Maltese fisheries case",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.914393",
+      "source": "https://doi.org/10.1594/pangaea.914393",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.4211/hs.de4190f0eff74b09a5e0844a0de482a5",
+      "title": "Global Inland Fisheries Expert Survey",
+      "license": "This resource is shared under the Creative Commons Attribution CC BY.",
+      "metadata": "https://api.datacite.org/dois/10.4211/hs.de4190f0eff74b09a5e0844a0de482a5",
+      "source": "https://doi.org/10.4211/hs.de4190f0eff74b09a5e0844a0de482a5",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.1168832",
+      "title": "Fishing Activities And Trajectories For 2 Fishing Vessels",
+      "license": "Creative Commons Attribution 4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.1168832",
+      "source": "https://doi.org/10.5281/zenodo.1168832",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15167214",
+      "title": "Benthic assessment of fishing impacts from mobile bottom-contacting fishing gear in EU waters",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15167214",
+      "source": "https://doi.org/10.5281/zenodo.15167214",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.16879355",
+      "title": "fish data and fish stock variation",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.16879355",
+      "source": "https://doi.org/10.5281/zenodo.16879355",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22stock+assessment%22+OR+%22fish+stocks%22+OR+%22fish+stock%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.7372718",
+      "title": "Small-scale fisheries of the US (2013-2017)",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.7372718",
+      "source": "https://doi.org/10.5281/zenodo.7372718",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.mv59665",
+      "title": "Data from: Catch diversification provides multiple benefits in inland fisheries",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.mv59665",
+      "source": "https://doi.org/10.5061/dryad.mv59665",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.2542918",
+      "title": "RAM Legacy Stock Assessment Database v4.44",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.2542918",
+      "source": "https://doi.org/10.5281/zenodo.2542918",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22stock+assessment%22+OR+%22fish+stocks%22+OR+%22fish+stock%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695620",
+      "title": "Fish landings in 1992, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695620",
+      "source": "https://doi.org/10.1594/pangaea.695620",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695623",
+      "title": "Fish landings in 1995, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695623",
+      "source": "https://doi.org/10.1594/pangaea.695623",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/h25yhb2398.1",
+      "title": "Data for: Evaluating Alternatives to Reduce Whale Entanglements in Commercial Dungeness Crab Fishing Gear",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/h25yhb2398.1",
+      "source": "https://doi.org/10.17632/h25yhb2398.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.22153716",
+      "title": "A harmonised evidence, production and spatial dataset for West African inland fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.22153716",
+      "source": "https://doi.org/10.5281/zenodo.22153716",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.sj3tx961j",
+      "title": "Pre-closure fishing pressure predicts effects of marine protected areas",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.sj3tx961j",
+      "source": "https://doi.org/10.5061/dryad.sj3tx961j",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695621",
+      "title": "Fish landings in 1993, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695621",
+      "source": "https://doi.org/10.1594/pangaea.695621",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.48364/isimip.240282",
+      "title": "ISIMIP3a reconstructed fishing activity data",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.48364/isimip.240282",
+      "source": "https://doi.org/10.48364/isimip.240282",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.6075447",
+      "title": "Small-scale fisheries adaptations understudied in climate change hotspots - database",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.6075447",
+      "source": "https://doi.org/10.5281/zenodo.6075447",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695625",
+      "title": "Fish landings in 1997, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695625",
+      "source": "https://doi.org/10.1594/pangaea.695625",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.914416",
+      "title": "Summary for sea trials datasets for the evaluation of trawl selectivity in the multispecific Maltese fisheries case",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.914416",
+      "source": "https://doi.org/10.1594/pangaea.914416",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.20350/digitalcsic/18399",
+      "title": "Fishing pressure induces changes in DNA methylation in genetically homogeneous marine metapopulations [Dataset]",
+      "license": "openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.20350/digitalcsic/18399",
+      "source": "https://doi.org/10.20350/digitalcsic/18399",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.53934",
+      "title": "Boats-Global-Fisheries-Economics-Model-Dataset-Carozza-Et-Al-2016",
+      "license": "Creative Commons Attribution 4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.53934",
+      "source": "https://doi.org/10.5281/zenodo.53934",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+economics%22+OR+%22fish+consumption%22+OR+%22fisheries+livelihoods%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695622",
+      "title": "Fish landings in 1994, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695622",
+      "source": "https://doi.org/10.1594/pangaea.695622",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.cz8w9gjfn",
+      "title": "Data from: Unobserved individual and population level impacts of fishing gear entanglements on North Atlantic right whales",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.cz8w9gjfn",
+      "source": "https://doi.org/10.5061/dryad.cz8w9gjfn",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15235361",
+      "title": "Supplementary data for \"Conservation, Management, and Policy Approaches to Inland Fisheries in Türkiye\"",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15235361",
+      "source": "https://doi.org/10.5281/zenodo.15235361",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.fxpnvx0sh",
+      "title": "Data from: Larval dispersal and fishing pressure influence recruitment in a coral reef fishery",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.fxpnvx0sh",
+      "source": "https://doi.org/10.5061/dryad.fxpnvx0sh",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695624",
+      "title": "Fish landings in 1996, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695624",
+      "source": "https://doi.org/10.1594/pangaea.695624",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15026433",
+      "title": "Plastic Fishing Gear Losses in the Southwestern Waters of Vietnam – Survey based Performance and Perception of Fishermen",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15026433",
+      "source": "https://doi.org/10.5281/zenodo.15026433",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.0p2ngf1z7",
+      "title": "Modelled spatiotemporally explicit fish densities at different fisheries management scenarios",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.0p2ngf1z7",
+      "source": "https://doi.org/10.5061/dryad.0p2ngf1z7",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/bmnjps",
+      "title": "Malaita fish catch survey",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/bmnjps",
+      "source": "https://doi.org/10.7910/dvn/bmnjps",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/1z63at",
+      "title": "Geopolitical risks and sustainable seas: Insight from the impact of geopolitical conflict on fisheries sustainability",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/1z63at",
+      "source": "https://doi.org/10.7910/dvn/1z63at",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0v40sc1",
+      "title": "Potential Fishing Effort in the Gulf of California. In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0v40sc1",
+      "source": "https://doi.org/10.6075/j0v40sc1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.19758136",
+      "title": "Empowering Coastal Communities through the Blue Economy:  A Qualitative Study of Fisheries Sustainability in Indonesia",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.19758136",
+      "source": "https://doi.org/10.5281/zenodo.19758136",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/5f89cf978g",
+      "title": "Data for: Forests and freshwater fish consumption in Nigeria",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/5f89cf978g",
+      "source": "https://doi.org/10.17632/5f89cf978g",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+economics%22+OR+%22fish+consumption%22+OR+%22fisheries+livelihoods%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0zs2tq5",
+      "title": "Bahia Magdalena fisheries landings 1997-2015. In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0zs2tq5",
+      "source": "https://doi.org/10.6075/j0zs2tq5",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.611447",
+      "title": "Fish landings in Puerto Casma in 2004, Peru",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.611447",
+      "source": "https://doi.org/10.1594/pangaea.611447",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0rv0kx1",
+      "title": "Predicted Fishing Effort in the Gulf of California. In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0rv0kx1",
+      "source": "https://doi.org/10.6075/j0rv0kx1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.7pvmcvf6k",
+      "title": "Long-term perceptions of freshwater anglers about abandoned, lost or discarded fishing gear during their fishing careers",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.7pvmcvf6k",
+      "source": "https://doi.org/10.5061/dryad.7pvmcvf6k",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.21335/nmdc-416643420",
+      "title": "Fish catch, stock abundance and harvest rates",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.21335/nmdc-416643420",
+      "source": "https://doi.org/10.21335/nmdc-416643420",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.23504055.v1",
+      "title": "HMAP Dataset 22: Catch and Fishing Effort in the Limfjord Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.23504055.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.23504055.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.681428",
+      "title": "Monthly landings of the artisanal fisheries, 1998, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.681428",
+      "source": "https://doi.org/10.1594/pangaea.681428",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.p8p8q",
+      "title": "Data from: Recovery linked to life history of sessile epifauna following exclusion of towed mobile fishing gear",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.p8p8q",
+      "source": "https://doi.org/10.5061/dryad.p8p8q",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.25903/4zas-ct62",
+      "title": "Data for: Hidden benefits and risks of partial protection for coral reef fisheries",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "metadata": "https://api.datacite.org/dois/10.25903/4zas-ct62",
+      "source": "https://doi.org/10.25903/4zas-ct62",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j07s7kzs",
+      "title": "National Fisheries Landings and Aquaculture Production, 2006-2014 (Conapesca). In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j07s7kzs",
+      "source": "https://doi.org/10.6075/j07s7kzs",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15221426",
+      "title": "Bird bycatch data",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15221426",
+      "source": "https://doi.org/10.5281/zenodo.15221426",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.7774819",
+      "title": "Data and code for 'Sustained productivity and the persistence of coral reef fisheries'",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.7774819",
+      "source": "https://doi.org/10.5281/zenodo.7774819",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.20350/digitalcsic/17621",
+      "title": "The projected impacts of climate change and fishing pressure on a tropical marine food web [Dataset]",
+      "license": "openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.20350/digitalcsic/17621",
+      "source": "https://doi.org/10.20350/digitalcsic/17621",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.25349/d9m907",
+      "title": "The CALFISH database: A century of California's non-confidential fisheries landings and participation data",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.25349/d9m907",
+      "source": "https://doi.org/10.25349/d9m907",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/d4ae11",
+      "title": "Impact of Geopolitical Conflicts on Fisheries Sustainability: A Comparative Analysis Pre and Post Russo-Ukrainian War",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/d4ae11",
+      "source": "https://doi.org/10.7910/dvn/d4ae11",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0bp019w",
+      "title": "Gulf of Mexico and Mexican Caribbean Fisheries Landings 2000 - 2017 (conapesca). In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0bp019w",
+      "source": "https://doi.org/10.6075/j0bp019w",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.18393585",
+      "title": "Heterogeneity in adaptive capacity determines landing stability in small-scale fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.18393585",
+      "source": "https://doi.org/10.5281/zenodo.18393585",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22small-scale+fisheries%22+OR+%22artisanal+fisheries%22+OR+%22fishing+communities%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.8sf7m0csr",
+      "title": "Data from: Hazard and catch composition of ghost fishing gear revealed by a citizen science clean-up initiative",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.8sf7m0csr",
+      "source": "https://doi.org/10.5061/dryad.8sf7m0csr",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5258/soton/d2358",
+      "title": "Dataset FSBI Paper 2 - Future advances in UK marine fisheries policy",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5258/soton/d2358",
+      "source": "https://doi.org/10.5258/soton/d2358",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/ntprfhdypn",
+      "title": "Historical fish landings in the lower Amazon region from 2011 to 2021",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/ntprfhdypn",
+      "source": "https://doi.org/10.17632/ntprfhdypn",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+catch%22+OR+%22fish+catch%22+OR+%22fish+landings%22+OR+%22fisheries+landings%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.611065",
+      "title": "Relationship between fishing effort and catch of Concholepas concholepas in 1993, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.611065",
+      "source": "https://doi.org/10.1594/pangaea.611065",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.13821113",
+      "title": "Table 1 in Chronic stress from fishing gear entanglement is recorded in baleen from a bowhead whale (Balaena mysticetus)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.13821113",
+      "source": "https://doi.org/10.5281/zenodo.13821113",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28bycatch+OR+%22fishing+gear%22+OR+%22trawl+selectivity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.19571875",
+      "title": "Climate-driven community reorganization leads to functional downgrading in African marine fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.19571875",
+      "source": "https://doi.org/10.5281/zenodo.19571875",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.5bk66",
+      "title": "Data from: Detection of outlier loci and their utility for fisheries management",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.5bk66",
+      "source": "https://doi.org/10.5061/dryad.5bk66",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.614587",
+      "title": "Relationship between fishing effort and catch of Concholepas concholepas in 1996, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.614587",
+      "source": "https://doi.org/10.1594/pangaea.614587",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.21877324",
+      "title": "The role of journalism in promoting fish consumption: a study in southern Brazil",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.21877324",
+      "source": "https://doi.org/10.5281/zenodo.21877324",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+economics%22+OR+%22fish+consumption%22+OR+%22fisheries+livelihoods%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.s6f4q",
+      "title": "Data from: Marine soundscape shaped by fishing activity",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.s6f4q",
+      "source": "https://doi.org/10.5061/dryad.s6f4q",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.2636744",
+      "title": "The Small World of Global Marine Fisheries: The Cross-Boundary Consequences of Larval Dispersal",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.2636744",
+      "source": "https://doi.org/10.5281/zenodo.2636744",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22reef+fisheries%22+OR+%22inland+fisheries%22+OR+%22marine+fisheries%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0d798sm",
+      "title": "Fishing subsidies in Mexico: Program to support fisheries management projects. In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0d798sm",
+      "source": "https://doi.org/10.6075/j0d798sm",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fisheries+management%22+OR+%22fishing+pressure%22+OR+%22fisheries+sustainability%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6075/j0w957jk",
+      "title": "Fishing vessels monitored monthly in the Pacific and Gulf of Mexico. In dataMares: Fisheries",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6075/j0w957jk",
+      "source": "https://doi.org/10.6075/j0w957jk",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%22fishing+effort%22+OR+%22fishing+vessels%22+OR+%22fishing+activity%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/k6lkin",
+      "title": "Myanmar Integrated rice fish farming suitability model database",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/k6lkin",
+      "source": "https://doi.org/10.7910/dvn/k6lkin",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/s76jfwj2x2.1",
+      "title": "Alternative feed components to replace fishmeal and fish oil in carp feed",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/s76jfwj2x2.1",
+      "source": "https://doi.org/10.17632/s76jfwj2x2.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.14777885",
+      "title": "Comparing continuous and perfusion cultivation of microalgae on recirculating aquaculture system effluent water",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.14777885",
+      "source": "https://doi.org/10.5281/zenodo.14777885",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/x3fz2nfm4w.1",
+      "title": "SalmonScan: A Novel Image Dataset for Fish Disease Detection in Salmon Aquaculture System",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/x3fz2nfm4w.1",
+      "source": "https://doi.org/10.17632/x3fz2nfm4w.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/xaa5tv",
+      "title": "Replication data for: Domestication in Aquaculture Fishes- Elucidating the Genetic Consequences in Nile Tilapia (Oreochromis niloticus)",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/xaa5tv",
+      "source": "https://doi.org/10.7910/dvn/xaa5tv",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/jvw4yjmv7s.1",
+      "title": "Hydrodynamic characteristics of a partitioned recirculating aquaculture pond",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/jvw4yjmv7s.1",
+      "source": "https://doi.org/10.17632/jvw4yjmv7s.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.12933677.v1",
+      "title": "State Oyster Aquaculture Data",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.12933677.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.12933677.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.7560521",
+      "title": "Scottish Salmon Disease Management Areas (Shapefile)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.7560521",
+      "source": "https://doi.org/10.6084/m9.figshare.7560521",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/7hzcs3848w.1",
+      "title": "Bacteria carbon sink in oyster aquaculture",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/7hzcs3848w.1",
+      "source": "https://doi.org/10.17632/7hzcs3848w.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6071/m3vd5v",
+      "title": "Data and code for: Microalgae-blend tilapia feed eliminates fishmeal and fish oil, improves growth, and is cost viable",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.6071/m3vd5v",
+      "source": "https://doi.org/10.6071/m3vd5v",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/vckpsm",
+      "title": "Localized impact of aquaculture effluent on Red Sea coral reef water nutrients and microorganisms",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/vckpsm",
+      "source": "https://doi.org/10.15468/vckpsm",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.8f57ck3",
+      "title": "Data from: Sequential infection can decrease virulence in a fish-bacterium-fluke interaction: implications for aquaculture disease management",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.8f57ck3",
+      "source": "https://doi.org/10.5061/dryad.8f57ck3",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.25903/2yve-a322",
+      "title": "Genetic diversity in coral aquaculture",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "metadata": "https://api.datacite.org/dois/10.25903/2yve-a322",
+      "source": "https://doi.org/10.25903/2yve-a322",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.11193181",
+      "title": "Tilapia genetic diversity across the Lake Victoria Basin",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.11193181",
+      "source": "https://doi.org/10.5281/zenodo.11193181",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.8343851",
+      "title": "Low Greenhouse Gas Emissions from Oyster Aquaculture - dataset.xlsx",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.8343851",
+      "source": "https://doi.org/10.6084/m9.figshare.8343851",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.14286/ajqudl",
+      "title": "SPG - Atlantic salmon migration, survival and disease",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.14286/ajqudl",
+      "source": "https://doi.org/10.14286/ajqudl",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.26188/33172919.v1",
+      "title": "DATA - DRIVERS OF ELECTRICAL ENERGY CONSUMPTION IN RECIRCULATING AQUACULTURE SYSTEMS",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.26188/33172919.v1",
+      "source": "https://doi.org/10.26188/33172919.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/y78ty2g293.1",
+      "title": "Aquaculture - Water Quality Dataset",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/y78ty2g293.1",
+      "source": "https://doi.org/10.17632/y78ty2g293.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.14497566",
+      "title": "Coastal silicon cycling amplified by oyster aquaculture - dataset",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.14497566",
+      "source": "https://doi.org/10.6084/m9.figshare.14497566",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.14457279.v1",
+      "title": "Additional file 4 of Salmon gut microbiota correlates with disease infection status: potential for monitoring health in farmed animals",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.14457279.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.14457279.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.12174636",
+      "title": "Sediment biogeochemistry along an oyster aquaculture chronoseqence - flux dataset",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.12174636",
+      "source": "https://doi.org/10.6084/m9.figshare.12174636",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/sxxs9u",
+      "title": "Rice Fish farming data in the Ziro Valley of North East India",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/sxxs9u",
+      "source": "https://doi.org/10.7910/dvn/sxxs9u",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.13371355",
+      "title": "Colony forming unit (CFU) data accompanying publication: Bacterial microbiome dynamics in commercial integrated aquaculture systems growing Ulva in abalone effluent water.",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.13371355",
+      "source": "https://doi.org/10.5281/zenodo.13371355",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/trwjc4svhp",
+      "title": "Pectic hydrolysates in the diet of Nile tilapia",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/trwjc4svhp",
+      "source": "https://doi.org/10.17632/trwjc4svhp",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/5pxxcr9927",
+      "title": "Shorebird habitat use in oyster aquaculture & eelgrass, Grays Harbor, WA (USA)",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/5pxxcr9927",
+      "source": "https://doi.org/10.17632/5pxxcr9927",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/hxd382z2fg",
+      "title": "A Real-Time Dataset of Pond Water for Fish Farming using IoT devices",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/hxd382z2fg",
+      "source": "https://doi.org/10.17632/hxd382z2fg",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.12177924",
+      "title": "Additional file 2 of Effects of hydrolyzed fish protein and autolyzed yeast as substitutes of fishmeal in the gilthead sea bream (Sparus aurata) diet, on fish intestinal microbiome",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.12177924",
+      "source": "https://doi.org/10.6084/m9.figshare.12177924",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/wmkky6pjbg.1",
+      "title": "Data for: Implementation of an easily reconfigurable dynamic simulator for Recirculating Aquaculture Systems",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/wmkky6pjbg.1",
+      "source": "https://doi.org/10.17632/wmkky6pjbg.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/d8vgk47fnz",
+      "title": "Intertidal eelgrass (Zostera marina) resilience traits in oyster aquaculture, US west coast",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/d8vgk47fnz",
+      "source": "https://doi.org/10.17632/d8vgk47fnz",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.17834530",
+      "title": "Use of Two Designs of Oyster Aquaculture Cage by Temperate Reef Fish",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.17834530",
+      "source": "https://doi.org/10.5281/zenodo.17834530",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.18710/uxh02f/qcb1j5",
+      "title": "Suppl. B04. Fish feed 2.txt",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.18710/uxh02f/qcb1j5",
+      "source": "https://doi.org/10.18710/uxh02f/qcb1j5",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.21872370",
+      "title": "Growth and yield response of African indigenous vegetables to fish effluent water and black soldier fly frass in an integrated aquaculture-agriculture system dataset",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.21872370",
+      "source": "https://doi.org/10.5281/zenodo.21872370",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.20208476",
+      "title": "Thermal Limits Across Development and Reproduction in the ditch shrimp Palaemon varians",
+      "license": "cc-by-4.0; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.20208476",
+      "source": "https://doi.org/10.5281/zenodo.20208476",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/jyoiza",
+      "title": "Sustainable livelihood outcomes of transitioning from rice monocropping to integrated rice-fish farming",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/jyoiza",
+      "source": "https://doi.org/10.7910/dvn/jyoiza",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/t4yhju",
+      "title": "2023 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Pembrokeshire Sediment Sampling Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/t4yhju",
+      "source": "https://doi.org/10.15468/t4yhju",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15222009",
+      "title": "Time-frequency analysis reveals that seaweed farming enhances phytoplankton resilience under ENSO event",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15222009",
+      "source": "https://doi.org/10.5281/zenodo.15222009",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.8sf7m0cj0",
+      "title": "Understanding the fate of shrimp aquaculture effluent in a mangrove ecosystem: aiding management for coastal conservation",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.8sf7m0cj0",
+      "source": "https://doi.org/10.5061/dryad.8sf7m0cj0",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.bk3j9kd6m",
+      "title": "Data from: Genetic diversity of Nile tilapia (Oreochromis niloticus) throughout West Africa",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.bk3j9kd6m",
+      "source": "https://doi.org/10.5061/dryad.bk3j9kd6m",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.p9m57n7",
+      "title": "Data from: High-density cultivation of microalgae continuously fed with unfiltered water from a recirculating aquaculture system",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.p9m57n7",
+      "source": "https://doi.org/10.5061/dryad.p9m57n7",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7280/d13h59",
+      "title": "Data for: Economic and biophysical limits to seaweed farming for climate change mitigation",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7280/d13h59",
+      "source": "https://doi.org/10.7280/d13h59",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.23729/74717234-b33b-4eed-acd7-ef29b981728d",
+      "title": "Potential fish farming areas in Finnish government owned water areas",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); Creative Commons Nimeä 4.0 Kansainvälinen (CC BY 4.0)",
+      "metadata": "https://api.datacite.org/dois/10.23729/74717234-b33b-4eed-acd7-ef29b981728d",
+      "source": "https://doi.org/10.23729/74717234-b33b-4eed-acd7-ef29b981728d",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/8s73jfvgr5.1",
+      "title": "Environmental Parameters in Aquaculture: Temperature, pH, Oxygen, and Turbidity Measurements",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/8s73jfvgr5.1",
+      "source": "https://doi.org/10.17632/8s73jfvgr5.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5522/04/19369376.v1",
+      "title": "An oral pH-responsive Streptococcus agalactiae vaccine formulation provides protective immunity to pathogen challenge in tilapia",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5522/04/19369376.v1",
+      "source": "https://doi.org/10.5522/04/19369376.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.x0k6djhgq",
+      "title": "Genetic diversity of farmed and wild Rufiji tilapia (Oreochromis urolepis urolepis) populations",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.x0k6djhgq",
+      "source": "https://doi.org/10.5061/dryad.x0k6djhgq",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.20433780",
+      "title": "Asparagopsis taxiformis hatchery",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.20433780",
+      "source": "https://doi.org/10.5281/zenodo.20433780",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28hatchery+OR+%22larval+rearing%22+OR+%22fish+larvae%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.18457454",
+      "title": "Asymmetric production responses to biculture in recirculating aquaculture systems: Danube salmon (Hucho hucho) and rainbow trout (Oncorhynchus mykiss)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.18457454",
+      "source": "https://doi.org/10.5281/zenodo.18457454",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.19355243",
+      "title": "Provision of Habitat to Temperate Reef Fish by Two Designs of Oyster Aquaculture Cage",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.19355243",
+      "source": "https://doi.org/10.5281/zenodo.19355243",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.ms75s",
+      "title": "Data from: Humpback whales feed on hatchery-released juvenile salmon",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.ms75s",
+      "source": "https://doi.org/10.5061/dryad.ms75s",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/tgy528g3kr",
+      "title": "In Silico Design and 3D Structural Data for a Multi-Epitope Vaccine Construct targeting Tilapia Parvovirus (TiPV)",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/tgy528g3kr",
+      "source": "https://doi.org/10.17632/tgy528g3kr",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/h9nsr3n88k.1",
+      "title": "BEF-aquaculture",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/h9nsr3n88k.1",
+      "source": "https://doi.org/10.17632/h9nsr3n88k.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/sph4m8hn2t",
+      "title": "Dataset: Identification and quantification of lipids in wild Atlantic salmon, farmed Atlantic salmon (Salmo salar), and salmon feed by GC-MS",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/sph4m8hn2t",
+      "source": "https://doi.org/10.17632/sph4m8hn2t",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.dm97908",
+      "title": "Data from: Influence of genetic drift on patterns of genetic variation: the footprint of aquaculture practices in Sparus aurata (Teleostei: Sparidae)",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.dm97908",
+      "source": "https://doi.org/10.5061/dryad.dm97908",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.20277084",
+      "title": "Multivariate dataset from a low-cost IoT-instrumented recirculating aquaculture system (RAS) with synchronized operational logbook (Carassius auratus, 2025)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.20277084",
+      "source": "https://doi.org/10.5281/zenodo.20277084",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/dsavnm",
+      "title": "2022-2024 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Exe Sediment Sampling Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/dsavnm",
+      "source": "https://doi.org/10.15468/dsavnm",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.22273737",
+      "title": "Complementary roles of submarine groundwater discharge and aquaculture effluent in fueling green tide outbreaks on a volcanic island",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.22273737",
+      "source": "https://doi.org/10.5281/zenodo.22273737",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/hxn9539pjp.1",
+      "title": "Red hybrid tilapia (Oreochromis sp.) hindgut RNA-seq data after oral vaccination with a feed-based bivalent vaccine",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/hxn9539pjp.1",
+      "source": "https://doi.org/10.17632/hxn9539pjp.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.38c4h63",
+      "title": "Data from: Losing cichlid fish biodiversity: genetic and morphological homogenization of tilapia following colonization by introduced species",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.38c4h63",
+      "source": "https://doi.org/10.5061/dryad.38c4h63",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/8tx3hn",
+      "title": "2022-2024 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Avon Underwater Imagery Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/8tx3hn",
+      "source": "https://doi.org/10.15468/8tx3hn",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.16892493",
+      "title": "Aquaculture dataset",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.16892493",
+      "source": "https://doi.org/10.5281/zenodo.16892493",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/5zgbuh",
+      "title": "2022-2024 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Avon Sediment Sampling Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/5zgbuh",
+      "source": "https://doi.org/10.15468/5zgbuh",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.17571248",
+      "title": "Dataset from the experiment studying the co-cultivation of green alga Haematococcus and mixotrophic algae in aquaculture effluent",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.17571248",
+      "source": "https://doi.org/10.5281/zenodo.17571248",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.29587467",
+      "title": "Additional file 1 of Severe pathological and transcriptional changes in haematopoietic organs of salmon suffering from salmon gill poxvirus disease",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.29587467",
+      "source": "https://doi.org/10.6084/m9.figshare.29587467",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+salmon%29+AND+%28disease+OR+infection+OR+vaccine%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.26796928",
+      "title": "Metagenomics reveal potential for geosmin and 2-methylisoborneol production in multiple bacterial phyla in recirculating aquaculture systems  (Supplementary_tables)",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.26796928",
+      "source": "https://doi.org/10.6084/m9.figshare.26796928",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/rs5z6j",
+      "title": "2022-2024 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Lindisfarne Sediment Sampling Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/rs5z6j",
+      "source": "https://doi.org/10.15468/rs5z6j",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.17906117",
+      "title": "Aquaculture Pond Dataset for Major Aquaculture Regions in China",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.17906117",
+      "source": "https://doi.org/10.5281/zenodo.17906117",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28aquaculture+OR+%22fish+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.6n391t06",
+      "title": "Data from: Toward responsible stock enhancement: broadcast spawning dynamics and adaptive genetic management in white seabass aquaculture",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.6n391t06",
+      "source": "https://doi.org/10.5061/dryad.6n391t06",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+tilapia+OR+shrimp%29+AND+%28breeding+OR+genetic+OR+reproduction%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.15687789",
+      "title": "Data for Growth and biomass composition of Chlorella vulgaris using nutrient-rich water and CO2 from a recirculating aquaculture system",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.15687789",
+      "source": "https://doi.org/10.5281/zenodo.15687789",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28biofloc+OR+%22recirculating+aquaculture%22+OR+aquaponic%2A%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.15468/h7svfr",
+      "title": "2022-2024 FISP: Ecosystem Benefits of UK Oyster Aquaculture Sites Exe Underwater Imagery Survey",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.15468/h7svfr",
+      "source": "https://doi.org/10.15468/h7svfr",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28mariculture+OR+%22seaweed+farming%22+OR+%22oyster+aquaculture%22+OR+%22mussel+farming%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5683/sp3/p0glzf",
+      "title": "Replication Data for: Spatial distribution of fishmeal and fish oil factories around the globe",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5683/sp3/p0glzf",
+      "source": "https://doi.org/10.5683/sp3/p0glzf",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+tilapia+OR+salmon%29+AND+%28feed+OR+diet+OR+fishmeal%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.8423137",
+      "title": "Indicators of Environmental Sustainability obtained from Sustainability in Aquaculture Research Netowork",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.8423137",
+      "source": "https://doi.org/10.5281/zenodo.8423137",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28aquaculture+OR+%22fish+farm%22%29+AND+%28water+OR+effluent+OR+environmental%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/973whj3m8d.1",
+      "title": "Shelf life of shrimp coated with gelatin",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/973whj3m8d.1",
+      "source": "https://doi.org/10.17632/973whj3m8d.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28preservation+OR+%22shelf+life%22+OR+storage+OR+freshness%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.7762164",
+      "title": "Deidentified Frozen Seafood Dataset",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.7762164",
+      "source": "https://doi.org/10.5281/zenodo.7762164",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28packaging+OR+freezing+OR+frozen+OR+refrigeration%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/xzyx7pbr3w.1",
+      "title": "The Freshness of the Fish Eyes Dataset",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/xzyx7pbr3w.1",
+      "source": "https://doi.org/10.17632/xzyx7pbr3w.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.11583/dtu.22094657",
+      "title": "Baltic Sea Salmon Authentication",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.11583/dtu.22094657",
+      "source": "https://doi.org/10.11583/dtu.22094657",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/8r24222wcc.1",
+      "title": "Bangladeshi Fish Species Identification Dataset",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/8r24222wcc.1",
+      "source": "https://doi.org/10.17632/8r24222wcc.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.16566360.v2",
+      "title": "Raw Data of Sailfin Catfish (Pterygoplichthys pardalis) Fish Protein Hydrolysate",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.16566360.v2",
+      "source": "https://doi.org/10.6084/m9.figshare.16566360.v2",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.12606624",
+      "title": "Economic analysis for the production of gelatine and hydrolyzed collagen from fish by-products and carotenoids, coffee oil and polyphenols from spent coffee grounds",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.12606624",
+      "source": "https://doi.org/10.5281/zenodo.12606624",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+salmon%29+AND+%28gelatin+OR+collagen+OR+chitosan+OR+%22by-products%22+OR+%22by+products%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695473",
+      "title": "Monthly production of surimi, Chile, 1998",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695473",
+      "source": "https://doi.org/10.1594/pangaea.695473",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696136",
+      "title": "Yearly production of surimi in 1992, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696136",
+      "source": "https://doi.org/10.1594/pangaea.696136",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.13378442",
+      "title": "Electrical impedance of food sensor recorded during fish spoilage",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.13378442",
+      "source": "https://doi.org/10.5281/zenodo.13378442",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/3wvbgtwkfz.1",
+      "title": "Nutritional Composition and Derived Indices of Fish Species Sold in Portugal",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/3wvbgtwkfz.1",
+      "source": "https://doi.org/10.17632/3wvbgtwkfz.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+sardine%29+AND+%28%22fatty+acid%22+OR+%22nutritional+composition%22+OR+%22lipid+oxidation%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696142",
+      "title": "Yearly production of surimi in 1997, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696142",
+      "source": "https://doi.org/10.1594/pangaea.696142",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695215",
+      "title": "Monthly landings destined for Surimi, Chile, 1998",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695215",
+      "source": "https://doi.org/10.1594/pangaea.695215",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.21041953.v1",
+      "title": "Data used for predictive model of fish fillet mass",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.21041953.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.21041953.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/dwms74gb3f",
+      "title": "Dataset for freshness classification of Pool barb fish (Puntius sophore)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/dwms74gb3f",
+      "source": "https://doi.org/10.17632/dwms74gb3f",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/k4dyxzzptj",
+      "title": "Data for: Metabolic profile of fish muscle tissue changes with sampling method, storage strategy and time",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/k4dyxzzptj",
+      "source": "https://doi.org/10.17632/k4dyxzzptj",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.26200994",
+      "title": "Supporting documents - Fish by-products as reliable proxies to estimate fatty acid contents in commercial fillets",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.26200994",
+      "source": "https://doi.org/10.6084/m9.figshare.26200994",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+salmon%29+AND+%28gelatin+OR+collagen+OR+chitosan+OR+%22by-products%22+OR+%22by+products%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696138",
+      "title": "Yearly production of surimi in 1993, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696138",
+      "source": "https://doi.org/10.1594/pangaea.696138",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.33087308",
+      "title": "Fish Freshness Detection Dataset Using Image Processing and Deep Learning",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.33087308",
+      "source": "https://doi.org/10.6084/m9.figshare.33087308",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/mzpwyg",
+      "title": "Nourishing Nations_Objective 1_Nutrient and contaminant analyses of fish samples",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/mzpwyg",
+      "source": "https://doi.org/10.7910/dvn/mzpwyg",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.20350/digitalcsic/17699",
+      "title": "Supplementary material From Sea to Table: The Role of Traceability in Italian Seafood Consumption [Dataset]",
+      "license": "openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.20350/digitalcsic/17699",
+      "source": "https://doi.org/10.20350/digitalcsic/17699",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696140",
+      "title": "Yearly production of surimi in 1995, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696140",
+      "source": "https://doi.org/10.1594/pangaea.696140",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/wz6jkfdy48",
+      "title": "Sequences data for: \"Characterization of bacterial communities of Cold Smoked Salmon during storage\"",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/wz6jkfdy48",
+      "source": "https://doi.org/10.17632/wz6jkfdy48",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.j054r",
+      "title": "Data from: Fatty acid profiles of five farmed Brazilian freshwater fish species from different families",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.j054r",
+      "source": "https://doi.org/10.5061/dryad.j054r",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+sardine%29+AND+%28%22fatty+acid%22+OR+%22nutritional+composition%22+OR+%22lipid+oxidation%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.20779191",
+      "title": "Supplementary data for: Seafood processing: technologies ready, deployment blocked",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.20779191",
+      "source": "https://doi.org/10.5281/zenodo.20779191",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.10264805",
+      "title": "Raw Data: Production and characteristics of fish protein hydrolysate from parrotfish (Chlorurus sordidus) head",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.10264805",
+      "source": "https://doi.org/10.6084/m9.figshare.10264805",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696141",
+      "title": "Yearly production of surimi in 1996, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696141",
+      "source": "https://doi.org/10.1594/pangaea.696141",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/7t72vbszh6.1",
+      "title": "Nondestructive freshness discriminating of shrimp using visible/near-infrared hyperspectral imaging technique and deep learning algorithm",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/7t72vbszh6.1",
+      "source": "https://doi.org/10.17632/7t72vbszh6.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28shrimp+OR+prawn+OR+crab+OR+mussel+OR+oyster+OR+squid+OR+trout+OR+tilapia%29+AND+%28freezing+OR+storage+OR+freshness+OR+packaging+OR+spoilage+OR+%22shelf+life%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.696139",
+      "title": "Yearly production of surimi in 1994, Chile",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.696139",
+      "source": "https://doi.org/10.1594/pangaea.696139",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.28058497.v1",
+      "title": "Additional file 1 of Candidate genes associated with fatty acid compositions in north American Atlantic salmon (Salmo salar)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.28058497.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.28058497.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+sardine%29+AND+%28%22fatty+acid%22+OR+%22nutritional+composition%22+OR+%22lipid+oxidation%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.21227/mddf-qn59",
+      "title": "Electronic nose data set for seafood quality assessment",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.21227/mddf-qn59",
+      "source": "https://doi.org/10.21227/mddf-qn59",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/mgnk48yd4z.1",
+      "title": "Dataset for Sensory Test of Bata Fish",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/mgnk48yd4z.1",
+      "source": "https://doi.org/10.17632/mgnk48yd4z.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.695495",
+      "title": "Distribution of regional production of surimi, Chile, 1998",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.695495",
+      "source": "https://doi.org/10.1594/pangaea.695495",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.fn2z34v1d",
+      "title": "Suspected microplastic counts and characteristics in fish muscle and gastrointestinal tissue",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.fn2z34v1d",
+      "source": "https://doi.org/10.5061/dryad.fn2z34v1d",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.bt6616g",
+      "title": "Data from: Comparisons of reproductive function and fatty acid fillet quality between triploid and diploid farm Atlantic salmon (Salmo salar)",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.bt6616g",
+      "source": "https://doi.org/10.5061/dryad.bt6616g",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28salmon+OR+tuna+OR+mackerel+OR+sardine+OR+cod+OR+herring+OR+squid+OR+mussel+OR+prawn+OR+tilapia+OR+trout%29+AND+%28fillet+OR+%22shelf-life%22+OR+%22shelf+life%22+OR+freshness+OR+%22food+quality%22+OR+%22food+safety%22+OR+spoilage+OR+%22cold+chain%22+OR+%22edible+coating%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/hc3hftr4sm.1",
+      "title": "Testing of Hybrid Solar-Biomass Dryer for Drying Fish",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/hc3hftr4sm.1",
+      "source": "https://doi.org/10.17632/hc3hftr4sm.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.13835461",
+      "title": "Mercury and Arsenic muscle concentration data as used in \"Mixed model approaches can leverage database information to improve the estimation of size-adjusted contaminant concentrations in fish populations\"",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.13835461",
+      "source": "https://doi.org/10.5281/zenodo.13835461",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/spn7rg5b3x.2",
+      "title": "Fourier Transform Infrared Spectroscopy (FTIR) Analysis of Fish Scale Collagen from Carp Fish",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/spn7rg5b3x.2",
+      "source": "https://doi.org/10.17632/spn7rg5b3x.2",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+salmon%29+AND+%28gelatin+OR+collagen+OR+chitosan+OR+%22by-products%22+OR+%22by+products%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.24217623.v1",
+      "title": "Additional file 2 of RNA-Seq analysis of the pyloric caecum, liver, and muscle reveals molecular mechanisms regulating fillet color in rainbow trout",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.24217623.v1",
+      "source": "https://doi.org/10.6084/m9.figshare.24217623.v1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28salmon+OR+tuna+OR+mackerel+OR+sardine+OR+cod+OR+herring+OR+squid+OR+mussel+OR+prawn+OR+tilapia+OR+trout%29+AND+%28fillet+OR+%22shelf-life%22+OR+%22shelf+life%22+OR+freshness+OR+%22food+quality%22+OR+%22food+safety%22+OR+spoilage+OR+%22cold+chain%22+OR+%22edible+coating%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/fdpwaz",
+      "title": "Women's Voice in Food Safety of Bangladesh's Fish Value Chains",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/fdpwaz",
+      "source": "https://doi.org/10.7910/dvn/fdpwaz",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/ysajis",
+      "title": "Fish preservation, processing, and nutritional knowledge data",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/ysajis",
+      "source": "https://doi.org/10.7910/dvn/ysajis",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28preservation+OR+%22shelf+life%22+OR+storage+OR+freshness%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/t5dphm3hrm.1",
+      "title": "Data for: Impact of information and Food Technology Neophobia in consumers' acceptance of shelf-life extension in packaged fresh fish fillets",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/t5dphm3hrm.1",
+      "source": "https://doi.org/10.17632/t5dphm3hrm.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28preservation+OR+%22shelf+life%22+OR+storage+OR+freshness%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.nzs7h44sf",
+      "title": "Experimental evidence for the recovery of mercury-contaminated fish populations",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.nzs7h44sf",
+      "source": "https://doi.org/10.5061/dryad.nzs7h44sf",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/8jvxtvz52x.2",
+      "title": "SmallFishBD: A Comprehensive Image Dataset of Common Small Fish Varieties in Bangladesh for Species Identification and Classification",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/8jvxtvz52x.2",
+      "source": "https://doi.org/10.17632/8jvxtvz52x.2",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17882/45860",
+      "title": "Fisheries, aquaculture and seafood trade and processing: business data, fleet size and production tonnage per region, and EU data",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17882/45860",
+      "source": "https://doi.org/10.17882/45860",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5061/dryad.1h9g7",
+      "title": "Data from: Production of omega-3 enriched tilapia through the dietary use of algae meal or fish oil: Improved nutrient value of fillet and offal",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5061/dryad.1h9g7",
+      "source": "https://doi.org/10.5061/dryad.1h9g7",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28salmon+OR+tuna+OR+mackerel+OR+sardine+OR+cod+OR+herring+OR+squid+OR+mussel+OR+prawn+OR+tilapia+OR+trout%29+AND+%28fillet+OR+%22shelf-life%22+OR+%22shelf+life%22+OR+freshness+OR+%22food+quality%22+OR+%22food+safety%22+OR+spoilage+OR+%22cold+chain%22+OR+%22edible+coating%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/gxvpsm",
+      "title": "Food Safety Knowledge Attitudes and Practices (KAP)",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/gxvpsm",
+      "source": "https://doi.org/10.7910/dvn/gxvpsm",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.13121111",
+      "title": "Evaluating the fillet quality and sensory characteristics of Atlantic salmon (Salmo salar) fed black soldier fly larvae meal for whole production cycle in sea cages",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.13121111",
+      "source": "https://doi.org/10.5281/zenodo.13121111",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28salmon+OR+tuna+OR+mackerel+OR+sardine+OR+cod+OR+herring+OR+squid+OR+mussel+OR+prawn+OR+tilapia+OR+trout%29+AND+%28fillet+OR+%22shelf-life%22+OR+%22shelf+life%22+OR+freshness+OR+%22food+quality%22+OR+%22food+safety%22+OR+spoilage+OR+%22cold+chain%22+OR+%22edible+coating%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.12770/883c585e-3a0f-4931-abdf-bf25ae6af9f2",
+      "title": "16S V3-V4 metabarcoding data of biopreserved cold-smoked salmon products from different companies for the MICROORC project, 2025",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.12770/883c585e-3a0f-4931-abdf-bf25ae6af9f2",
+      "source": "https://doi.org/10.12770/883c585e-3a0f-4931-abdf-bf25ae6af9f2",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5066/p13kimbe",
+      "title": "Mercury Concentrations in Waters, Fish, Plants, and Sediments from Ghana, 2024",
+      "license": "cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.5066/p13kimbe",
+      "source": "https://doi.org/10.5066/p13kimbe",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.26693344",
+      "title": "Additional file 6 of Enhancing seafood traceability: tracking the origin of seabass and seabream from the tuscan coast area by the analysis of the gill bacterial communities",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.26693344",
+      "source": "https://doi.org/10.6084/m9.figshare.26693344",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.5128552",
+      "title": "Dataset for \"Diets supplemented with Saccharina latissima influence the expression of genes related to lipid metabolism and oxidative stress modulating rainbow trout (Oncorhynchus mykiss) fillet composition\" (doi.org/10.1016/j.fct.2020.111332)",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.5128552",
+      "source": "https://doi.org/10.5281/zenodo.5128552",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28salmon+OR+tuna+OR+mackerel+OR+sardine+OR+cod+OR+herring+OR+squid+OR+mussel+OR+prawn+OR+tilapia+OR+trout%29+AND+%28fillet+OR+%22shelf-life%22+OR+%22shelf+life%22+OR+freshness+OR+%22food+quality%22+OR+%22food+safety%22+OR+spoilage+OR+%22cold+chain%22+OR+%22edible+coating%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.842209",
+      "title": "(Table 3) Fatty acid composition of muscle tissue of demersal fish species sampled during POLARSTERN cruise ANT-XXIV/2",
+      "license": "cc-by-3.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.842209",
+      "source": "https://doi.org/10.1594/pangaea.842209",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+sardine%29+AND+%28%22fatty+acid%22+OR+%22nutritional+composition%22+OR+%22lipid+oxidation%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/zk226bkckf.1",
+      "title": "Interface Engineering of Hierarchical ZnO@BiVO₄ n–n Heterojunction Microspheres for Trace Triethylamine Sensing and Portable Fish Freshness Monitoring",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/zk226bkckf.1",
+      "source": "https://doi.org/10.17632/zk226bkckf.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28preservation+OR+%22shelf+life%22+OR+storage+OR+freshness%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.11820621",
+      "title": "Additional file 10 of Dynamics of mobile genetic elements of Listeria monocytogenes persisting in ready-to-eat seafood processing plants in France",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.11820621",
+      "source": "https://doi.org/10.6084/m9.figshare.11820621",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.6993986",
+      "title": "Supplementary Material for: Is the Nutritional Value of Fish Fillet Related to Fish Maturation or Fish Age? Integrated Analysis of Transcriptomics and Metabolomics in Blunt Snout Bream (  Megalobrama amblycephala  )",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.6993986",
+      "source": "https://doi.org/10.6084/m9.figshare.6993986",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.20512448",
+      "title": "Nutritional Composition and Sustainability: Valuing Artisanal Fish as a Resource Strategic Food Supply in the Santos-São Vicente Estuary (SESS)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.20512448",
+      "source": "https://doi.org/10.5281/zenodo.20512448",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+sardine%29+AND+%28%22fatty+acid%22+OR+%22nutritional+composition%22+OR+%22lipid+oxidation%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/zycxam",
+      "title": "Data Set for Optical pH Sensor Based on Pectin and Ruellia tuberosa L-derived Anthocyanin for Fish Freshness Monitoring",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/zycxam",
+      "source": "https://doi.org/10.7910/dvn/zycxam",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28preservation+OR+%22shelf+life%22+OR+storage+OR+freshness%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/vkztld",
+      "title": "Replication data and stata code for “Endowments, Expectations, and the Value of Food Safety Certification: Experimental Evidence from Fish Markets in Nigeria”",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/vkztld",
+      "source": "https://doi.org/10.7910/dvn/vkztld",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+squid+OR+mussel+OR+oyster%29+AND+%28%22protein+hydrolysate%22+OR+%22cold+chain%22+OR+%22food+safety%22+OR+%22modified+atmosphere%22+OR+%22fish+sauce%22+OR+%22edible+coating%22+OR+%22shelf-life%22+OR+%22nutritional+value%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.27679287",
+      "title": "Data and codes for \"Fast and cost-efficient species identification of Atlantic salmon ( Salmo salar  L.), brown trout ( Salmo trutta ), and their hybrids using a single SNP marker.\"",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.27679287",
+      "source": "https://doi.org/10.6084/m9.figshare.27679287",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28seafood+OR+fish+OR+salmon%29+AND+%28traceability+OR+authentication+OR+adulteration+OR+%22species+identification%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.6084/m9.figshare.31939083",
+      "title": "Data set for Research Article entitled \"Frozen Storage Characteristics of Battered and Breaded Genetically Improved Farmed Tilapia (GIFT) Fillets Packed in PEST/PE and PE Pouches\"",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.6084/m9.figshare.31939083",
+      "source": "https://doi.org/10.6084/m9.figshare.31939083",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28shrimp+OR+prawn+OR+crab+OR+mussel+OR+oyster+OR+squid+OR+trout+OR+tilapia%29+AND+%28freezing+OR+storage+OR+freshness+OR+packaging+OR+spoilage+OR+%22shelf+life%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.12799144",
+      "title": "Determining the geographic origin and species authenticity of marine fish fillet and roe using an NMR-Metabolomics approach",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.12799144",
+      "source": "https://doi.org/10.5281/zenodo.12799144",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.1594/pangaea.921789",
+      "title": "Organoleptic qualities (taste, smell, texture and appearance) of the Northern shrimp under combined ocean change drivers (Temp, pH, O₂ saturation)",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.1594/pangaea.921789",
+      "source": "https://doi.org/10.1594/pangaea.921789",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28texture+OR+sensory+OR+freshness+OR+spoilage%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.21690077",
+      "title": "Comparative biofabrication of sponge and fish-derived marine collagen wound dressings for cutaneous wound repair",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.21690077",
+      "source": "https://doi.org/10.5281/zenodo.21690077",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+shrimp+OR+seafood+OR+salmon%29+AND+%28gelatin+OR+collagen+OR+chitosan+OR+%22by-products%22+OR+%22by+products%22%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17882/88179",
+      "title": "Mercury concentration and nitrogen isotope values of muscle and blood tissues in tuna species from the Southwestern Pacific ocean",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17882/88179",
+      "source": "https://doi.org/10.17882/88179",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.7910/dvn/thttr1",
+      "title": "Replication Data for Transforming the Future of Surimi as the Next Frontier in Sustainable Raw Materials: A Systematic Review of Nile Tilapia Environmental and Sustainability Indicators",
+      "license": "info:eu-repo/semantics/openAccess; cc0-1.0",
+      "metadata": "https://api.datacite.org/dois/10.7910/dvn/thttr1",
+      "source": "https://doi.org/10.7910/dvn/thttr1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28surimi+OR+%22fish+sauce%22+OR+%22fish+burger%22+OR+%22fish+protein%22+OR+%22seafood+preservation%22+OR+%22seafood+packaging%22%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/twckctnzpd.1",
+      "title": "Maina et al_ANALYSED DATA: Novel black soldier fly larvae-enriched aquafeed as a transformative strategy to impact growth, fillet quality and cost-effective production of African Catfish",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/twckctnzpd.1",
+      "source": "https://doi.org/10.17632/twckctnzpd.1",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.17632/8s2hz34gdy",
+      "title": "Microplastic Contamination Across Bangladesh’s Aquaculture and Fisheries Value Chain: A Structured Review of Farm Inputs, Aquatic Biota, Seafood Products, Dietary Exposure, and Research Gaps",
+      "license": "info:eu-repo/semantics/openAccess; cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.17632/8s2hz34gdy",
+      "source": "https://doi.org/10.17632/8s2hz34gdy",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+tuna+OR+shellfish%29+AND+%28histamine+OR+mercury+OR+contaminant+OR+microplastic%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.7681240",
+      "title": "Data from: Balanced replacement of fish meal with Hermetia illucens meal allows efficient hepatic nutrient metabolism and increased fillet lipid quality in gilthead sea bream (Sparus aurata) juveniles",
+      "license": "cc-by-4.0; Open Access",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.7681240",
+      "source": "https://doi.org/10.5281/zenodo.7681240",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fillet+OR+seafood+OR+%22fish+meat%22+OR+%22fish+muscle%22+OR+%22fish+food%22%29+AND+%28quality+OR+preservation+OR+composition+OR+packaging+OR+storage+OR+processing%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    },
+    {
+      "doi": "10.5281/zenodo.10822320",
+      "title": "Prevalence of Listeria monocytogenes and other Listeria species in fish, fish products and fish processing environment: A systematic review and meta-analysis",
+      "license": "cc-by-4.0",
+      "metadata": "https://api.datacite.org/dois/10.5281/zenodo.10822320",
+      "source": "https://doi.org/10.5281/zenodo.10822320",
+      "retrieved": "2026-09-28",
+      "query": "https://api.datacite.org/dois?query=titles.title%3A%28%28fish+OR+seafood+OR+salmon+OR+shrimp%29+AND+%28processing+OR+drying+OR+smoked+OR+smoking+OR+surimi+OR+fillet%29%29+AND+publicationYear%3A%5B1990+TO+2026%5D&resource-type-id=dataset&page%5Bsize%5D=100&sort=relevance"
+    }
+  ]
+}

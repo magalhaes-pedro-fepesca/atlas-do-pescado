@@ -1,0 +1,74 @@
+/* Keep dashboard controls usable when the navigation rail reduces available width. */
+.scope-view,.results,.panel,.workspace,.catalog-card,.method-card{min-width:0}
+.scope-tabs button{white-space:normal}
+.home-actions>*{text-align:center}
+@media(max-width:1180px){
+ .top-meta{display:none}
+ .workspace{grid-template-columns:1fr}
+ .filters{position:static;margin-bottom:18px}
+ .results-head,.panel-head,.sources-head,.head-actions{flex-wrap:wrap}
+ .compare-layout{grid-template-columns:1fr}
+ .method-grid{grid-template-columns:1fr}
+ .home-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+ .home-columns>:last-child{grid-column:1/-1}
+ .home-hero-copy{max-width:650px}
+ input,select,textarea{font-size:1rem!important}
+ button,select,.action-button{min-height:44px}
+ .chart-wrap{overflow-x:auto;overscroll-behavior-x:contain}
+ .chart-wrap svg{min-width:560px}
+ .method-card{overflow-x:auto}
+ .policy-document{overflow-wrap:anywhere}
+}
+@media(min-width:761px) and (max-width:1180px){
+ .filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px}
+ .filters>.filter-heading,.filters>fieldset,.filters>.species-title,.filters>.species-list,.filters>input,.filters>.filter-help{grid-column:1/-1}
+ .filters .field{margin-bottom:8px}
+ .home-hero{min-height:580px}
+}
+@media(max-width:760px){
+ :root{--atlas-header-height:72px}
+ .topbar{padding-left:72px;padding-right:16px}
+ .brand-logo{width:200px;max-width:calc(100vw - 96px);height:60px;object-fit:contain}
+ #navigation-toggle{top:14px;left:12px;z-index:50}
+ .scope-tabs{width:min(290px,calc(100vw - 24px));padding:16px 12px calc(20px + env(safe-area-inset-bottom));transform:translateX(-105%);visibility:hidden;transition:transform .2s ease,visibility .2s;z-index:45}
+ .scope-tabs.is-open{width:min(290px,calc(100vw - 24px));transform:translateX(0);visibility:visible;box-shadow:12px 0 32px #092a3d33}
+ .scope-tabs .navigation-text{display:inline}
+ .shell{padding:20px 16px 40px}
+ .home-active .shell{padding:0}
+ .intro{gap:12px}
+ .home-hero{min-height:600px}
+ .home-hero-copy{padding:40px 24px 150px;max-width:100%}
+ .home-hero h1{font-size:2.25rem}
+ .home-hero h2{font-size:1.5rem}
+ .home-carousel-controls{left:20px;right:20px;bottom:44px;flex-wrap:wrap;gap:4px}
+ .home-image-credit{left:20px;right:auto;max-width:calc(100% - 40px);bottom:12px}
+ .home-section{padding:36px 24px}
+ .home-columns{grid-template-columns:1fr;gap:16px}
+ .home-columns>:last-child{grid-column:auto}
+ ol.home-columns{gap:16px}
+ .home-atlantic h2 span{display:table}
+ .catalog-controls,.expanded-controls,.catalog-results,.technology-grid,.news-grid,.area-overview{grid-template-columns:1fr}
+ .catalog-controls .field:first-child{grid-column:auto}
+ .catalog-header,.catalog-status,.news-toolbar{display:block}
+ .catalog-header>span{white-space:normal}
+ .news-toolbar .field{min-width:0}
+ .catalog-pagination{flex-wrap:wrap}
+ .head-actions{width:100%;gap:8px}
+ .results-head h2,.panel-head h3{overflow-wrap:anywhere}
+ .sources-head>span{display:block}
+ .trade-rank-grid,.composition,.ranking{grid-template-columns:1fr}
+ .composition-row{grid-template-columns:minmax(80px,1fr) minmax(35px,1fr) auto}
+ .rank-row{grid-template-columns:minmax(80px,1fr) minmax(30px,1fr) auto}
+ .policy-document{padding:20px 16px}
+ .policy-document .action-button{display:block;margin:10px 0;white-space:normal}
+ .home-footer button{max-width:100%;white-space:normal}
+}
+@media(max-width:380px){
+ .home-actions{display:grid;grid-template-columns:1fr}
+ .home-hero-copy{padding-left:18px;padding-right:18px}
+ .home-hero h1{font-size:2rem}
+ .home-section{padding-left:18px;padding-right:18px}
+ .home-carousel-controls{left:12px;right:12px}
+ .shell{padding-left:12px;padding-right:12px}
+}
+@media(prefers-reduced-motion:reduce){.scope-tabs{transition:none}}

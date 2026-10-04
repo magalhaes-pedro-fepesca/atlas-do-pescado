@@ -1,0 +1,40 @@
+{
+  "id": "curated-15-comercio-2022-2025",
+  "title": "Pará · Comércio exterior de pescado · NCM 03",
+  "source": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta",
+  "license": "Livre utilização · Decreto 8.777/2016, art. 4º",
+  "license_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "coverage": "2022–2025",
+  "notes": "Filtragem da cópia preparada existente; valores e colunas preservados. Nenhuma atualização remota da série ou imputação. Ausência não é zero. Não constitui nova fonte independente. Somente capítulo NCM 03; produtos processados de outros capítulos excluídos. Ano parcial de 2026 excluído. Peso líquido e US$ FOB; UF do produto.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "62d32d1d39c23c176df9ba63dcc674eeb7ded2e7005e60c03398b046453ff060",
+    "duplicate_rows": 0,
+    "columns": [
+      "fluxo",
+      "ano",
+      "pais_parceiro",
+      "uf_produto",
+      "ncm",
+      "produto",
+      "peso_liquido_kg",
+      "valor_fob_usd"
+    ],
+    "dictionary": {
+      "fluxo": "Exportação ou importação, mantidas separadas.",
+      "ano": "Ano de referência da observação.",
+      "pais_parceiro": "País parceiro comercial.",
+      "uf_produto": "UF do produto; não identifica município ou endereço da empresa.",
+      "ncm": "Código NCM de oito dígitos, tratado como texto; capítulo 03 apenas.",
+      "produto": "Nome do produto na fonte.",
+      "peso_liquido_kg": "Peso líquido em quilogramas; não é peso vivo.",
+      "valor_fob_usd": "Valor FOB em dólares correntes."
+    }
+  },
+  "parent_dataset_id": "mdic-ncm03",
+  "prepared_at": "2026-10-04",
+  "input_file": "downloads/mdic-comercio-pescado-ncm03-2022-2026.csv",
+  "reproduction": "scripts/prepare-foundation.py"
+}

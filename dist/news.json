@@ -1,0 +1,88 @@
+{
+  "checked": "2026-09-28",
+  "automatic": false,
+  "items": [
+    {
+      "title": "Uso de águas da União para cultivo no Amazonas",
+      "area": "Aquicultura",
+      "summary": "O MPA informa a entrega de uma cessão para produção de tambaqui em Iranduba.",
+      "date": "2026-09-25",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/entrega-do-primeiro-contrato-de-cessao-de-uso-de-aguas-da-uniao-no-amazonas"
+    },
+    {
+      "title": "Pesquisa e sustentabilidade da pesca amazônica",
+      "area": "Pesca",
+      "summary": "Agenda em Manaus reuniu universidade e debate sobre inovação e sustentabilidade do setor.",
+      "date": "2026-09-24",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/pesquisa-sustentabilidade-ganham-espaco-agenda-pesca-amazonia"
+    },
+    {
+      "title": "Guinchos elétricos em teste na frota pesqueira",
+      "area": "Tecnologia do pescado",
+      "summary": "Projeto do MPA e da UFJF avalia equipamentos para reduzir ruído e emissões nas operações de pesca.",
+      "date": "2026-09-24",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/nova-tecnologia-reduz-ruido-e-emissoes-em-embarcacoes-de-pesca-brasileiras"
+    },
+    {
+      "title": "Agenda da pesca industrial no Pará",
+      "area": "Pesca",
+      "summary": "Notícia institucional sobre o debate com o setor pesqueiro paraense.",
+      "date": "2026-09-23",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/pesca-industrial-em-debate-no-para"
+    },
+    {
+      "title": "Dados amazônicos para planejamento diante do El Niño",
+      "area": "Aquicultura",
+      "summary": "O MPA apresenta o Observatório da Torre Alta da Amazônia como referência para acompanhar processos ambientais.",
+      "date": "2026-09-21",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/el-nino-dados-do-observatorio-da-torre-alta-da-amazonia-para-planejamento-no-setor-da-pesca-e-aquicultura"
+    },
+    {
+      "title": "Comunicado sobre a temporada do pargo em 2026",
+      "area": "Pesca",
+      "summary": "A publicação do MPA trata do encerramento da temporada após o limite de captura indicado pelo órgão.",
+      "date": "2026-09-19",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/mpa-informa-encerramento-temporada-pesca-pargo-2026"
+    },
+    {
+      "title": "Debate nacional sobre subsídios à pesca",
+      "area": "Comércio exterior",
+      "summary": "Encontro em Brasília discutiu a implementação do acordo da OMC com participantes da ciência e do setor pesqueiro.",
+      "date": "2026-09-18",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/brasil-debate-futuro-subsidios-pesca-apos-acordo-omc"
+    },
+    {
+      "title": "Cooperação e comércio de pescado com o Marrocos",
+      "area": "Comércio exterior",
+      "summary": "Seminário bilateral abordou investimentos, comércio e parcerias na pesca e na aquicultura.",
+      "date": "2026-09-17",
+      "publisher": "MPA",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias/no-marrocos-o-brasil-avanca-nos-debates-sobre-o-comercio-investimentos-e-parcerias-para-o-setor-da-pesca-e-da-aquicultura"
+    }
+  ],
+  "channels": [
+    {
+      "title": "MPA · notícias",
+      "url": "https://www.gov.br/mpa/pt-br/assuntos/noticias"
+    },
+    {
+      "title": "Embrapa · pesquisa e inovação",
+      "url": "https://www.embrapa.br/en/web/pesca-e-aquicultura/busca-de-noticias"
+    },
+    {
+      "title": "FAO · estatísticas e publicações",
+      "url": "https://www.fao.org/statistics/en"
+    },
+    {
+      "title": "MDIC · comércio exterior",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior"
+    }
+  ]
+}

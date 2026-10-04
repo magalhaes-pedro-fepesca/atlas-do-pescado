@@ -1,0 +1,32 @@
+{
+  "id": "mpa-captura",
+  "title": "Pargo e sardinha: registros de captura",
+  "source": "https://www.gov.br/mpa/pt-br/acesso-a-informacao/dados-abertos-2",
+  "license": "Livre utilização · Decreto 8.777/2016, art. 4º",
+  "license_url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm",
+  "coverage": "2021–2025",
+  "notes": "Recorte processado pelo Atlas em 27/09/2026. Não representa uma nova fonte independente. Preserve a atribuição à fonte original e identifique conversões, filtros e agregações.",
+  "layer": "treated",
+  "quality": {
+    "checked_at": "2026-10-04",
+    "scope": "Estrutura e integridade da cópia local; não certifica a coleta original.",
+    "sha256": "b958c6be3865b077747ccb4b2acb8a8c44478c0f3fe50fa03ce60e4815c129c3",
+    "duplicate_rows": 0,
+    "columns": [
+      "ano",
+      "especie",
+      "arquivo_origem",
+      "captura_registrada_t"
+    ],
+    "dictionary": {
+      "ano": "Ano de referência da observação.",
+      "especie": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "arquivo_origem": "Campo preservado da cópia preparada; consultar a metodologia da fonte.",
+      "captura_registrada_t": "Campo preservado da cópia preparada; consultar a metodologia da fonte."
+    }
+  },
+  "parent_dataset_id": null,
+  "prepared_at": "2026-09-27",
+  "input_file": null,
+  "reproduction": "Consultar os scripts originais build-*.py; arquivos brutos não estão neste checkout."
+}

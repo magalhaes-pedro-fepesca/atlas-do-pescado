@@ -1,0 +1,24 @@
+{
+  "id": "pesca-municipal-arraial",
+  "title": "Desembarque de anchova em Arraial do Cabo",
+  "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0110332",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Bender et al. (2014), PLOS ONE 9(10): e110332. Data S1, aba landing.",
+  "coverage": "Arraial do Cabo (RJ), 1992–2008, Pomatomus saltatrix",
+  "territory": "Município de desembarque: Marina dos Pescadores, Porto do Forno. Não identifica a posição de captura.",
+  "notes": "Somente uma espécie e um ponto de desembarque. Não representa o total municipal. Captura em kg e esforço em horas conforme métodos da fonte. CPUE original omitida por divergência de unidade entre planilha e texto; não foram usados dados de entrevistas nem censos subaquáticos.",
+  "managed_by": "prepare-municipal-fishing.py",
+  "reproduction": "python scripts/prepare-municipal-fishing.py",
+  "input_file": "dist/downloads/sources/arraial-bender-2014-original.xlsx",
+  "original_sha256": "1b666bfd0fe04853d62e9eb0f9aaee0eee09e9d56ab3ac1b49af0983dda42f0d",
+  "dictionary": {
+    "codigo_ibge": "Código do município de desembarque, associado pelo Atlas.",
+    "desembarque_kg": "Massa anual desembarcada em kg, coluna Captura original.",
+    "desembarque_t": "desembarque_kg dividido por 1000.",
+    "esforco_horas": "Esforço anual em horas de pesca conforme seção de métodos.",
+    "ano": "Ano original.",
+    "especie": "Espécie indicada na descrição do Data S1."
+  },
+  "sha256": "c5cebc0f8617867037755b9c0e3912bf03b0624a1e305d561bf454ccb95d2b6c"
+}

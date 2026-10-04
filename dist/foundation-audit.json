@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-04",
+  "files": [
+    {
+      "id": "fao-captura",
+      "file": "downloads/fao-cap-2015-2024.csv",
+      "rows": 146537,
+      "sha256": "65354a6964fae76e3dcc65aaec998fa2a090083acb9a8d63c9a9cbf34e83485d"
+    },
+    {
+      "id": "mpa-captura",
+      "file": "downloads/mpa-captura-registros-2021-2025.csv",
+      "rows": 177,
+      "sha256": "b958c6be3865b077747ccb4b2acb8a8c44478c0f3fe50fa03ce60e4815c129c3"
+    },
+    {
+      "id": "fao-aquicultura",
+      "file": "downloads/fao-aq-2015-2024.csv",
+      "rows": 22064,
+      "sha256": "cdaa6f0b9b3cdc6facf7d0437b851ff66a8a2ab230bcf436c2c59f5328c42abd"
+    },
+    {
+      "id": "ibge-uf",
+      "file": "downloads/ibge-aquicultura-uf-2013-2024.csv",
+      "rows": 3984,
+      "sha256": "629436e4d55c33682ef8e7d458bd59a4bbdafb9dfbf8c2dbf651c0aa72cd89d3"
+    },
+    {
+      "id": "ibge-municipio",
+      "file": "downloads/ibge-aquicultura-municipios-2024.csv",
+      "rows": 9083,
+      "sha256": "178dff4226f9efdd87b81744ce78d69edde4b7bf78c769387f82e1503639d13c"
+    },
+    {
+      "id": "mdic-ncm03",
+      "file": "downloads/mdic-comercio-pescado-ncm03-2022-2026.csv",
+      "rows": 33060,
+      "sha256": "3e2b69d7ec0679dc7826571f703673e1f7387f02a21ac14f26de3a5ba22c36c4"
+    },
+    {
+      "id": "curated-15-serie-2013-2024",
+      "file": "downloads/atlas-15-serie-2013-2024.csv",
+      "rows": 205,
+      "sha256": "604d018efea6b0e25051521a380f06ffc13bed0662f0fee6572c47d9817102d1"
+    },
+    {
+      "id": "curated-15-municipios-2024",
+      "file": "downloads/atlas-15-municipios-2024.csv",
+      "rows": 393,
+      "sha256": "bf82e1583e22280afa3dc78badb9e7120ed4ec340c1e27f39d90456142b76f41"
+    },
+    {
+      "id": "curated-15-comercio-2022-2025",
+      "file": "downloads/atlas-15-comercio-2022-2025.csv",
+      "rows": 1210,
+      "sha256": "62d32d1d39c23c176df9ba63dcc674eeb7ded2e7005e60c03398b046453ff060"
+    },
+    {
+      "id": "curated-16-serie-2013-2024",
+      "file": "downloads/atlas-16-serie-2013-2024.csv",
+      "rows": 60,
+      "sha256": "bcabd5a75569a7b180f4f07d2859007ac2c882ebc3693924d6ec61ba95f70091"
+    },
+    {
+      "id": "curated-16-municipios-2024",
+      "file": "downloads/atlas-16-municipios-2024.csv",
+      "rows": 22,
+      "sha256": "19813bf1eccbba3d164a57ed60a2a01969622f8f2238948c5ef653d1076a19f8"
+    },
+    {
+      "id": "curated-16-comercio-2022-2025",
+      "file": "downloads/atlas-16-comercio-2022-2025.csv",
+      "rows": 136,
+      "sha256": "8330c7cb2e05f3b280220ad8ee41b29aafe5cd71882a4a82952029b6481f1849"
+    },
+    {
+      "id": "pangaea-demersal-sc",
+      "file": "downloads/pesca-demersal-sc-2000-2019.csv",
+      "rows": 1560,
+      "sha256": "33fa736ab8c085cca46ca6ec9553ddd8e61e0e53cb9db8a0b7c748a54bfbbe0f"
+    },
+    {
+      "id": "imas-brasil-capacity",
+      "file": "downloads/pesca-brasil-capacity-1950-2017.csv",
+      "rows": 4088,
+      "sha256": "914951fb754820838d07e6c409c7e76adee5885b4005116f0d50ecd2de2d2518"
+    },
+    {
+      "id": "imas-brasil-effort",
+      "file": "downloads/pesca-brasil-effort-1950-2017.csv",
+      "rows": 3528,
+      "sha256": "1e7810bc85a6e1d10f1915e4f81275f1fb407127658663aff4559bce40d6524d"
+    }
+  ],
+  "scope": "Revisão estrutural dos arquivos preparados locais. A data de revisão de cada referência aparece em seus detalhes. As séries preexistentes não foram atualizadas na fonte."
+}

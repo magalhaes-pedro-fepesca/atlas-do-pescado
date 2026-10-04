@@ -1,0 +1,34 @@
+(() => {
+ const Q=window.AtlasFishingQueries,fmt=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:3}),pct=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1}),pairs=new Map(),cache=new Map();let epoch=0;
+ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function chart(series){
+  if(!series.length)return '<p>Sem observações para este produto.</p>';
+  const points=Q.points(series),max=Math.max(...series.map(r=>r.t),1),w=760,h=260,left=70,right=20,top=20,bottom=50,pw=w-left-right,ph=h-top-bottom;
+  const x=y=>left+(y-points[0].year)/Math.max(points.length-1,1)*pw,y=t=>top+ph-t/max*ph;
+  let path='',active=false;points.forEach(p=>{if(p.t===null){active=false;return;}path+=`${active?'L':'M'}${x(p.year).toFixed(1)},${y(p.t).toFixed(1)} `;active=true;});
+  return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="fishing-chart-title fishing-chart-desc"><title id="fishing-chart-title">Série anual de desembarques registrados em toneladas</title><desc id="fishing-chart-desc">${esc(series.map(r=>r.year+': '+fmt.format(r.t)+' toneladas').join('; '))}. Ausências interrompem a linha.</desc>${[0,.25,.5,.75,1].map(f=>`<line x1="${left}" y1="${y(max*f)}" x2="${w-right}" y2="${y(max*f)}" stroke="#ccd8dc"/><text x="${left-8}" y="${y(max*f)+5}" text-anchor="end">${fmt.format(max*f)}</text>`).join('')}<text x="${left}" y="15">t</text><path d="${path}" fill="none" stroke="#14847c" stroke-width="3"/>${series.map(r=>`<circle cx="${x(r.year)}" cy="${y(r.t)}" r="4" fill="#14847c"><title>${r.year}: ${fmt.format(r.t)} t</title></circle>`).join('')}${points.filter((r,i)=>i%Math.max(1,Math.ceil(points.length/8))===0||i===points.length-1).map(r=>`<text x="${x(r.year)}" y="${h-20}" text-anchor="middle">${r.year}</text>`).join('')}</svg>`;
+ }
+ function coverage(m,year){const c=m.year_coverage?.[year];return c?`${c.first_date} a ${c.last_date}; ${c.days_recorded} dias com registros na fonte`:'Série anual do ponto monitorado; completude diária não certificada.';}
+ function getJSON(path){if(!cache.has(path))cache.set(path,fetch(path).then(r=>{if(!r.ok)throw Error();return r.json()}).catch(e=>{cache.delete(path);throw e}));return cache.get(path);}
+ async function map(data){
+  const current=++epoch,target=document.getElementById('fishing-coverage-map');if(!target)return;
+  try {
+    const geos=await Promise.all(['15','16','33'].map(id=>getJSON(`municipios/${id}.geojson`)));if(current!==epoch)return;
+    const covered=new Map();data.rows.forEach(r=>covered.set(r.codigo_ibge,r));
+    target.innerHTML=geos.map((geo,i)=>{
+      const all=geo.features.flatMap(f=>f.geometry.type==='Polygon'?f.geometry.coordinates.flat():f.geometry.coordinates.flat(2));const xs=all.map(p=>p[0]),ys=all.map(p=>p[1]),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys),scale=Math.min(300/(maxX-minX),260/(maxY-minY));const project=p=>[20+(p[0]-minX)*scale,20+(maxY-p[1])*scale];
+      return `<figure><figcaption>${['Pará','Amapá','Rio de Janeiro'][i]} · ${geo.features.filter(f=>covered.has(String(f.properties.code))).length} município(s) com série</figcaption><svg viewBox="0 0 340 310" role="img" aria-label="Cobertura municipal de desembarques no ${['Pará','Amapá','Rio de Janeiro'][i]}">${geo.features.map(f=>{const code=String(f.properties.code),r=covered.get(code),rings=f.geometry.type==='Polygon'?f.geometry.coordinates:f.geometry.coordinates.flat();const path=rings.map(ring=>'M'+ring.map(p=>project(p).join(',')).join('L')+'Z').join('');return `<path d="${path}" fill="${r?'#14847c':'#d6dfe2'}" stroke="#fff" stroke-width=".6"><title>${r?esc(r.municipio)+' · série integrada':'IBGE '+code+' · sem série integrada'}</title></path>`}).join('')}</svg></figure>`;
+    }).join('');
+  }catch {if(current===epoch)target.innerHTML='<p>Mapa indisponível. As séries integradas continuam listadas abaixo.</p>'}
+ }
+ function render(data,source,product){
+  const target=document.getElementById('fishing-analysis');if(!target)return;
+  const series=Q.annual(data.rows,source,product),m=data.sources[source],key=source+'|'+product;
+  const allYears=[...new Set(data.rows.filter(r=>r.source_id===source).map(r=>r.ano))].sort();
+  const pair=pairs.get(key)||[allYears[0],allYears.at(-1)],opts=v=>allYears.map(y=>`<option value="${y}" ${y===Number(v)?'selected':''}>${y}</option>`).join('');
+  target.innerHTML=`<h3>Histórico do produto selecionado</h3><p>O gráfico e a comparação usam toda a série desta fonte para o produto selecionado. O filtro de ano acima aplica-se à tabela e ao CSV.</p><div class="fishing-chart">${chart(series)}</div><h3>Comparar dois anos da mesma fonte</h3><div class="fishing-filters"><label>Ano inicial<select id="fishing-from">${opts(pair[0])}</select></label><label>Ano final<select id="fishing-to">${opts(pair[1])}</select></label></div><div id="fishing-comparison" aria-live="polite"></div><h3>Mapa de cobertura do acervo</h3><p><span class="fishing-swatch covered"></span> Município com série integrada <span class="fishing-swatch missing"></span> Sem série integrada. A cor indica disponibilidade, e não volume de pesca. O mapa mostra PA, AP e RJ e independe dos filtros de ano e produto.</p><div id="fishing-coverage-map" class="fishing-map-grid">Carregando limites municipais…</div><p>Séries disponíveis: Santarém (PA), 2011–2020; Arraial do Cabo (RJ), anchova, 1992–2008. Nenhuma série de desembarques integrada no Amapá. Demais estados não estão representados neste mapa. Limites municipais: mesma malha simplificada do IBGE usada no Atlas.</p>`;
+  function update(){const from=document.getElementById('fishing-from').value,to=document.getElementById('fishing-to').value;pairs.set(key,[Number(from),Number(to)]);const c=Q.compare(series,from,to);document.getElementById('fishing-comparison').innerHTML=c.status==='missing'?'<p>Sem observação para o produto em um dos anos. Não foi calculada uma variação.</p>':`<p><strong>${from}: ${fmt.format(c.from.t)} t → ${to}: ${fmt.format(c.to.t)} t.</strong> Diferença nos registros: ${fmt.format(c.delta)} t. ${c.percent===null?'Percentual indisponível: o valor inicial é zero.':'Variação aritmética: '+pct.format(c.percent)+'%.'}</p><p>${from}: ${esc(coverage(m,from))}<br>${to}: ${esc(coverage(m,to))}</p><p class="fishing-notice">${c.status==='same'?'Você selecionou o mesmo ano. ':''}${source==='santarem'?'A cobertura de dias difere entre anos; 2019 e 2020 têm períodos reduzidos. Esta diferença descreve os registros disponíveis e não comprova mudança na produção total, nos estoques ou na captura.':'A diferença descreve somente a anchova no ponto monitorado. Não representa toda a pesca municipal nem mede abundância do estoque.'} Não há ajuste por esforço ou por dias de cobertura.</p>`;}
+  ['fishing-from','fishing-to'].forEach(id=>document.getElementById(id).addEventListener('change',update));update();map(data);
+ }
+ window.AtlasFishingAnalysis={render};
+})();
