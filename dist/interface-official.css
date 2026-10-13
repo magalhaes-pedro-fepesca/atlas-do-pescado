@@ -1,0 +1,94 @@
+/* Reference-led presentation; no scientific calculations or data are changed. */
+:root{--atlas-navigation-width:300px;--atlas-rail-width:80px;--atlas-page:#edf3f8;--atlas-card:#fff;--atlas-edge:#dbe6ee;--atlas-copy:#132b42;--atlas-soft:#547086}
+html[data-appearance="dark"]{--atlas-page:#091827;--atlas-card:#10283d;--atlas-edge:#2b465d;--atlas-copy:#edf6ff;--atlas-soft:#b6ccdc;--surface:#10283d;--glass:rgba(16,40,61,.95)}
+html body{background:var(--atlas-page);color:var(--atlas-copy)}
+html body .topbar{margin-left:var(--atlas-content-offset);width:calc(100% - var(--atlas-content-offset));background:var(--atlas-page);color:var(--atlas-copy);border:0;box-shadow:none;padding:12px 28px;transition:margin-left .25s,width .25s}
+html body .topbar .brand-logo{filter:none;width:180px;height:auto;max-height:54px;object-fit:contain}
+html[data-appearance="dark"] body .topbar .brand-logo{filter:brightness(0) invert(1)}
+html body .top-meta{color:var(--atlas-soft);font-size:.8rem;margin-left:auto}
+html body .shell,html body.home-active .shell{padding:20px 28px 48px calc(var(--atlas-content-offset) + 28px);transition:padding-left .25s}
+html body #site-navigation{top:0;bottom:0;padding:90px 16px 20px;background:linear-gradient(160deg,#0b2233,#071b29 70%,#0e3044);border:1px solid #284456;border-radius:0 22px 22px 0;gap:18px;scrollbar-width:thin;scrollbar-color:#365a70 #0b2233;transition:width .25s,transform .25s}
+html body #site-navigation.is-open{padding-top:78px}
+.navigation-logo{width:240px;max-width:100%;height:auto;filter:brightness(0) invert(1);display:block;margin:4px auto 14px}
+html body #navigation-toggle{top:18px;left:17px;border-radius:50%;width:44px;height:44px;z-index:46}
+html body.navigation-open #navigation-toggle{left:238px}
+@media(min-width:761px){
+ html body #site-navigation:not(.is-open){padding-inline:8px;scrollbar-gutter:stable}
+ html body #site-navigation:not(.is-open) button{justify-content:center;padding:10px 4px;gap:0;min-width:0}
+ html body #site-navigation:not(.is-open) .navigation-group{min-width:0;width:100%}
+ html body #site-navigation:not(.is-open) :is(.navigation-text,.navigation-badge,.navigation-heading,.navigation-search,.navigation-search-status){display:none}
+ html body #site-navigation:not(.is-open) :is(button img,button svg,.atlantic-nav-avatar){flex-shrink:0}
+}
+.navigation-search{display:none;position:relative;flex-shrink:0}
+#site-navigation.is-open .navigation-search{display:block}
+html body .navigation-search input{width:100%;min-height:46px;background:#102b3e;color:#eaf6ff;border:1px solid #3b5b70;border-radius:12px;padding:12px 64px 12px 14px;font:inherit;font-size:.83rem}
+.navigation-search input::placeholder{color:#afc7d8;opacity:1}
+.navigation-search kbd{position:absolute;right:10px;top:15px;color:#b9d8e7;font-size:.65rem}
+html body .navigation-search-status{margin:0;color:#b9d8e7;font-size:.78rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+html body #site-navigation button{min-height:54px;padding:12px 10px;gap:16px;font-size:.94rem;border-radius:12px}
+html body #site-navigation button.active{background:linear-gradient(100deg,#0c5165,#113b50)!important;border-color:#26849a!important;box-shadow:inset 4px 0 #50d7e6}
+html body #site-navigation button img{width:26px;height:26px;flex:0 0 26px}
+.navigation-group-label{color:#8dcbdc;margin:0 8px 8px;font-size:.67rem;letter-spacing:.14em}
+.navigation-group+.navigation-group{padding-top:18px}
+html body #site-navigation [hidden]{display:none!important}
+html body .home-hero{min-height:470px;border:1px solid var(--atlas-edge);border-radius:22px;box-shadow:0 10px 34px #092a3d12}
+html body .home-hero-copy{padding:54px clamp(24px,4vw,64px) 70px;max-width:730px}
+html body .home-hero h1{font-size:clamp(2rem,3.6vw,3.5rem);max-width:620px;letter-spacing:-.04em;line-height:1.08;color:white}
+html body .home-hero h2{font-size:1.12rem;font-weight:500;line-height:1.5;color:#ecf6fc}
+html body .home-hero .eyebrow{font-size:.72rem;letter-spacing:.16em;color:#c8f5fc}
+html body .home-actions button{background:#00a5be;color:#fff;border-color:#17c2d8;border-radius:14px;box-shadow:0 6px 22px #006c8160}
+html body .home-actions a{border-radius:14px}
+.hero-slide-controls{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;gap:2px}
+html body .hero-slide-controls button{position:relative;width:26px;min-height:32px;padding:0;border:0;background:transparent;border-radius:12px}
+.hero-slide-controls button:after{content:"";position:absolute;inset:11px 8px;border-radius:50%;background:#c1d9e19c}
+.hero-slide-controls button[aria-pressed="true"]:after{background:#29d3e4}
+html body .home-section{padding:36px 12px}
+html body .home-section h2{font-size:clamp(1.5rem,2.2vw,2rem);letter-spacing:-.035em;color:var(--atlas-copy)}
+html body .home-section p{color:var(--atlas-soft)}
+html body .home-access-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+html body .home-access-card{position:relative;overflow:hidden;isolation:isolate;min-height:185px;align-items:flex-end;padding:24px;border:1px solid #284a5d;border-radius:18px;background:#103044!important;color:#fff!important;box-shadow:0 6px 18px #122f4410;transition:transform .2s,box-shadow .2s}
+.home-access-card:before{content:"";position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.home-access-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#051d2def,#071c2960 85%)}
+.home-access-card[data-scope="national"]:before{background-image:url('assets/home-aquaculture.png')}
+.home-access-card[data-scope="international"]:before{background-image:url('assets/home-international.webp')}
+.home-access-card[data-scope="municipal"]:before{background-image:url('assets/home-artisanal.webp')}
+.home-access-card[data-scope="trade"]:before{background-image:url('assets/home-trade.webp')}
+.home-access-card[data-scope="labs"]:before{background-image:url('assets/home-labs.webp')}
+html body .home-access-card :is(strong,small){color:#fff!important}
+html body .home-access-card img{filter:brightness(0) invert(1);flex-shrink:0}
+html body .home-access-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #122f4426}
+html body :is(.panel,.filters,.metric,.catalog-card,.method-card,.policy-document,.labs-workspace,.regional-filters,.sources,.home-columns article,.labs-visuals>section,.labs-metrics article,.region-card){background:var(--atlas-card);border:1px solid var(--atlas-edge);border-radius:18px;box-shadow:0 5px 22px #15354a08}
+html body :is(.panel,.metric,.catalog-card,.method-card,.policy-document,.home-columns article){padding:24px}
+html body .metric{border-top:3px solid #1bb2c6}
+html body .metric strong{white-space:normal;overflow:visible;font-variant-numeric:tabular-nums}
+html body :is(input,select,textarea){border-radius:10px}
+html body :is(.action-button,.period-tag,.home-footer button){border-radius:12px}
+html body .home-how{background:transparent;border-block:1px solid var(--atlas-edge)}
+html body .scope-view:not([hidden]){animation:atlas-page-enter .3s ease-out}
+@keyframes atlas-page-enter{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}
+html[data-appearance="dark"] body :is(input,select,textarea,pre,code){background:#0a2032;border-color:#3c5c73;color:#edf6ff}
+html[data-appearance="dark"] body :is(th,thead,.coverage-note,.catalog-note,.method-note,.labs-citation,.labs-method,.period-tag){background:#153247;color:#d8eaf6;border-color:#2b465d}
+html[data-appearance="dark"] body :is(#world-map,#municipal-map){background:#10283d}
+@media(min-width:761px) and (max-width:1150px){html body .home-access-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.top-meta{display:none}}
+@media(max-width:760px){
+ html body .topbar{margin-left:0;width:100%;padding:12px 18px 12px 74px}
+ html body .shell,html body.home-active .shell{padding:16px 14px 36px}
+ html body #navigation-toggle,html body.navigation-open #navigation-toggle{left:16px;top:16px;z-index:50}
+ html body #site-navigation,html body #site-navigation.is-open{top:74px;padding:24px 16px;border-radius:0 20px 20px 0}
+ #site-navigation .navigation-search{display:block}
+ html body .home-hero{min-height:460px;border-radius:18px}
+ html body .home-hero-copy{padding:32px 24px 70px}
+ html body .home-hero h1{font-size:clamp(1.8rem,7.5vw,2.6rem)}
+ html body .home-access-grid{grid-template-columns:1fr}
+ html body .home-section{padding:28px 4px}
+ html body .home-access-card{min-height:160px}
+ .hero-slide-controls{gap:0}
+}
+@media(prefers-reduced-motion:reduce){html body :is(.topbar,.shell,#site-navigation,.home-access-card,.scope-view){animation:none!important;transition:none!important;transform:none}.hero-slide-controls{transform:translateX(-50%)}}
+html[data-motion="reduce"] body :is(.topbar,.shell,#site-navigation,.home-access-card,.scope-view){animation:none!important;transition:none!important}
+@media print{html body .topbar{margin-left:0;width:100%}html body .shell{padding:0!important}#site-navigation,#navigation-toggle,.hero-slide-controls{display:none!important}}
+/* Keep independent menu scrolling without a scrollbar squeezing the icon rail. */
+html body #site-navigation,
+html body #site-navigation:not(.is-open){scrollbar-width:none;scrollbar-gutter:auto;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}
+html body #site-navigation::-webkit-scrollbar{display:none;width:0;height:0}
