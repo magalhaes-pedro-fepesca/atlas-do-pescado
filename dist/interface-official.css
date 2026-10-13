@@ -88,3 +88,7 @@ html[data-appearance="dark"] body :is(#world-map,#municipal-map){background:#102
 @media(prefers-reduced-motion:reduce){html body :is(.topbar,.shell,#site-navigation,.home-access-card,.scope-view){animation:none!important;transition:none!important;transform:none}.hero-slide-controls{transform:translateX(-50%)}}
 html[data-motion="reduce"] body :is(.topbar,.shell,#site-navigation,.home-access-card,.scope-view){animation:none!important;transition:none!important}
 @media print{html body .topbar{margin-left:0;width:100%}html body .shell{padding:0!important}#site-navigation,#navigation-toggle,.hero-slide-controls{display:none!important}}
+/* Keep independent menu scrolling without a scrollbar squeezing the icon rail. */
+html body #site-navigation,
+html body #site-navigation:not(.is-open){scrollbar-width:none;scrollbar-gutter:auto;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}
+html body #site-navigation::-webkit-scrollbar{display:none;width:0;height:0}
