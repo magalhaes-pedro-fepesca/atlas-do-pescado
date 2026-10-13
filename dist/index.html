@@ -18,6 +18,23 @@
   <link rel="stylesheet" href="technical.css">
   <link rel="stylesheet" href="regions.css">
 <link rel="stylesheet" href="municipal-fishing.css">
+  <style>
+    .atlas-credits-footer{box-sizing:border-box;margin:32px auto 0;padding:36px clamp(20px,5vw,64px) 24px;background:#081e31;color:#f5fbff;border-top:3px solid #49bcd8;font-family:inherit}
+    .atlas-credits-inner{max-width:1120px;margin:0 auto}
+    .atlas-credits-brand{text-align:center;margin-bottom:24px}
+    .atlas-credits-brand h2{color:#fff;font-size:1.35rem;letter-spacing:.01em;margin:0 0 6px}
+    .atlas-credits-brand p{color:#adc8d8;margin:0;font-size:.9rem}
+    .atlas-credits-divider{height:1px;background:#315166;border:0;margin:21px 0}
+    .atlas-credits-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:720px;margin:auto}
+    .atlas-credits-people h3{color:#6ed2ee;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;margin:0 0 9px}
+    .atlas-credits-people p{color:#fff;font-size:.96rem;margin:5px 0}
+    .atlas-credits-legal{text-align:center;color:#c9dce7;font-size:.78rem;line-height:1.65;margin:0}
+    .atlas-credits-legal + .atlas-credits-legal{color:#a9c4d3;margin-top:5px}
+    .atlas-credits-values{text-align:center;font-size:.76rem;letter-spacing:.04em;color:#77d6f0;margin:14px 0 0}
+    @media(max-width:540px){.atlas-credits-footer{padding:30px 20px 25px}.atlas-credits-people{grid-template-columns:1fr;gap:16px;text-align:center}}
+    @media(prefers-reduced-motion:reduce){.atlas-credits-footer *{scroll-behavior:auto}}
+  </style>
+
 </head>
 <body class="home-active">
   <header class="topbar">
@@ -340,6 +357,23 @@
       </div>
     </div>
   </div>
+  <footer class="atlas-credits-footer" aria-label="Créditos e direitos do Atlas do Pescado">
+    <div class="atlas-credits-inner">
+      <div class="atlas-credits-brand">
+        <h2>≋ Atlas do Pescado</h2>
+        <p>Ciência, tecnologia e dados abertos para a Engenharia de Pesca.</p>
+      </div>
+      <hr class="atlas-credits-divider">
+      <div class="atlas-credits-people">
+        <div><h3>Desenvolvedor</h3><p>Pedro Magalhães</p></div>
+        <div><h3>Colaboradores</h3><p>Maria Heloisa</p><p>Roberta Joana</p></div>
+      </div>
+      <hr class="atlas-credits-divider">
+      <p class="atlas-credits-legal">© 2026 Atlas do Pescado · Direitos sobre conteúdos originais, respeitadas as licenças de terceiros.</p>
+      <p class="atlas-credits-legal">Dados de terceiros mantêm suas respectivas licenças e atribuições de origem.</p>
+      <p class="atlas-credits-values">Transparência · Ciência aberta · Reutilização de dados</p>
+    </div>
+  </footer>
   <script src="data-query.js" defer></script>
   <script src="query-artifacts.js" defer></script>
   <script src="app.js" defer></script>
