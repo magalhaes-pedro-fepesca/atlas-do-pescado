@@ -11,7 +11,14 @@ html body #site-navigation{top:0;bottom:0;padding:90px 16px 20px;background:line
 html body #site-navigation.is-open{padding-top:78px}
 .navigation-logo{width:240px;max-width:100%;height:auto;filter:brightness(0) invert(1);display:block;margin:4px auto 14px}
 html body #navigation-toggle{top:18px;left:17px;border-radius:50%;width:44px;height:44px;z-index:46}
-body.navigation-open #navigation-toggle{left:238px}
+html body.navigation-open #navigation-toggle{left:238px}
+@media(min-width:761px){
+ html body #site-navigation:not(.is-open){padding-inline:8px;scrollbar-gutter:stable}
+ html body #site-navigation:not(.is-open) button{justify-content:center;padding:10px 4px;gap:0;min-width:0}
+ html body #site-navigation:not(.is-open) .navigation-group{min-width:0;width:100%}
+ html body #site-navigation:not(.is-open) :is(.navigation-text,.navigation-badge,.navigation-heading,.navigation-search,.navigation-search-status){display:none}
+ html body #site-navigation:not(.is-open) :is(button img,button svg,.atlantic-nav-avatar){flex-shrink:0}
+}
 .navigation-search{display:none;position:relative;flex-shrink:0}
 #site-navigation.is-open .navigation-search{display:block}
 html body .navigation-search input{width:100%;min-height:46px;background:#102b3e;color:#eaf6ff;border:1px solid #3b5b70;border-radius:12px;padding:12px 64px 12px 14px;font:inherit;font-size:.83rem}
@@ -67,7 +74,7 @@ html[data-appearance="dark"] body :is(#world-map,#municipal-map){background:#102
 @media(max-width:760px){
  html body .topbar{margin-left:0;width:100%;padding:12px 18px 12px 74px}
  html body .shell,html body.home-active .shell{padding:16px 14px 36px}
- html body #navigation-toggle,body.navigation-open #navigation-toggle{left:16px;top:16px;z-index:50}
+ html body #navigation-toggle,html body.navigation-open #navigation-toggle{left:16px;top:16px;z-index:50}
  html body #site-navigation,html body #site-navigation.is-open{top:74px;padding:24px 16px;border-radius:0 20px 20px 0}
  #site-navigation .navigation-search{display:block}
  html body .home-hero{min-height:460px;border-radius:18px}
